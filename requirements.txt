@@ -1,8 +1,2 @@
 Flask
-Jinja2
-MarkupSafe
-Werkzeug
-distribute
 gunicorn
-itsdangerous
-wsgiref
