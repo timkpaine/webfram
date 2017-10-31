@@ -1,28 +1,18 @@
 language: python
-
 python:
-  - "3.5"
-
+- '3.5'
 install:
-    - pip install -r requirements.txt
-    - pip install codecov
-
+- pip install -r requirements.txt
+- pip install codecov
 script: make test
-
-# after_success:
-#     - codecov --token 2e08cf1b-6c4e-40f4-8917-0db68cb0f404
-#     # - coveralls
-
 deploy:
   provider: heroku
   api_key:
-    secure: tf9st7uGWRQbsoUwqF0JVzjgDgGeRYOSzCdJKk/c5SVWgVK2JBENd5aZfYCbnpgAcsbOIbYwFttiU/KdXjg979KKR8mfJWfiN//bE8PGsUc4FIjiGZHeCwZdW+v7aGLc0LmElEOb8pTy9nl0i6Fy/353/BLLeGwuyHwUClNYv/iGYUc2w6Uspj3HvHYCRDnFO+p7bbGMfFGzXHrydpl5MgEavph+I9yPK6aKrzcnLX3i93aMU7yLrZyXDx28I/DhIjfTzfCRrPVXmnBI7GssIi/HmepO9PGPHZHubO93zvT+rVMYhX9ZeSb6OHJL1TR8MlxRm5/zYwOv+Two+QpefkC+1ugyebH90xqvxtkvuzNk1DaWeH1aOdWaWQDsy4ZnYx1SX5uPV1/UP2sE9lSvGiSMj1hCQeE1ppVgBzKDsqrJ+1wDdq1TRZ8LJ2mmB2fQUOn8BVVx5cXWRMLO0IMl/Uox0mbApVp9qp4SFPO7J3FzFhec1eabPYGQLr3FLxwbrKfnJ/b5vXxBjsB4PAQqgpzXe2qvAnIR7+BAc1f2QVlWU3zRG0FRvZ3p5BYXEQKYlVqPDbdRRZy+nD7thobFw7dZDpuwHmw6yeU4wFYZhEt57WggVKlngZ+rYoUSkhaXCJzyneOmK/qqT87IiB3iIkbg6FWRTpFCGfWloXED7Tw=
+    secure: PDZmm3K+40Rw8iDsJ8JagD/robkH4OOkAv8I2L/fe26Av+5ujytvBY4aDYb6mCMOBI9fbDXVkjrRCO/Ua2rNQ0TQFQdUKVGnE9Qt2qJ3xiba3CS/3G42CZJ9f42eVN4mF+pI1cuTP+78pO+DNfigZmomIDRQJR1345ezDH9rQZVvlr6qoxHfWLjHMPKNyu/DUFnrpRonXV8UX4zWBl02V2Z9gztLFcNwoZeQFii3skl3829iiejHkyOJSAjQ5nCa7o0We3zz0zvZ8/vsViDxtZtJcz2bntTO+75O8LHAi84LkY8EPgO6K4s/k+FNWbRHmFHRNOx6c+3QTHBt0buTbXTTWqw64qkvQrBQebEI1vqQwGUz3+JHQGcVwyUCun2A0GYOsL0yvPOyXNyuUcLZqzOB/whDyXME8Hexy0BILL+kcFbPD2W9K3HLQXM2LEE8lUu1i4Gh47Fe3C0kUCkTxH9+ypBFRnett9HskrjGVD/SbcSnLuMWHkWziG6XEPu5NDahOFfGNxFFp57JzpSsehF8DzRZ1XwRVhMX+mVLH+V+HIGFOnhKT9kTaCSljpoi5bQ4i0fGUnFKAridFIpO8nze1MtIDtZCc8Qf2IspAibyujGQ2Kh8fA8My6IvRL/kFzks3dz0cRY2+3zAzjooaNBqEqfl58tb/n+qKgO5o30=
   app: webfram
-  run: "python3 run.py"
-
+  run: python3 run.py
 branches:
   only:
   - master
-
 notifications:
   email: false
