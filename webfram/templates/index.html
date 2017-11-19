@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Webfram</title>
+    <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Tim Paine">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,28 +22,39 @@
 </head>
 <body>
     <div class="header">
-        <a href="#" ><h2 class="title">Webfram</h2></a>
+        <img class="logo" src='/static/img/logo.svg'>
+        <a href="#" ><h2 class="title">{{ title }}</h2></a>
+        <img class="navicon" src='/static/img/navicon.svg' />
     </div>
     <div class="body">
+        {% for block in blocks %}
         <div class="section">
-            <h2>Section 1</h2>
-            <span>Span 1</span>
+            <h2>{{ block['title'] }}</h2>
+            <span>{{ block['span1'] }}</span>
+            {% if block['subtitle'] %}
+            <div class='subsection'>
+                <h4>{{ block['subtitle'] }}</h4>
+                <span>{{ block['span2'] }}
+            </div>
+            {% endif %}
+            {% if block['searchtext'] %}
+            <div class='searchsection'>
+                <input class="searchbox" type='text' placeholder="{{ block['searchtext'] }}" />
+                <button class="searchbutton" >SEARCH</button>
+            </div>
+            {% endif %}
+
         </div>
-        <div class="section">
-            <h2>Section 2</h2>
-            <span>Span 2</span>
-        </div>
-        <div class="section">
-            <h2>Section 3</h2>
-            <span>Span 3</span>
-        </div>
+        {% endfor %}
     </div>
     <div class="footer">
-        <a href="#" ><h2 class="title">Webfram</h2></a>
+        <a href="#" ><h2 class="title">{{ title }}</h2></a>
         <a href="#" ><h2 class="link">About</h2></a>
         <a href="#" ><h2 class="link">Contact</h2></a>
-        <span>&copy;2017. All Rights Reserved.</span>
-        <span>11 Test Ave<br>Test, Test 10001</span>
+        <div class="copyright">
+            <span>&copy;2017. All Rights Reserved.</span>
+            <span>11 Test Ave<br>Test, Test 10001</span>
+        </div>
     </div>
 </body>
 <script type="text/javascript" src="/static/js/index.js"></script>  
