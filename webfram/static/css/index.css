@@ -58,8 +58,34 @@ div.section {
     display:flex;
     flex-direction: row;
     flex-flow: wrap;
-    align-items: center;     
+    align-items: center;
 }
+
+div.section div.base{
+    height:80%;
+    padding:25px;
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+div.section div.darkbox{
+    background:rgba(0,0,0,.85);
+    color:white;
+}
+
+
+div.section div.clearbox{
+    background:rgba(0,0,0,.10);
+    /*color:white;*/
+}
+
+div.section div.lightbox{
+    background:rgba(255,255,255,.25);
+    color:white;
+}
+
 
 div.section:nth-of-type(even) {
     /*background-color: #333;*/
@@ -102,19 +128,20 @@ div.section div.searchsection{
 div.section input.searchbox {
     width:100%;
     height:35px;
-    font-size:20px;
+    font-size:15px;
 }
 
 div.section button.searchbutton {
     width:150px;
     height:41px;
     padding-bottom:0px;
-    font-size:25px;
+    font-size:20px;
 }
 
 div.section button.searchbutton:hover {
     color:white;
 }
+
 div.footer {
     height:150px;
     background-color:#333;
@@ -122,25 +149,50 @@ div.footer {
     color:white;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding:10px;
 }
 
 div.footer div.copyright {
+    width:100%;
     text-align: center;
     margin-top:25px;
 }
 div.footer a{
-    width:50%;
     color:white;
+    text-decoration: none;
 }
+
+div.footer a:hover{
+    color:grey;
+}
+
+div.footer div.links {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+div.footer div.links a, 
+div.footer div.links a h2{
+    width:100%;
+}
+
+div.footer a.title {
+    width:50%;
+}
+
 div.footer h2.title{
     font-size: 20px;
     float:left;
     width:10%;
 }
+
 div.footer h2.link{
     width:10%;
     font-size: 20px;
-    float:right;
     margin:0px !important;
+    text-align:right;
+    justify-content: 
 }
+
