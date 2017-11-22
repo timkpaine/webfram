@@ -68,6 +68,7 @@ div.section div.base{
     flex-direction: row;
     flex-flow: wrap;
     align-items: center;
+    width:100%;
 }
 
 div.section div.darkbox{
