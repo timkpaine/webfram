@@ -72,7 +72,7 @@ div.section div.base{
 }
 
 div.section div.darkbox{
-    background:rgba(0,0,0,.85);
+    background:rgba(0,0,0,.75);
     color:white;
 }
 
@@ -88,7 +88,7 @@ div.section div.lightbox{
 }
 
 
-div.section:nth-of-type(even) {
+div.section:nth-of-type(odd) {
     /*background-color: #333;*/
     background: #2c3e50; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e50, #3498db); /* Chrome 10-25, Safari 5.1-6 */
@@ -96,7 +96,7 @@ div.section:nth-of-type(even) {
     color:white;
 }
 
-div.section:nth-of-type(odd) {
+div.section:nth-of-type(even) {
     background-color: #eee;
     color:#333;
 }

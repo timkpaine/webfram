@@ -28,7 +28,14 @@
     </div>
     <div class="body">
         {% for block in blocks %}
+        {% if block['background'] %}
+        <div class="section" style="
+                background: url('/static/img/{{ block['background'] }}') center no-repeat;
+                background-size:100%;
+                ">
+        {% else %}
         <div class="section">
+        {% endif %}
             <div class="base {{ block['class'] }}">
             <h2>{{ block['title'] }}</h2>
             <span>{{ block['span1'] }}</span>
@@ -52,6 +59,8 @@
         <a href="#" class="title"><h2 class="link">{{ title }}</h2></a>
         <div class='links'>
             <a href="#" ><h2 class="link">About</h2></a>
+            <a href="#" ><h2 class="link">Privacy Policy</h2></a>
+            <a href="#" ><h2 class="link">Terms and Conditions</h2></a>
             <a href="#" ><h2 class="link">Contact</h2></a>
         </div>
         <div class="copyright">
