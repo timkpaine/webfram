@@ -3,6 +3,8 @@ body {
     width: 100%;
     margin:0;
     font-family:"Open Sans", Arial;
+    min-width:900px;
+    overflow: scroll;
 }
 
 div.header {
@@ -52,7 +54,7 @@ div.body h2{
 }
 
 div.section {
-    height:500px;   
+    height:700px;   
     padding-left:100px;
     padding-right:100px;
     display:flex;
@@ -141,6 +143,33 @@ div.section button.searchbutton {
 
 div.section button.searchbutton:hover {
     color:white;
+}
+
+div.section div.statelist {
+    display:flex;
+    width:100%;
+}
+div.section div.statelist ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-position: inside;
+    height:400px;
+    width:100%;
+}
+
+div.section div.statelist ul li{
+   list-style: none;
+   display: inline-block;
+   width:33%;
+}
+
+div.section div.statelist ul li a{
+   background: transparent url('/static/img/map-marker.png') no-repeat left center;
+   padding-left:20px;
+   font-size:17px;
+   color: rgb(22, 102, 175);
+   text-decoration:none;
 }
 
 div.footer {

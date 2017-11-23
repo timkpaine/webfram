@@ -16,7 +16,7 @@ def index():
                    'searchtext': 'Search by affiliation, state, city, or zipcode',
                    'class': 'darkbox',
                    'background': 'church.png'})
-    blocks.append({'title': 'Section 2', 'span1': 'Span 2', 'subtitle': 'Subtitle2', 'span2': 'Span 2 - 2'})
+    blocks.append({'title': 'Browse', 'span1': 'Browse places of worship by state', 'statelist': True})
     blocks.append({'title': 'Section 3', 'span1': 'Span 3', 'subtitle': 'Subtitle3', 'span2': 'Span 3 - 2', 'class': 'lightbox'})
     blocks.append({'title': 'Section 4', 'span1': 'Span 4', 'subtitle': 'Subtitle4', 'span2': 'Span 4 - 2'})
     blocks.append({'title': 'Section 5', 'span1': 'Span 5', 'subtitle': 'Subtitle5', 'span2': 'Span 5 - 2', 'class': 'clearbox'})
@@ -24,4 +24,6 @@ def index():
 
     render['blocks'] = blocks
     render['title'] = 'Local Church'
+    render['favicon'] = 'favicon.png'
+
     return render_template("index.html", **render)
