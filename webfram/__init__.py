@@ -27,3 +27,11 @@ def index():
     render['favicon'] = 'favicon.png'
 
     return render_template("index.html", **render)
+
+
+@app.route('/<state>')
+def states(state=None):
+    render = {}
+    render['title'] = 'Local Church'
+    render['favicon'] = 'favicon.png'
+    return render_template("state.html", **render)
