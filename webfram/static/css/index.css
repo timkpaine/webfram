@@ -154,7 +154,7 @@ div.section div.statelist ul{
     flex-direction: column;
     flex-wrap: wrap;
     list-style-position: inside;
-    height:400px;
+    height: 300px;
     width:100%;
 }
 
