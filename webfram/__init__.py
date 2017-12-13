@@ -1,3 +1,6 @@
+import configparser
+import os
+import ujson
 from flask import Flask
 from flask import render_template
 
@@ -6,39 +9,54 @@ app = Flask(__name__, static_url_path='/static')
 
 
 def main():
+    sites = {}
+    for site in os.listdir('sites'):
+        c = configparser.ConfigParser()
+        c.read('./sites/%s/%s.cfg' % (site, site))
+        sites[site] = c
+
+    @app.route('/<site>')
+    def site(site='church'):
+        c = sites[site]
+        render = {}
+        imports = ujson.loads(c.get('main', 'imports'))
+        blocks = ujson.loads(c.get('main', 'blocks'))
+
+        render['imports'] = imports
+        render['blocks'] = blocks
+        render['title'] = c.get('main', 'title')
+        render['favicon'] = c.get('main', 'favicon')
+
+        return render_template("index.html", **render)
+
+    @app.route('/<site>/<state>')
+    def site_states(site='church', state=None):
+        c = sites[site]
+        render = {}
+        render['title'] = c.get('main', 'title')
+        render['favicon'] = c.get('main', 'favicon')
+        return render_template("state.html", **render)
+
     @app.route('/index')
     @app.route('/')
     @app.route('/home')
     def index():
+        c = sites['church']
         render = {}
-
-        imports = []
-        imports.append('/static/css/church.css')
-
-        blocks = []
-        blocks.append({'title': 'Find Places of Worship in Your Area',
-                       'span1': 'Local Church is your reference for places of worship in your local community.',
-                       'searchtext': 'Search by affiliation, state, city, or zipcode',
-                       'class': 'darkbox',
-                       'background': 'church.png'})
-        blocks.append({'title': 'Browse', 'span1': 'Browse places of worship by state', 'statelist': True})
-        blocks.append({'title': 'Section 3', 'span1': 'Span 3', 'subtitle': 'Subtitle3', 'span2': 'Span 3 - 2', 'class': 'lightbox'})
-        blocks.append({'title': 'Section 4', 'span1': 'Span 4', 'subtitle': 'Subtitle4', 'span2': 'Span 4 - 2'})
-        blocks.append({'title': 'Section 5', 'span1': 'Span 5', 'subtitle': 'Subtitle5', 'span2': 'Span 5 - 2', 'class': 'clearbox'})
-        blocks.append({'title': 'Section 6', 'span1': 'Span 6', 'subtitle': 'Subtitle6', 'span2': 'Span 6 - 2', 'class': 'clearbox'})
-
+        imports = ujson.loads(c.get('main', 'imports'))
+        blocks = ujson.loads(c.get('main', 'blocks'))
         render['imports'] = imports
         render['blocks'] = blocks
-        render['title'] = 'Local Church'
-        render['favicon'] = 'favicon.png'
-
+        render['title'] = c.get('main', 'title')
+        render['favicon'] = c.get('main', 'favicon')
         return render_template("index.html", **render)
 
     @app.route('/<state>')
     def states(state=None):
+        c = sites['church']
         render = {}
-        render['title'] = 'Local Church'
-        render['favicon'] = 'favicon.png'
+        render['title'] = c.get('main', 'title')
+        render['favicon'] = c.get('main', 'favicon')
         return render_template("state.html", **render)
 
 main()
