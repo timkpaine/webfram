@@ -1,10 +1,10 @@
 body {
     height: 100%;
     width:100%;
-    /*min-width:900px;*/
     margin:0;
     font-family:"Open Sans", Arial;
     overflow: scroll;
+    min-width:900px;
 }
 
 div.header {
@@ -12,14 +12,18 @@ div.header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:10px;
+    padding-top:10px;
+    padding-bottom:10px;
     height: 40px;
+    overflow: scroll;
+    min-width:900px;
 }
 
 
 div.header img.logo {
     height: 40px;
     margin-right:15px;
+    padding-left:5px;
 }
 
 div.header img.navicon {
@@ -47,6 +51,8 @@ h2.title {
 
 div.body {
     height: 80%;
+    overflow: scroll;
+    min-width:900px;
 }
 
 div.body h2{
