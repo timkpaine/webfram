@@ -33,6 +33,7 @@
     <![endif]-->
 </head>
 <body>
+    <base href="{{ site }}"/>
     <div class="header">
         <img class="logo" src='/static/img/logo.svg'>
         <a href="#" ><h2 class="title">{{ title }}</h2></a>
@@ -66,58 +67,58 @@
             {% if block['statelist'] %}
             <div class='statelist'>
                 <ul>
-                    <li> <a href="/alabama" title="Alabama"> Alabama </a> </li>
-                    <li> <a href="/alaska" title="Alaska"> Alaska </a> </li>
-                    <li> <a href="/arizona" title="Arizona"> Arizona </a> </li>
-                    <li> <a href="/arkansas" title="Arkansas"> Arkansas </a> </li>
-                    <li> <a href="/california" title="California"> California </a> </li>
-                    <li> <a href="/colorado" title="Colorado"> Colorado </a> </li>
-                    <li> <a href="/connecticut" title="Connecticut"> Connecticut </a> </li>
-                    <li> <a href="/delaware" title="Delaware"> Delaware </a> </li>
-                    <li> <a href="/dc" title="District of Columbia"> District of Columbia </a> </li>
-                    <li> <a href="/florida" title="Florida"> Florida </a> </li>
-                    <li> <a href="/georgia" title="Georgia"> Georgia </a> </li>
-                    <li> <a href="/hawaii" title="Hawaii"> Hawaii </a> </li>
-                    <li> <a href="/idaho" title="Idaho"> Idaho </a> </li>
-                    <li> <a href="/illinois" title="Illinois"> Illinois </a> </li>
-                    <li> <a href="/indiana" title="Indiana"> Indiana </a> </li>
-                    <li> <a href="/iowa" title="Iowa"> Iowa </a> </li>
-                    <li> <a href="/kansas" title="Kansas"> Kansas </a> </li>
-                    <li> <a href="/kentucky" title="Kentucky"> Kentucky </a> </li>
-                    <li> <a href="/louisiana" title="Louisiana"> Louisiana </a> </li>
-                    <li> <a href="/maine" title="Maine"> Maine </a> </li>
-                    <li> <a href="/maryland" title="Maryland"> Maryland </a> </li>
-                    <li> <a href="/massachusetts" title="Massachusetts"> Massachusetts </a> </li>
-                    <li> <a href="/michigan" title="Michigan"> Michigan </a> </li>
-                    <li> <a href="/minnesota" title="Minnesota"> Minnesota </a> </li>
-                    <li> <a href="/mississippi" title="Mississippi"> Mississippi </a> </li>
-                    <li> <a href="/missouri" title="Missouri"> Missouri </a> </li>
-                    <li> <a href="/montana" title="Montana"> Montana </a> </li>
-                    <li> <a href="/nebraska" title="Nebraska"> Nebraska </a> </li>
-                    <li> <a href="/nevada" title="Nevada"> Nevada </a> </li>
-                    <li> <a href="/new-hampshire" title="New Hampshire"> New Hampshire </a> </li>
-                    <li> <a href="/new-jersey" title="New Jersey"> New Jersey </a> </li>
-                    <li> <a href="/new-mexico" title="New Mexico"> New Mexico </a> </li>
-                    <li> <a href="/new-york" title="New York"> New York </a> </li>
-                    <li> <a href="/north-carolina" title="North Carolina"> North Carolina </a> </li>
-                    <li> <a href="/north-dakota" title="North Dakota"> North Dakota </a> </li>
-                    <li> <a href="/ohio" title="Ohio"> Ohio </a> </li>
-                    <li> <a href="/oklahoma" title="Oklahoma"> Oklahoma </a> </li>
-                    <li> <a href="/oregon" title="Oregon"> Oregon </a> </li>
-                    <li> <a href="/pennsylvania" title="Pennsylvania"> Pennsylvania </a> </li>
-                    <li> <a href="/puerto-rico" title="Puerto Rico"> Puerto Rico </a> </li>
-                    <li> <a href="/rhode-island" title="Rhode Island"> Rhode Island </a> </li>
-                    <li> <a href="/south-carolina" title="South Carolina"> South Carolina </a> </li>
-                    <li> <a href="/south-dakota" title="South Dakota"> South Dakota </a> </li>
-                    <li> <a href="/tennessee" title="Tennessee"> Tennessee </a> </li>
-                    <li> <a href="/texas" title="Texas"> Texas </a> </li>
-                    <li> <a href="/utah" title="Utah"> Utah </a> </li>
-                    <li> <a href="/vermont" title="Vermont"> Vermont </a> </li>
-                    <li> <a href="/virginia" title="Virginia"> Virginia </a> </li>
-                    <li> <a href="/washington" title="Washington"> Washington </a> </li>
-                    <li> <a href="/west-virginia" title="West Virginia"> West Virginia </a> </li>
-                    <li> <a href="/wisconsin" title="Wisconsin"> Wisconsin </a> </li>
-                    <li> <a href="/wyoming" title="Wyoming"> Wyoming </a> </li>
+                    <li> <a href="./alabama/" title="Alabama"> Alabama </a> </li>
+                    <li> <a href="./alaska/" title="Alaska"> Alaska </a> </li>
+                    <li> <a href="./arizona/" title="Arizona"> Arizona </a> </li>
+                    <li> <a href="./arkansas/" title="Arkansas"> Arkansas </a> </li>
+                    <li> <a href="./california/" title="California"> California </a> </li>
+                    <li> <a href="./colorado/" title="Colorado"> Colorado </a> </li>
+                    <li> <a href="./connecticut/" title="Connecticut"> Connecticut </a> </li>
+                    <li> <a href="./delaware/" title="Delaware"> Delaware </a> </li>
+                    <li> <a href="./dc/" title="District of Columbia"> District of Columbia </a> </li>
+                    <li> <a href="./florida/" title="Florida"> Florida </a> </li>
+                    <li> <a href="./georgia/" title="Georgia"> Georgia </a> </li>
+                    <li> <a href="./hawaii/" title="Hawaii"> Hawaii </a> </li>
+                    <li> <a href="./idaho/" title="Idaho"> Idaho </a> </li>
+                    <li> <a href="./illinois/" title="Illinois"> Illinois </a> </li>
+                    <li> <a href="./indiana/" title="Indiana"> Indiana </a> </li>
+                    <li> <a href="./iowa/" title="Iowa"> Iowa </a> </li>
+                    <li> <a href="./kansas/" title="Kansas"> Kansas </a> </li>
+                    <li> <a href="./kentucky/" title="Kentucky"> Kentucky </a> </li>
+                    <li> <a href="./louisiana/" title="Louisiana"> Louisiana </a> </li>
+                    <li> <a href="./maine/" title="Maine"> Maine </a> </li>
+                    <li> <a href="./maryland/" title="Maryland"> Maryland </a> </li>
+                    <li> <a href="./massachusetts/" title="Massachusetts"> Massachusetts </a> </li>
+                    <li> <a href="./michigan/" title="Michigan"> Michigan </a> </li>
+                    <li> <a href="./minnesota/" title="Minnesota"> Minnesota </a> </li>
+                    <li> <a href="./mississippi/" title="Mississippi"> Mississippi </a> </li>
+                    <li> <a href="./missouri/" title="Missouri"> Missouri </a> </li>
+                    <li> <a href="./montana/" title="Montana"> Montana </a> </li>
+                    <li> <a href="./nebraska/" title="Nebraska"> Nebraska </a> </li>
+                    <li> <a href="./nevada/" title="Nevada"> Nevada </a> </li>
+                    <li> <a href="./new-hampshire/" title="New Hampshire"> New Hampshire </a> </li>
+                    <li> <a href="./new-jersey/" title="New Jersey"> New Jersey </a> </li>
+                    <li> <a href="./new-mexico/" title="New Mexico"> New Mexico </a> </li>
+                    <li> <a href="./new-york/" title="New York"> New York </a> </li>
+                    <li> <a href="./north-carolina/" title="North Carolina"> North Carolina </a> </li>
+                    <li> <a href="./north-dakota/" title="North Dakota"> North Dakota </a> </li>
+                    <li> <a href="./ohio/" title="Ohio"> Ohio </a> </li>
+                    <li> <a href="./oklahoma/" title="Oklahoma"> Oklahoma </a> </li>
+                    <li> <a href="./oregon/" title="Oregon"> Oregon </a> </li>
+                    <li> <a href="./pennsylvania/" title="Pennsylvania"> Pennsylvania </a> </li>
+                    <li> <a href="./puerto-rico/" title="Puerto Rico"> Puerto Rico </a> </li>
+                    <li> <a href="./rhode-island/" title="Rhode Island"> Rhode Island </a> </li>
+                    <li> <a href="./south-carolina/" title="South Carolina"> South Carolina </a> </li>
+                    <li> <a href="./south-dakota/" title="South Dakota"> South Dakota </a> </li>
+                    <li> <a href="./tennessee/" title="Tennessee"> Tennessee </a> </li>
+                    <li> <a href="./texas/" title="Texas"> Texas </a> </li>
+                    <li> <a href="./utah/" title="Utah"> Utah </a> </li>
+                    <li> <a href="./vermont/" title="Vermont"> Vermont </a> </li>
+                    <li> <a href="./virginia/" title="Virginia"> Virginia </a> </li>
+                    <li> <a href="./washington/" title="Washington"> Washington </a> </li>
+                    <li> <a href="./west-virginia/" title="West Virginia"> West Virginia </a> </li>
+                    <li> <a href="./wisconsin/" title="Wisconsin"> Wisconsin </a> </li>
+                    <li> <a href="./wyoming/" title="Wyoming"> Wyoming </a> </li>
                 </ul>
             </div>
             {% endif %}
