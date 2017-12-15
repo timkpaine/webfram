@@ -29,7 +29,14 @@
     <div class="body">
         <ul>
             {% for item in vals %}
-            <li>{{ item['name'] }}</li>
+            <li><div>
+                <p>{{ item['name'] }}</p>
+                <p>{{ item['address'] }}</p>
+                <p>{{ item['state'] }}</p>
+                <p>{{ item['zip'] }}</p>
+                <p>{{ item['phone'] }}</p>
+                <p>{{ item['email'] }}</p>
+            </div></li>
             {% endfor %}
         </ul>
     </div>
