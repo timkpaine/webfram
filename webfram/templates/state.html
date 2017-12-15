@@ -27,6 +27,11 @@
         <img class="navicon" src='/static/img/navicon.svg' />
     </div>
     <div class="body">
+        <ul>
+            {% for item in vals %}
+            <li>{{ item['name'] }}</li>
+            {% endfor %}
+        </ul>
     </div>
     <div class="footer">
         <a href="#" class="title"><h2 class="link">{{ title }}</h2></a>
