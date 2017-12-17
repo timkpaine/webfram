@@ -34,7 +34,7 @@ def main():
 
     @app.route('/<site>/<state>')
     @app.route('/<site>/<state>/')
-    def site_states(site='church', state=None):
+    def site_states(site='test', state=None):
         c = sites[site]
         vals = states[site].get(state, [])
         render = {}
