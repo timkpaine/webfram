@@ -48,6 +48,6 @@ def main():
     @app.route('/')
     @app.route('/home')
     def index():
-        return redirect("./church", code=302)
+        return redirect("./test", code=302)
 
 main()
