@@ -18,7 +18,7 @@ def main():
 
     @app.route('/<site>')
     @app.route('/<site>/')
-    def site(site='church'):
+    def site(site='test'):
         c = sites[site]
         render = {}
         imports = ujson.loads(c.get('main', 'imports'))
