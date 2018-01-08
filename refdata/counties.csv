@@ -1,5 +1,5 @@
 SNo,County or equivalent,State or district,Rank,Population,Core Based Statistical Area,Combined Statistical Area
-1,Autauga County,Alabama,907,"55,514","Montgomery, AL Metropolitan Statistical Area",
+1,Autauga County,Alabama,907,"55,514","Montgomery, AL Metropolitan Statistical Area",,
 2,Baldwin County,Alabama,332,"190,790","Daphne-Fairhope-Foley, AL Micropolitan Statistical Area","Mobile-Daphne-Fairhope, AL Combined Statistical Area"
 3,Barbour County,Alabama,1523,"27,201",,
 4,Bibb County,Alabama,1707,"22,597","Birmingham-Hoover, AL Metropolitan Statistical Area","Birmingham-Hoover-Talladega, AL Combined Statistical Area"
@@ -193,7 +193,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 192,Colusa County,California,1761,"21,411",,
 193,Contra Costa County,California,38,"1,079,597","San Francisco-Oakland-Hayward, CA Metropolitan Statistical Area","San Jose-San Francisco-Oakland, CA Combined Statistical Area"
 194,Del Norte County,California,1479,"28,290","Crescent City, CA Micropolitan Statistical Area",
-195,El Dorado County,California,351,"180,561","Sacramento–Roseville–Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
+195,El Dorado County,California,351,"180,561","Sacramento Roseville Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
 196,Fresno County,California,49,"947,895","Fresno, CA Metropolitan Statistical Area","Fresno-Madera, CA Combined Statistical Area"
 197,Glenn County,California,1495,"27,992",,
 198,Humboldt County,California,465,"134,827","Eureka-Arcata-Fortuna, CA Micropolitan Statistical Area",
@@ -215,10 +215,10 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 214,Napa County,California,450,"139,045","Napa, CA Metropolitan Statistical Area","San Jose-San Francisco-Oakland, CA Combined Statistical Area"
 215,Nevada County,California,597,"98,292","Truckee-Grass Valley, CA Micropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
 216,Orange County,California,6,"3,090,132","Los Angeles-Long Beach-Anaheim, CA Metropolitan Statistical Area","Los Angeles-Long Beach, CA Combined Statistical Area"
-217,Placer County,California,184,"361,682","Sacramento–Roseville–Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
+217,Placer County,California,184,"361,682","Sacramento Roseville Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
 218,Plumas County,California,1861,"19,399",,
 219,Riverside County,California,11,"2,268,783","Riverside-San Bernardino-Ontario, CA Metropolitan Statistical Area","Los Angeles-Long Beach, CA Combined Statistical Area"
-220,Sacramento County,California,25,"1,450,121","Sacramento–Roseville–Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
+220,Sacramento County,California,25,"1,450,121","Sacramento Roseville Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
 221,San Benito County,California,894,"56,884","San Jose-Sunnyvale-Santa Clara, CA Metropolitan Statistical Area","San Jose-San Francisco-Oakland, CA Combined Statistical Area"
 222,San Bernardino County,California,12,"2,081,313","Riverside-San Bernardino-Ontario, CA Metropolitan Statistical Area","Los Angeles-Long Beach, CA Combined Statistical Area"
 223,San Diego County,California,5,"3,177,063","San Diego-Carlsbad, CA Metropolitan Statistical Area",
@@ -241,7 +241,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 240,Tulare County,California,147,"451,977","Visalia-Porterville, CA Metropolitan Statistical Area","Visalia-Porterville-Hanford, CA Combined Statistical Area"
 241,Tuolumne County,California,924,"54,008","Sonora, CA Micropolitan Statistical Area",
 242,Ventura County,California,64,"835,981","Oxnard-Thousand Oaks-Ventura, CA Metropolitan Statistical Area","Los Angeles-Long Beach, CA Combined Statistical Area"
-243,Yolo County,California,307,"204,118","Sacramento–Roseville–Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
+243,Yolo County,California,307,"204,118","Sacramento Roseville Arden-Arcade, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
 244,Yuba County,California,745,"72,926","Yuba City, CA Metropolitan Statistical Area","Sacramento-Roseville, CA Combined Statistical Area"
 245,Adams County,Colorado,145,"459,598","Denver-Aurora-Lakewood, CO Metropolitan Statistical Area","Denver-Aurora, CO Combined Statistical Area"
 246,Alamosa County,Colorado,2034,"16,148",,
@@ -265,7 +265,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 264,Eagle County,Colorado,957,"51,874","Edwards, CO Micropolitan Statistical Area","Edwards-Glenwood Springs, CO Combined Statistical Area"
 265,Elbert County,Colorado,1669,"23,383","Denver-Aurora-Lakewood, CO Metropolitan Statistical Area","Denver-Aurora, CO Combined Statistical Area"
 266,El Paso County,Colorado,97,"644,964","Colorado Springs, CO Metropolitan Statistical Area",
-267,Fremont County,Colorado,1030,"46,788","Cañon City, CO Micropolitan Statistical Area","Pueblo-Cañon City, CO Combined Statistical Area"
+267,Fremont County,Colorado,1030,"46,788","Ca-on City, CO Micropolitan Statistical Area","Pueblo-Ca-on City, CO Combined Statistical Area"
 268,Garfield County,Colorado,891,"56,953","Glenwood Springs, CO Micropolitan Statistical Area","Edwards-Glenwood Springs, CO Combined Statistical Area"
 269,Gilpin County,Colorado,2806,"5,491","Denver-Aurora-Lakewood, CO Metropolitan Statistical Area","Denver-Aurora, CO Combined Statistical Area"
 270,Grand County,Colorado,2163,"14,195",,
@@ -294,7 +294,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 293,Phillips County,Colorado,2877,"4,367",,
 294,Pitkin County,Colorado,1965,"17,263","Glenwood Springs, CO Micropolitan Statistical Area","Edwards-Glenwood Springs, CO Combined Statistical Area"
 295,Prowers County,Colorado,2280,"12,389",,
-296,Pueblo County,Colorado,390,"160,852","Pueblo, CO Metropolitan Statistical Area","Pueblo-Cañon City, CO Combined Statistical Area"
+296,Pueblo County,Colorado,390,"160,852","Pueblo, CO Metropolitan Statistical Area","Pueblo-Ca-on City, CO Combined Statistical Area"
 297,Rio Blanco County,Colorado,2694,"6,857",,
 298,Rio Grande County,Colorado,2302,"11,943",,
 299,Routt County,Colorado,1674,"23,334","Steamboat Springs, CO Micropolitan Statistical Area","Steamboat Springs-Craig, CO Combined Statistical Area"
@@ -392,8 +392,8 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 391,Baker County,Georgia,2951,"3,366","Albany, GA Metropolitan Statistical Area",
 392,Baldwin County,Georgia,1042,"46,367","Milledgeville, GA Micropolitan Statistical Area",
 393,Banks County,Georgia,1907,"18,316",,
-394,Barrow County,Georgia,760,"70,169","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-395,Bartow County,Georgia,583,"100,661","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+394,Barrow County,Georgia,760,"70,169","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+395,Bartow County,Georgia,583,"100,661","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 396,Ben Hill County,Georgia,1946,"17,538","Fitzgerald, GA Micropolitan Statistical Area",
 397,Berrien County,Georgia,1871,"19,041",,
 398,Bibb County,Georgia,402,"156,462","Macon, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
@@ -403,37 +403,37 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 402,Bryan County,Georgia,1385,"32,214","Savannah, GA Metropolitan Statistical Area","Savannah-Hinesville-Statesboro, GA Combined Statistical Area"
 403,Bulloch County,Georgia,746,"72,694","Statesboro, GA Micropolitan Statistical Area","Savannah-Hinesville-Statesboro, GA Combined Statistical Area"
 404,Burke County,Georgia,1684,"23,125","Augusta-Richmond County, GA-SC Metropolitan Statistical Area",
-405,Butts County,Georgia,1662,"23,524","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+405,Butts County,Georgia,1662,"23,524","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 406,Calhoun County,Georgia,2723,"6,504",,
 407,Camden County,Georgia,963,"51,402","St. Marys, GA Micropolitan Statistical Area","Jacksonville-St. Marys-Palatka, FL-GA Combined Statistical Area"
 408,Candler County,Georgia,2352,"11,117",,
-409,Carroll County,Georgia,540,"111,580","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+409,Carroll County,Georgia,540,"111,580","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 410,Catoosa County,Georgia,810,"65,046","Chattanooga, TN-GA Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
 411,Charlton County,Georgia,2225,"13,295",,
 412,Chatham County,Georgia,239,"276,434","Savannah, GA Metropolitan Statistical Area","Savannah-Hinesville-Statesboro, GA Combined Statistical Area"
 413,Chattahoochee County,Georgia,2239,"13,037","Columbus, GA-AL Metropolitan Statistical Area","Columbus-Auburn-Opelika, GA-AL Combined Statistical Area"
 414,Chattooga County,Georgia,1578,"25,725","Summerville, GA Micropolitan Statistical Area","Rome-Summerville, GA Combined Statistical Area"
-415,Cherokee County,Georgia,286,"221,315","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-416,Clarke County,Georgia,507,"120,266","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+415,Cherokee County,Georgia,286,"221,315","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+416,Clarke County,Georgia,507,"120,266","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 417,Clay County,Georgia,2967,"3,116",,
-418,Clayton County,Georgia,251,"265,888","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+418,Clayton County,Georgia,251,"265,888","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 419,Clinch County,Georgia,2706,"6,718",,
-420,Cobb County,Georgia,84,"707,442","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+420,Cobb County,Georgia,84,"707,442","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 421,Coffee County,Georgia,1103,"43,170","Douglas, GA Micropolitan Statistical Area",
 422,Colquitt County,Georgia,1046,"46,137","Moultrie, GA Micropolitan Statistical Area",
 423,Columbia County,Georgia,476,"131,627","Augusta-Richmond County, GA-SC Metropolitan Statistical Area",
 424,Cook County,Georgia,1988,"16,923",,
-425,Coweta County,Georgia,478,"130,929","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+425,Coweta County,Georgia,478,"130,929","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 426,Crawford County,Georgia,2266,"12,600","Macon, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
 427,Crisp County,Georgia,1658,"23,606","Cordele, GA Micropolitan Statistical Area",
 428,Dade County,Georgia,2013,"16,490","Chattanooga, TN-GA Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
-429,Dawson County,Georgia,1713,"22,422","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+429,Dawson County,Georgia,1713,"22,422","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 430,Decatur County,Georgia,1514,"27,509","Bainbridge, GA Micropolitan Statistical Area","Tallahassee-Bainbridge, FL-GA Combined Statistical Area"
-431,DeKalb County,Georgia,86,"707,089","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+431,DeKalb County,Georgia,86,"707,089","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 432,Dodge County,Georgia,1766,"21,329",,
 433,Dooly County,Georgia,2149,"14,318",,
 434,Dougherty County,Georgia,613,"94,501","Albany, GA Metropolitan Statistical Area",
-435,Douglas County,Georgia,468,"133,971","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+435,Douglas County,Georgia,468,"133,971","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 436,Early County,Georgia,2391,"10,594",,
 437,Echols County,Georgia,2907,"3,988","Valdosta, GA Metropolitan Statistical Area",
 438,Effingham County,Georgia,933,"53,293","Savannah, GA Metropolitan Statistical Area","Savannah-Hinesville-Statesboro, GA Combined Statistical Area"
@@ -441,36 +441,36 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 440,Emanuel County,Georgia,1694,"22,898",,
 441,Evans County,Georgia,2381,"10,689",,
 442,Fannin County,Georgia,1663,"23,492",,
-443,Fayette County,Georgia,552,"107,524","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+443,Fayette County,Georgia,552,"107,524","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 444,Floyd County,Georgia,607,"96,177","Rome, GA Metropolitan Statistical Area","Rome-Summerville, GA Combined Statistical Area"
-445,Forsyth County,Georgia,337,"187,928","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+445,Forsyth County,Georgia,337,"187,928","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 446,Franklin County,Georgia,1737,"21,894",,
-447,Fulton County,Georgia,43,"977,773","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+447,Fulton County,Georgia,43,"977,773","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 448,Gilmer County,Georgia,1484,"28,190",,
 449,Glascock County,Georgia,2966,"3,142",,
 450,Glynn County,Georgia,682,"81,022","Brunswick, GA Metropolitan Statistical Area",
-451,Gordon County,Georgia,905,"55,766","Calhoun, GA Micropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+451,Gordon County,Georgia,905,"55,766","Calhoun, GA Micropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 452,Grady County,Georgia,1590,"25,440",,
 453,Greene County,Georgia,2039,"16,092",,
-454,Gwinnett County,Georgia,63,"842,046","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+454,Gwinnett County,Georgia,63,"842,046","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 455,Habersham County,Georgia,1099,"43,520","Cornelia, GA Micropolitan Statistical Area",
-456,Hall County,Georgia,340,"185,416","Gainesville, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+456,Hall County,Georgia,340,"185,416","Gainesville, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 457,Hancock County,Georgia,2522,"8,996","Milledgeville, GA Micropolitan Statistical Area",
-458,Haralson County,Georgia,1473,"28,400","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+458,Haralson County,Georgia,1473,"28,400","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 459,Harris County,Georgia,1373,"32,550","Columbus, GA-AL Metropolitan Statistical Area","Columbus-Auburn-Opelika, GA-AL Combined Statistical Area"
 460,Hart County,Georgia,1585,"25,518",,
-461,Heard County,Georgia,2321,"11,633","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-462,Henry County,Georgia,300,"209,053","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+461,Heard County,Georgia,2321,"11,633","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+462,Henry County,Georgia,300,"209,053","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 463,Houston County,Georgia,435,"146,136","Warner Robins, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
 464,Irwin County,Georgia,2463,"9,600",,
-465,Jackson County,Georgia,854,"60,571","Jefferson, GA Micropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-466,Jasper County,Georgia,2207,"13,630","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+465,Jackson County,Georgia,854,"60,571","Jefferson, GA Micropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+466,Jasper County,Georgia,2207,"13,630","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 467,Jeff Davis County,Georgia,2096,"15,156",,
 468,Jefferson County,Georgia,2016,"16,432",,
 469,Jenkins County,Georgia,2501,"9,213",,
 470,Johnson County,Georgia,2451,"9,897","Dublin, GA Micropolitan Statistical Area",
 471,Jones County,Georgia,1465,"28,577","Macon, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
-472,Lamar County,Georgia,1918,"18,057","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+472,Lamar County,Georgia,1918,"18,057","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 473,Lanier County,Georgia,2404,"10,400","Valdosta, GA Metropolitan Statistical Area",
 474,Laurens County,Georgia,1012,"48,041","Dublin, GA Micropolitan Statistical Area",
 475,Lee County,Georgia,1456,"28,746","Albany, GA Metropolitan Statistical Area",
@@ -482,36 +482,36 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 481,McDuffie County,Georgia,1746,"21,663","Augusta-Richmond County, GA-SC Metropolitan Statistical Area",
 482,McIntosh County,Georgia,2183,"13,839","Brunswick, GA Metropolitan Statistical Area",
 483,Macon County,Georgia,2154,"14,263",,
-484,Madison County,Georgia,1497,"27,922","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+484,Madison County,Georgia,1497,"27,922","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 485,Marion County,Georgia,2545,"8,711","Columbus, GA-AL Metropolitan Statistical Area","Columbus-Auburn-Opelika, GA-AL Combined Statistical Area"
-486,Meriwether County,Georgia,1770,"21,273","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+486,Meriwether County,Georgia,1770,"21,273","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 487,Miller County,Georgia,2761,"5,969",,
 488,Mitchell County,Georgia,1683,"23,144",,
 489,Monroe County,Georgia,1542,"26,637","Macon, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
 490,Montgomery County,Georgia,2527,"8,913","Vidalia, GA Micropolitan Statistical Area",
-491,Morgan County,Georgia,1926,"17,881","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+491,Morgan County,Georgia,1926,"17,881","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 492,Murray County,Georgia,1186,"39,392","Dalton, GA Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
 493,Muscogee County,Georgia,322,"198,413","Columbus, GA-AL Metropolitan Statistical Area","Columbus-Auburn-Opelika, GA-AL Combined Statistical Area"
-494,Newton County,Georgia,577,"101,505","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-495,Oconee County,Georgia,1337,"33,619","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-496,Oglethorpe County,Georgia,2131,"14,618","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-497,Paulding County,Georgia,438,"144,800","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+494,Newton County,Georgia,577,"101,505","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+495,Oconee County,Georgia,1337,"33,619","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+496,Oglethorpe County,Georgia,2131,"14,618","Athens-Clarke County, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+497,Paulding County,Georgia,438,"144,800","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 498,Peach County,Georgia,1507,"27,622","Warner Robins, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
-499,Pickens County,Georgia,1441,"29,268","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+499,Pickens County,Georgia,1441,"29,268","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 500,Pierce County,Georgia,1882,"18,844","Waycross, GA Micropolitan Statistical Area",
-501,Pike County,Georgia,1929,"17,810","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
-502,Polk County,Georgia,1147,"41,188","Cedartown, GA Micropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+501,Pike County,Georgia,1929,"17,810","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
+502,Polk County,Georgia,1147,"41,188","Cedartown, GA Micropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 503,Pulaski County,Georgia,2315,"11,720","Warner Robins, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
 504,Putnam County,Georgia,1774,"21,198",,
 505,Quitman County,Georgia,3013,"2,404",,
 506,Rabun County,Georgia,2026,"16,297",,
 507,Randolph County,Georgia,2653,"7,327",,
 508,Richmond County,Georgia,311,"202,587","Augusta-Richmond County, GA-SC Metropolitan Statistical Area",
-509,Rockdale County,Georgia,658,"85,820","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+509,Rockdale County,Georgia,658,"85,820","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 510,Schley County,Georgia,2839,"4,990","Americus, GA Micropolitan Statistical Area",
 511,Screven County,Georgia,2161,"14,202",,
 512,Seminole County,Georgia,2525,"8,947",,
-513,Spalding County,Georgia,823,"63,865","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+513,Spalding County,Georgia,823,"63,865","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 514,Stephens County,Georgia,1569,"25,891","Toccoa, GA Micropolitan Statistical Area",
 515,Stewart County,Georgia,2757,"6,042",,
 516,Sumter County,Georgia,1400,"31,554","Americus, GA Micropolitan Statistical Area",
@@ -526,13 +526,13 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 525,Toombs County,Georgia,1519,"27,315","Vidalia, GA Micropolitan Statistical Area",
 526,Towns County,Georgia,2395,"10,495",,
 527,Treutlen County,Georgia,2701,"6,769",,
-528,Troup County,Georgia,773,"68,468","LaGrange, GA Micropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+528,Troup County,Georgia,773,"68,468","LaGrange, GA Micropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 529,Turner County,Georgia,2572,"8,410",,
 530,Twiggs County,Georgia,2569,"8,447","Macon, GA Metropolitan Statistical Area","Macon-Warner Robins, GA Combined Statistical Area"
 531,Union County,Georgia,1757,"21,451",,
-532,Upson County,Georgia,1544,"26,630","Thomaston, GA Micropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+532,Upson County,Georgia,1544,"26,630","Thomaston, GA Micropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 533,Walker County,Georgia,780,"68,094","Chattanooga, TN-GA Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
-534,Walton County,Georgia,665,"84,575","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta–Athens-Clarke County–Sandy Springs, GA Combined Statistical Area"
+534,Walton County,Georgia,665,"84,575","Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area","Atlanta Athens-Clarke County Sandy Springs, GA Combined Statistical Area"
 535,Ware County,Georgia,1280,"35,821","Waycross, GA Micropolitan Statistical Area",
 536,Warren County,Georgia,2799,"5,578",,
 537,Washington County,Georgia,1784,"20,879",,
@@ -705,7 +705,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 704,Brown County,Indiana,2102,"15,083","Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 705,Carroll County,Indiana,1835,"20,095","Lafayette-West Lafayette, IN Metropolitan Statistical Area","Lafayette-West Lafayette-Frankfort, IN Combined Statistical Area"
 706,Cass County,Indiana,1208,"38,581","Logansport, IN Micropolitan Statistical Area",
-707,Clark County,Indiana,537,"111,951","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+707,Clark County,Indiana,537,"111,951","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 708,Clay County,Indiana,1535,"26,837","Terre Haute, IN Metropolitan Statistical Area",
 709,Clinton County,Indiana,1353,"33,022","Frankfort, IN Micropolitan Statistical Area","Lafayette-West Lafayette-Frankfort, IN Combined Statistical Area"
 710,Crawford County,Indiana,2382,"10,665",,
@@ -717,7 +717,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 716,Dubois County,Indiana,1128,"42,071","Jasper, IN Micropolitan Statistical Area",
 717,Elkhart County,Indiana,317,"199,619","Elkhart-Goshen, IN Metropolitan Statistical Area","South Bend-Elkhart-Mishawaka, IN-MI Combined Statistical Area"
 718,Fayette County,Indiana,1642,"24,029","Connersville, IN Micropolitan Statistical Area","Richmond-Connersville, IN Combined Statistical Area"
-719,Floyd County,Indiana,728,"75,283","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+719,Floyd County,Indiana,728,"75,283","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 720,Fountain County,Indiana,1969,"17,119",,
 721,Franklin County,Indiana,1691,"22,969",,
 722,Fulton County,Indiana,1794,"20,737",,
@@ -726,7 +726,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 725,Greene County,Indiana,1357,"32,940",,
 726,Hamilton County,Indiana,227,"289,495","Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 727,Hancock County,Indiana,753,"70,933","Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
-728,Harrison County,Indiana,1194,"39,134","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+728,Harrison County,Indiana,1194,"39,134","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 729,Hendricks County,Indiana,421,"150,434","Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 730,Henry County,Indiana,993,"49,345","New Castle, IN Micropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 731,Howard County,Indiana,673,"82,849","Kokomo, IN Metropolitan Statistical Area","Kokomo-Peru, IN Combined Statistical Area"
@@ -734,7 +734,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 733,Jackson County,Indiana,1106,"43,083","Seymour, IN Micropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 734,Jasper County,Indiana,1340,"33,456","Chicago-Naperville-Elgin, IL-IN-WI Metropolitan Statistical Area","Chicago-Naperville, IL-IN-WI Combined Statistical Area"
 735,Jay County,Indiana,1763,"21,366",,
-736,Jefferson County,Indiana,1371,"32,554","Madison, IN Micropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+736,Jefferson County,Indiana,1371,"32,554","Madison, IN Micropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 737,Jennings County,Indiana,1486,"28,161","North Vernon, IN Micropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 738,Johnson County,Indiana,440,"143,191","Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 739,Knox County,Indiana,1215,"38,122","Vincennes, IN Micropolitan Statistical Area",
@@ -767,7 +767,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 766,Ripley County,Indiana,1464,"28,583",,
 767,Rush County,Indiana,1972,"17,095",,
 768,St. Joseph County,Indiana,250,"266,344","South Bend-Mishawaka, IN-MI Metropolitan Statistical Area","South Bend-Elkhart-Mishawaka, IN-MI Combined Statistical Area"
-769,Scott County,Indiana,1655,"23,791","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+769,Scott County,Indiana,1655,"23,791","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 770,Shelby County,Indiana,1076,"44,471","Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area","Indianapolis-Carmel-Muncie, IN Combined Statistical Area"
 771,Spencer County,Indiana,1785,"20,837",,
 772,Starke County,Indiana,1681,"23,213",,
@@ -783,7 +783,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 782,Wabash County,Indiana,1381,"32,361","Wabash, IN Micropolitan Statistical Area",
 783,Warren County,Indiana,2577,"8,342",,
 784,Warrick County,Indiana,856,"60,463","Evansville, IN-KY Metropolitan Statistical Area",
-785,Washington County,Indiana,1498,"27,921","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+785,Washington County,Indiana,1498,"27,921","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 786,Wayne County,Indiana,778,"68,346","Richmond, IN Micropolitan Statistical Area","Richmond-Connersville, IN Combined Statistical Area"
 787,Wells County,Indiana,1506,"27,652","Fort Wayne, IN Metropolitan Statistical Area","Fort Wayne-Huntington-Auburn, IN Combined Statistical Area"
 788,White County,Indiana,1629,"24,426",,
@@ -994,19 +994,19 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 993,Wyandotte County,Kansas,396,"159,129","Kansas City, MO-KS Metropolitan Statistical Area","Kansas City-Overland Park-Kansas City, MO-KS Combined Statistical Area"
 994,Adair County,Kentucky,1889,"18,675",,
 995,Allen County,Kentucky,1831,"20,210","Bowling Green, KY Metropolitan Statistical Area","Bowling Green-Glasgow, KY Combined Statistical Area"
-996,Anderson County,Kentucky,1742,"21,728","Frankfort, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+996,Anderson County,Kentucky,1742,"21,728","Frankfort, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 997,Ballard County,Kentucky,2579,"8,333","Paducah, KY-IL Micropolitan Statistical Area","Paducah-Mayfield, KY-IL Combined Statistical Area"
 998,Barren County,Kentucky,1119,"42,631","Glasgow, KY Micropolitan Statistical Area","Bowling Green-Glasgow, KY Combined Statistical Area"
-999,Bath County,Kentucky,2310,"11,802","Mount Sterling, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+999,Bath County,Kentucky,2310,"11,802","Mount Sterling, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1000,Bell County,Kentucky,1485,"28,183","Middlesborough, KY Micropolitan Statistical Area",
 1001,Boone County,Kentucky,496,"123,316","Cincinnati, OH-KY-IN Metropolitan Statistical Area","Cincinnati-Wilmington-Maysville, OH-KY-IN Combined Statistical Area"
-1002,Bourbon County,Kentucky,1841,"19,978","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1002,Bourbon County,Kentucky,1841,"19,978","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1003,Boyd County,Kentucky,997,"49,164","Huntington-Ashland, WV-KY-OH Metropolitan Statistical Area","Charleston-Huntington-Ashland, WV-OH-KY Combined Statistical Area"
 1004,Boyle County,Kentucky,1461,"28,658","Danville, KY Micropolitan Statistical Area",
 1005,Bracken County,Kentucky,2564,"8,494","Cincinnati, OH-KY-IN Metropolitan Statistical Area","Cincinnati-Wilmington-Maysville, OH-KY-IN Combined Statistical Area"
 1006,Breathitt County,Kentucky,2205,"13,635",,
 1007,Breckinridge County,Kentucky,1837,"20,071",,
-1008,Bullitt County,Kentucky,721,"75,896","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1008,Bullitt County,Kentucky,721,"75,896","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1009,Butler County,Kentucky,2250,"12,840","Bowling Green, KY Metropolitan Statistical Area","Bowling Green-Glasgow, KY Combined Statistical Area"
 1010,Caldwell County,Kentucky,2247,"12,935",,
 1011,Calloway County,Kentucky,1228,"37,655","Murray, KY Micropolitan Statistical Area",
@@ -1016,7 +1016,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1015,Carter County,Kentucky,1517,"27,348",,
 1016,Casey County,Kentucky,2041,"16,082",,
 1017,Christian County,Kentucky,726,"75,427","Clarksville, TN-KY Metropolitan Statistical Area",
-1018,Clark County,Kentucky,1282,"35,787","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1018,Clark County,Kentucky,1282,"35,787","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1019,Clay County,Kentucky,1751,"21,556",,
 1020,Clinton County,Kentucky,2417,"10,285",,
 1021,Crittenden County,Kentucky,2495,"9,280",,
@@ -1025,10 +1025,10 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1024,Edmonson County,Kentucky,2294,"12,071","Bowling Green, KY Metropolitan Statistical Area","Bowling Green-Glasgow, KY Combined Statistical Area"
 1025,Elliott County,Kentucky,2618,"7,780",,
 1026,Estill County,Kentucky,2140,"14,493",,
-1027,Fayette County,Kentucky,211,"305,489","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1027,Fayette County,Kentucky,211,"305,489","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1028,Fleming County,Kentucky,2136,"14,560",,
 1029,Floyd County,Kentucky,1197,"38,949",,
-1030,Franklin County,Kentucky,984,"49,804","Frankfort, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1030,Franklin County,Kentucky,984,"49,804","Frankfort, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1031,Fulton County,Kentucky,2720,"6,525","Union City, TN-KY Micropolitan Statistical Area","Martin-Union City, TN-KY Combined Statistical Area"
 1032,Gallatin County,Kentucky,2566,"8,479","Cincinnati, OH-KY-IN Metropolitan Statistical Area","Cincinnati-Wilmington-Maysville, OH-KY-IN Combined Statistical Area"
 1033,Garrard County,Kentucky,1989,"16,913",,
@@ -1038,22 +1038,22 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1037,Green County,Kentucky,2338,"11,315",,
 1038,Greenup County,Kentucky,1255,"36,707","Huntington-Ashland, WV-KY-OH Metropolitan Statistical Area","Charleston-Huntington-Ashland, WV-OH-KY Combined Statistical Area"
 1039,Hancock County,Kentucky,2552,"8,677","Owensboro, KY Metropolitan Statistical Area",
-1040,Hardin County,Kentucky,556,"107,025","Elizabethtown-Fort Knox, KY Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1040,Hardin County,Kentucky,556,"107,025","Elizabethtown-Fort Knox, KY Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1041,Harlan County,Kentucky,1466,"28,543",,
 1042,Harrison County,Kentucky,1892,"18,624",,
 1043,Hart County,Kentucky,1904,"18,366",,
 1044,Henderson County,Kentucky,1040,"46,513","Evansville, IN-KY Metropolitan Statistical Area",
-1045,Henry County,Kentucky,2087,"15,318","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1045,Henry County,Kentucky,2087,"15,318","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1046,Hickman County,Kentucky,2856,"4,754",,
 1047,Hopkins County,Kentucky,1035,"46,718","Madisonville, KY Micropolitan Statistical Area",
 1048,Jackson County,Kentucky,2222,"13,331",,
-1049,Jefferson County,Kentucky,78,"750,828","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
-1050,Jessamine County,Kentucky,988,"49,635","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1049,Jefferson County,Kentucky,78,"750,828","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
+1050,Jessamine County,Kentucky,988,"49,635","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1051,Johnson County,Kentucky,1669,"23,383",,
 1052,Kenton County,Kentucky,388,"161,711","Cincinnati, OH-KY-IN Metropolitan Statistical Area","Cincinnati-Wilmington-Maysville, OH-KY-IN Combined Statistical Area"
 1053,Knott County,Kentucky,2037,"16,124",,
 1054,Knox County,Kentucky,1396,"31,735","London, KY Micropolitan Statistical Area",
-1055,Larue County,Kentucky,2165,"14,151","Elizabethtown-Fort Knox, KY Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1055,Larue County,Kentucky,2165,"14,151","Elizabethtown-Fort Knox, KY Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1056,Laurel County,Kentucky,870,"59,462","London, KY Micropolitan Statistical Area",
 1057,Lawrence County,Kentucky,2053,"15,848",,
 1058,Lee County,Kentucky,2626,"7,706",,
@@ -1067,24 +1067,24 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1066,McCracken County,Kentucky,806,"65,549","Paducah, KY-IL Micropolitan Statistical Area","Paducah-Mayfield, KY-IL Combined Statistical Area"
 1067,McCreary County,Kentucky,1917,"18,069",,
 1068,McLean County,Kentucky,2472,"9,506","Owensboro, KY Metropolitan Statistical Area",
-1069,Madison County,Kentucky,664,"84,786","Richmond-Berea, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1069,Madison County,Kentucky,664,"84,786","Richmond-Berea, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1070,Magoffin County,Kentucky,2238,"13,041",,
 1071,Marion County,Kentucky,1836,"20,090",,
 1072,Marshall County,Kentucky,1406,"31,344",,
 1073,Martin County,Kentucky,2257,"12,743",,
 1074,Mason County,Kentucky,1951,"17,512","Maysville, KY Micropolitan Statistical Area","Cincinnati-Wilmington-Maysville, OH-KY-IN Combined Statistical Area"
-1075,Meade County,Kentucky,1444,"29,237","Elizabethtown-Fort Knox, KY Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
-1076,Menifee County,Kentucky,2743,"6,220","Mount Sterling, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1075,Meade County,Kentucky,1444,"29,237","Elizabethtown-Fort Knox, KY Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
+1076,Menifee County,Kentucky,2743,"6,220","Mount Sterling, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1077,Mercer County,Kentucky,1771,"21,261",,
 1078,Metcalfe County,Kentucky,2446,"9,969","Glasgow, KY Micropolitan Statistical Area","Bowling Green-Glasgow, KY Combined Statistical Area"
 1079,Monroe County,Kentucky,2372,"10,821",,
-1080,Montgomery County,Kentucky,1533,"26,902","Mount Sterling, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1080,Montgomery County,Kentucky,1533,"26,902","Mount Sterling, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1081,Morgan County,Kentucky,2200,"13,668",,
 1082,Muhlenberg County,Kentucky,1408,"31,181",,
-1083,Nelson County,Kentucky,1080,"44,319","Bardstown, KY Micropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1083,Nelson County,Kentucky,1080,"44,319","Bardstown, KY Micropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1084,Nicholas County,Kentucky,2683,"7,000",,
 1085,Ohio County,Kentucky,1641,"24,075",,
-1086,Oldham County,Kentucky,847,"61,412","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1086,Oldham County,Kentucky,847,"61,412","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1087,Owen County,Kentucky,2377,"10,765",,
 1088,Owsley County,Kentucky,2857,"4,722",,
 1089,Pendleton County,Kentucky,2132,"14,604","Cincinnati, OH-KY-IN Metropolitan Statistical Area","Cincinnati-Wilmington-Maysville, OH-KY-IN Combined Statistical Area"
@@ -1093,17 +1093,17 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1092,Powell County,Kentucky,2274,"12,483",,
 1093,Pulaski County,Kentucky,824,"63,593","Somerset, KY Micropolitan Statistical Area",
 1094,Robertson County,Kentucky,3037,"2,188",,
-1095,Rockcastle County,Kentucky,1981,"17,006","Richmond-Berea, KY Micropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1095,Rockcastle County,Kentucky,1981,"17,006","Richmond-Berea, KY Micropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1096,Rowan County,Kentucky,1665,"23,447",,
 1097,Russell County,Kentucky,1952,"17,497",,
-1098,Scott County,Kentucky,999,"49,057","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
-1099,Shelby County,Kentucky,1096,"43,614","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1098,Scott County,Kentucky,999,"49,057","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
+1099,Shelby County,Kentucky,1096,"43,614","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1100,Simpson County,Kentucky,1946,"17,538",,
-1101,Spencer County,Kentucky,1958,"17,416","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1101,Spencer County,Kentucky,1958,"17,416","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1102,Taylor County,Kentucky,1617,"24,691","Campbellsville, KY Micropolitan Statistical Area",
 1103,Todd County,Kentucky,2264,"12,651",,
 1104,Trigg County,Kentucky,2142,"14,447","Clarksville, TN-KY Metropolitan Statistical Area",
-1105,Trimble County,Kentucky,2535,"8,787","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County–Elizabethtown–Madison, KY-IN Combined Statistical Area"
+1105,Trimble County,Kentucky,2535,"8,787","Louisville/Jefferson County, KY-IN Metropolitan Statistical Area","Louisville/Jefferson County Elizabethtown Madison, KY-IN Combined Statistical Area"
 1106,Union County,Kentucky,2119,"14,850",,
 1107,Warren County,Kentucky,520,"117,110","Bowling Green, KY Metropolitan Statistical Area","Bowling Green-Glasgow, KY Combined Statistical Area"
 1108,Washington County,Kentucky,2308,"11,833",,
@@ -1111,7 +1111,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1110,Webster County,Kentucky,2209,"13,583",,
 1111,Whitley County,Kentucky,1288,"35,499","London, KY Micropolitan Statistical Area",
 1112,Wolfe County,Kentucky,2662,"7,164",,
-1113,Woodford County,Kentucky,1606,"25,077","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette–Richmond–Frankfort, KY Combined Statistical Area"
+1113,Woodford County,Kentucky,1606,"25,077","Lexington-Fayette, KY Metropolitan Statistical Area","Lexington-Fayette Richmond Frankfort, KY Combined Statistical Area"
 1114,Acadia Parish,Louisiana,841,"61,912","Lafayette, LA Metropolitan Statistical Area","Lafayette-Opelousas-Morgan City, LA Combined Statistical Area"
 1115,Allen Parish,Louisiana,1584,"25,539",,
 1116,Ascension Parish,Louisiana,533,"112,286","Baton Rouge, LA Metropolitan Statistical Area",
@@ -1801,7 +1801,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1800,Colfax County,New Mexico,2229,"13,223",,
 1801,Curry County,New Mexico,979,"49,938","Clovis, NM Micropolitan Statistical Area","Clovis-Portales, NM Combined Statistical Area"
 1802,De Baca County,New Mexico,3063,"1,927",,
-1803,Doña Ana County,New Mexico,295,"214,445","Las Cruces, NM Metropolitan Statistical Area","El Paso-Las Cruces, TX-NM Combined Statistical Area"
+1803,Do-a Ana County,New Mexico,295,"214,445","Las Cruces, NM Metropolitan Statistical Area","El Paso-Las Cruces, TX-NM Combined Statistical Area"
 1804,Eddy County,New Mexico,919,"54,419","Carlsbad-Artesia, NM Micropolitan Statistical Area",
 1805,Grant County,New Mexico,1436,"29,388","Silver City, NM Micropolitan Statistical Area",
 1806,Guadalupe County,New Mexico,2864,"4,603",,
@@ -1815,7 +1815,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1814,Mora County,New Mexico,2858,"4,705",,
 1815,Otero County,New Mexico,797,"66,041","Alamogordo, NM Micropolitan Statistical Area",
 1816,Quay County,New Mexico,2536,"8,769",,
-1817,Rio Arriba County,New Mexico,1170,"40,318","Española, NM Micropolitan Statistical Area","Albuquerque-Santa Fe-Las Vegas, NM Combined Statistical Area"
+1817,Rio Arriba County,New Mexico,1170,"40,318","Espa-ola, NM Micropolitan Statistical Area","Albuquerque-Santa Fe-Las Vegas, NM Combined Statistical Area"
 1818,Roosevelt County,New Mexico,1820,"20,419","Portales, NM Micropolitan Statistical Area","Clovis-Portales, NM Combined Statistical Area"
 1819,Sandoval County,New Mexico,460,"135,588","Albuquerque, NM Metropolitan Statistical Area","Albuquerque-Santa Fe-Las Vegas, NM Combined Statistical Area"
 1820,San Juan County,New Mexico,481,"128,529","Farmington, NM Metropolitan Statistical Area",
@@ -1889,7 +1889,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1888,Westchester County,New York,46,"961,670","New York-Newark-Jersey City, NY-NJ-PA Metropolitan Statistical Area","New York-Newark, NY-NJ-CT-PA Combined Statistical Area"
 1889,Wyoming County,New York,1131,"41,892",,
 1890,Yates County,New York,1597,"25,344","Rochester, NY Metropolitan Statistical Area","Rochester-Batavia-Seneca Falls, NY Combined Statistical Area"
-1891,Alamance County,North Carolina,410,"153,920","Burlington, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1891,Alamance County,North Carolina,410,"153,920","Burlington, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1892,Alexander County,North Carolina,1252,"36,853","Hickory-Lenoir-Morganton, NC Metropolitan Statistical Area","Hickory-Lenoir, NC Combined Statistical Area"
 1893,Alleghany County,North Carolina,2365,"10,927",,
 1894,Anson County,North Carolina,1547,"26,351",,
@@ -1917,19 +1917,19 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1916,Cumberland County,North Carolina,200,"324,049","Fayetteville, NC Metropolitan Statistical Area","Fayetteville-Lumberton-Laurinburg, NC Combined Statistical Area"
 1917,Currituck County,North Carolina,1640,"24,077","Virginia Beach-Norfolk-Newport News, VA-NC Metropolitan Statistical Area","Virginia Beach-Norfolk, VA-NC Combined Statistical Area"
 1918,Dare County,North Carolina,1310,"34,573","Kill Devil Hills, NC Micropolitan Statistical Area","Virginia Beach-Norfolk, VA-NC Combined Statistical Area"
-1919,Davidson County,North Carolina,383,"163,260","Winston-Salem, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
-1920,Davie County,North Carolina,1142,"41,433","Winston-Salem, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1919,Davidson County,North Carolina,383,"163,260","Winston-Salem, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
+1920,Davie County,North Carolina,1142,"41,433","Winston-Salem, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1921,Duplin County,North Carolina,864,"60,033",,
 1922,Durham County,North Carolina,238,"279,641","Durham-Chapel Hill, NC Metropolitan Statistical Area","Raleigh-Durham-Chapel Hill, NC Combined Statistical Area"
 1923,Edgecombe County,North Carolina,904,"55,954","Rocky Mount, NC Metropolitan Statistical Area","Rocky Mount-Wilson-Roanoke Rapids, NC Combined Statistical Area"
-1924,Forsyth County,North Carolina,186,"358,137","Winston-Salem, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1924,Forsyth County,North Carolina,186,"358,137","Winston-Salem, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1925,Franklin County,North Carolina,845,"61,475","Raleigh, NC Metropolitan Statistical Area","Raleigh-Durham-Chapel Hill, NC Combined Statistical Area"
 1926,Gaston County,North Carolina,303,"208,049","Charlotte-Concord-Gastonia, NC-SC Metropolitan Statistical Area","Charlotte-Concord, NC-SC Combined Statistical Area"
 1927,Gates County,North Carolina,2306,"11,869","Virginia Beach-Norfolk-Newport News, VA-NC Metropolitan Statistical Area","Virginia Beach-Norfolk, VA-NC Combined Statistical Area"
 1928,Graham County,North Carolina,2548,"8,700",,
 1929,Granville County,North Carolina,857,"60,436","Oxford, NC Micropolitan Statistical Area","Raleigh-Durham-Chapel Hill, NC Combined Statistical Area"
 1930,Greene County,North Carolina,1759,"21,429",,
-1931,Guilford County,North Carolina,132,"500,879","Greensboro-High Point, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1931,Guilford County,North Carolina,132,"500,879","Greensboro-High Point, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1932,Halifax County,North Carolina,925,"54,006","Roanoke Rapids, NC Micropolitan Statistical Area","Rocky Mount-Wilson-Roanoke Rapids, NC Combined Statistical Area"
 1933,Harnett County,North Carolina,502,"122,135","Dunn, NC Micropolitan Statistical Area","Raleigh-Durham-Chapel Hill, NC Combined Statistical Area"
 1934,Haywood County,North Carolina,877,"58,908","Asheville, NC Metropolitan Statistical Area","Asheville-Brevard, NC Combined Statistical Area"
@@ -1964,17 +1964,17 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1963,Person County,North Carolina,1192,"39,268","Durham-Chapel Hill, NC Metropolitan Statistical Area","Raleigh-Durham-Chapel Hill, NC Combined Statistical Area"
 1964,Pitt County,North Carolina,361,"172,554","Greenville, NC Metropolitan Statistical Area","Greenville-Washington, NC Combined Statistical Area"
 1965,Polk County,North Carolina,1827,"20,271",,
-1966,Randolph County,North Carolina,442,"142,466","Greensboro-High Point, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1966,Randolph County,North Carolina,442,"142,466","Greensboro-High Point, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1967,Richmond County,North Carolina,1037,"46,627","Rockingham, NC Micropolitan Statistical Area",
 1968,Robeson County,North Carolina,461,"135,496","Lumberton, NC Micropolitan Statistical Area","Fayetteville-Lumberton-Laurinburg, NC Combined Statistical Area"
-1969,Rockingham County,North Carolina,623,"92,720","Greensboro-High Point, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1969,Rockingham County,North Carolina,623,"92,720","Greensboro-High Point, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1970,Rowan County,North Carolina,451,"138,180","Charlotte-Concord-Gastonia, NC-SC Metropolitan Statistical Area","Charlotte-Concord, NC-SC Combined Statistical Area"
 1971,Rutherford County,North Carolina,786,"67,323","Forest City, NC Micropolitan Statistical Area",
 1972,Sampson County,North Carolina,821,"63,949",,
 1973,Scotland County,North Carolina,1274,"36,094","Laurinburg, NC Micropolitan Statistical Area","Fayetteville-Lumberton-Laurinburg, NC Combined Statistical Area"
 1974,Stanly County,North Carolina,853,"60,576","Albemarle, NC Micropolitan Statistical Area","Charlotte-Concord, NC-SC Combined Statistical Area"
-1975,Stokes County,North Carolina,1031,"46,783","Winston-Salem, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
-1976,Surry County,North Carolina,740,"73,561","Mount Airy, NC Micropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1975,Stokes County,North Carolina,1031,"46,783","Winston-Salem, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
+1976,Surry County,North Carolina,740,"73,561","Mount Airy, NC Micropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1977,Swain County,North Carolina,2166,"14,141",,
 1978,Transylvania County,North Carolina,1360,"32,849","Brevard, NC Micropolitan Statistical Area","Asheville-Brevard, NC Combined Statistical Area"
 1979,Tyrrell County,North Carolina,2881,"4,338","Kill Devil Hills, NC Micropolitan Statistical Area","Virginia Beach-Norfolk, VA-NC Combined Statistical Area"
@@ -1987,7 +1987,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 1986,Wayne County,North Carolina,492,"124,246","Goldsboro, NC Metropolitan Statistical Area",
 1987,Wilkes County,North Carolina,767,"69,306","North Wilkesboro, NC Micropolitan Statistical Area",
 1988,Wilson County,North Carolina,677,"81,867","Wilson, NC Micropolitan Statistical Area","Rocky Mount-Wilson-Roanoke Rapids, NC Combined Statistical Area"
-1989,Yadkin County,North Carolina,1218,"38,084","Winston-Salem, NC Metropolitan Statistical Area","Greensboro–Winston-Salem–High Point, NC Combined Statistical Area"
+1989,Yadkin County,North Carolina,1218,"38,084","Winston-Salem, NC Metropolitan Statistical Area","Greensboro Winston-Salem High Point, NC Combined Statistical Area"
 1990,Yancey County,North Carolina,1940,"17,630",,
 1991,Adams County,North Dakota,3027,"2,311",,
 1992,Barnes County,North Dakota,2356,"11,015",,
@@ -2277,12 +2277,12 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2276,Indiana County,Pennsylvania,646,"88,218","Indiana, PA Micropolitan Statistical Area","Pittsburgh-New Castle-Weirton, PA-OH-WV Combined Statistical Area"
 2277,Jefferson County,Pennsylvania,1072,"44,764",,
 2278,Juniata County,Pennsylvania,1612,"24,904",,
-2279,Lackawanna County,Pennsylvania,294,"214,477","Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area",
+2279,Lackawanna County,Pennsylvania,294,"214,477","Scranton Wilkes-Barre Hazleton, PA Metropolitan Statistical Area",
 2280,Lancaster County,Pennsylvania,123,"526,823","Lancaster, PA Metropolitan Statistical Area",
 2281,Lawrence County,Pennsylvania,636,"89,871","New Castle, PA Micropolitan Statistical Area","Pittsburgh-New Castle-Weirton, PA-OH-WV Combined Statistical Area"
 2282,Lebanon County,Pennsylvania,462,"135,251","Lebanon, PA Metropolitan Statistical Area","Harrisburg-York-Lebanon, PA Combined Statistical Area"
 2283,Lehigh County,Pennsylvania,187,"355,245","Allentown-Bethlehem-Easton, PA-NJ Metropolitan Statistical Area","New York-Newark, NY-NJ-CT-PA Combined Statistical Area"
-2284,Luzerne County,Pennsylvania,203,"321,027","Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area",
+2284,Luzerne County,Pennsylvania,203,"321,027","Scranton Wilkes-Barre Hazleton, PA Metropolitan Statistical Area",
 2285,Lycoming County,Pennsylvania,519,"117,168","Williamsport, PA Metropolitan Statistical Area","Williamsport-Lock Haven, PA Combined Statistical Area"
 2286,McKean County,Pennsylvania,1105,"43,127","Bradford, PA Micropolitan Statistical Area",
 2287,Mercer County,Pennsylvania,522,"115,655","Youngstown-Warren-Boardman, OH-PA Metropolitan Statistical Area","Youngstown-Warren, OH-PA Combined Statistical Area"
@@ -2308,7 +2308,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2307,Washington County,Pennsylvania,301,"208,716","Pittsburgh, PA Metropolitan Statistical Area","Pittsburgh-New Castle-Weirton, PA-OH-WV Combined Statistical Area"
 2308,Wayne County,Pennsylvania,955,"51,955",,
 2309,Westmoreland County,Pennsylvania,183,"363,395","Pittsburgh, PA Metropolitan Statistical Area","Pittsburgh-New Castle-Weirton, PA-OH-WV Combined Statistical Area"
-2310,Wyoming County,Pennsylvania,1488,"28,125","Scranton–Wilkes-Barre–Hazleton, PA Metropolitan Statistical Area",
+2310,Wyoming County,Pennsylvania,1488,"28,125","Scranton Wilkes-Barre Hazleton, PA Metropolitan Statistical Area",
 2311,York County,Pennsylvania,155,"437,846","York-Hanover, PA Metropolitan Statistical Area","Harrisburg-York-Lebanon, PA Combined Statistical Area"
 2312,Bristol County,Rhode Island,998,"49,144","Providence-Warwick, RI-MA Metropolitan Statistical Area","Boston-Worcester-Providence, MA-RI-NH-CT Combined Statistical Area"
 2313,Kent County,Rhode Island,381,"164,843","Providence-Warwick, RI-MA Metropolitan Statistical Area","Boston-Worcester-Providence, MA-RI-NH-CT Combined Statistical Area"
@@ -2428,16 +2428,16 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2427,Yankton County,South Dakota,1705,"22,603","Yankton, SD Micropolitan Statistical Area",
 2428,Ziebach County,South Dakota,2988,"2,869",,
 2429,Anderson County,Tennessee,727,"75,416","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
-2430,Bedford County,Tennessee,1056,"45,573","Shelbyville, TN Micropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2430,Bedford County,Tennessee,1056,"45,573","Shelbyville, TN Micropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2431,Benton County,Tennessee,2021,"16,361",,
 2432,Bledsoe County,Tennessee,2251,"12,792",,
 2433,Blount County,Tennessee,493,"124,177","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
 2434,Bradley County,Tennessee,580,"101,134","Cleveland, TN Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
 2435,Campbell County,Tennessee,1168,"40,420","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
-2436,Cannon County,Tennessee,2186,"13,811","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2436,Cannon County,Tennessee,2186,"13,811","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2437,Carroll County,Tennessee,1475,"28,390",,
 2438,Carter County,Tennessee,888,"57,355","Johnson City, TN Metropolitan Statistical Area","Johnson City-Kingsport-Bristol, TN-VA Combined Statistical Area"
-2439,Cheatham County,Tennessee,1191,"39,271","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2439,Cheatham County,Tennessee,1191,"39,271","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2440,Chester County,Tennessee,1967,"17,171","Jackson, TN Metropolitan Statistical Area",
 2441,Claiborne County,Tennessee,1395,"31,736",,
 2442,Clay County,Tennessee,2611,"7,840",,
@@ -2445,10 +2445,10 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2444,Coffee County,Tennessee,935,"53,222","Tullahoma-Manchester, TN Micropolitan Statistical Area",
 2445,Crockett County,Tennessee,2130,"14,623","Jackson, TN Metropolitan Statistical Area",
 2446,Cumberland County,Tennessee,890,"57,029","Crossville, TN Micropolitan Statistical Area",
-2447,Davidson County,Tennessee,95,"648,295","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2447,Davidson County,Tennessee,95,"648,295","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2448,Decatur County,Tennessee,2319,"11,673",,
 2449,DeKalb County,Tennessee,1879,"18,901",,
-2450,Dickson County,Tennessee,973,"50,381","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2450,Dickson County,Tennessee,973,"50,381","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2451,Dyer County,Tennessee,1210,"38,255","Dyersburg, TN Micropolitan Statistical Area",
 2452,Fayette County,Tennessee,1206,"38,659","Memphis, TN-MS-AR Metropolitan Statistical Area","Memphis-Forrest City, TN-MS-AR Combined Statistical Area"
 2453,Fentress County,Tennessee,1923,"17,940",,
@@ -2467,7 +2467,7 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2466,Haywood County,Tennessee,1909,"18,240",,
 2467,Henderson County,Tennessee,1493,"28,023",,
 2468,Henry County,Tennessee,1382,"32,341","Paris, TN Micropolitan Statistical Area",
-2469,Hickman County,Tennessee,1635,"24,170","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2469,Hickman County,Tennessee,1635,"24,170","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2470,Houston County,Tennessee,2571,"8,413",,
 2471,Humphreys County,Tennessee,1908,"18,275",,
 2472,Jackson County,Tennessee,2329,"11,441","Cookeville, TN Micropolitan Statistical Area",
@@ -2476,17 +2476,17 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2475,Knox County,Tennessee,152,"441,311","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
 2476,Lake County,Tennessee,2628,"7,690",,
 2477,Lauderdale County,Tennessee,1503,"27,718",,
-2478,Lawrence County,Tennessee,1127,"42,086","Lawrenceburg, TN Micropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2478,Lawrence County,Tennessee,1127,"42,086","Lawrenceburg, TN Micropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2479,Lewis County,Tennessee,2303,"11,896",,
 2480,Lincoln County,Tennessee,1338,"33,503",,
 2481,Loudon County,Tennessee,985,"49,793","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
 2482,McMinn County,Tennessee,948,"52,416","Athens, TN Micropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
 2483,McNairy County,Tennessee,1556,"26,180",,
-2484,Macon County,Tennessee,1711,"22,498","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2484,Macon County,Tennessee,1711,"22,498","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2485,Madison County,Tennessee,594,"98,656","Jackson, TN Metropolitan Statistical Area",
 2486,Marion County,Tennessee,1478,"28,291","Chattanooga, TN-GA Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
-2487,Marshall County,Tennessee,1413,"30,883","Lewisburg, TN Micropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
-2488,Maury County,Tennessee,675,"81,990","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2487,Marshall County,Tennessee,1413,"30,883","Lewisburg, TN Micropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
+2488,Maury County,Tennessee,675,"81,990","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2489,Meigs County,Tennessee,2317,"11,698",,
 2490,Monroe County,Tennessee,1064,"45,133",,
 2491,Montgomery County,Tennessee,343,"184,468","Clarksville, TN-KY Metropolitan Statistical Area",
@@ -2500,18 +2500,18 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2499,Putnam County,Tennessee,742,"73,229","Cookeville, TN Micropolitan Statistical Area",
 2500,Rhea County,Tennessee,1383,"32,247","Dayton, TN Micropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
 2501,Roane County,Tennessee,930,"53,469","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
-2502,Robertson County,Tennessee,788,"66,931","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
-2503,Rutherford County,Tennessee,242,"274,454","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2502,Robertson County,Tennessee,788,"66,931","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
+2503,Rutherford County,Tennessee,242,"274,454","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2504,Scott County,Tennessee,1725,"22,173",,
 2505,Sequatchie County,Tennessee,2143,"14,423","Chattanooga, TN-GA Metropolitan Statistical Area","Chattanooga-Cleveland-Dalton, TN-GA-AL Combined Statistical Area"
 2506,Sevier County,Tennessee,626,"92,512","Sevierville, TN Micropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
 2507,Shelby County,Tennessee,50,"940,764","Memphis, TN-MS-AR Metropolitan Statistical Area","Memphis-Forrest City, TN-MS-AR Combined Statistical Area"
-2508,Smith County,Tennessee,1869,"19,102","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2508,Smith County,Tennessee,1869,"19,102","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2509,Stewart County,Tennessee,2224,"13,297",,
 2510,Sullivan County,Tennessee,401,"156,786","Kingsport-Bristol-Bristol, TN-VA Metropolitan Statistical Area","Johnson City-Kingsport-Bristol, TN-VA Combined Statistical Area"
-2511,Sumner County,Tennessee,377,"166,123","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2511,Sumner County,Tennessee,377,"166,123","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2512,Tipton County,Tennessee,843,"61,705","Memphis, TN-MS-AR Metropolitan Statistical Area","Memphis-Forrest City, TN-MS-AR Combined Statistical Area"
-2513,Trousdale County,Tennessee,2617,"7,795","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2513,Trousdale County,Tennessee,2617,"7,795","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2514,Unicoi County,Tennessee,1910,"18,235","Johnson City, TN Metropolitan Statistical Area","Johnson City-Kingsport-Bristol, TN-VA Combined Statistical Area"
 2515,Union County,Tennessee,1868,"19,127","Knoxville, TN Metropolitan Statistical Area","Knoxville-Morristown-Sevierville, TN Combined Statistical Area"
 2516,Van Buren County,Tennessee,2793,"5,628",,
@@ -2520,8 +2520,8 @@ SNo,County or equivalent,State or district,Rank,Population,Core Based Statistica
 2519,Wayne County,Tennessee,1982,"16,996",,
 2520,Weakley County,Tennessee,1305,"34,793","Martin, TN Micropolitan Statistical Area","Martin-Union City, TN-KY Combined Statistical Area"
 2521,White County,Tennessee,1558,"26,082",,
-2522,Williamson County,Tennessee,330,"192,911","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
-2523,Wilson County,Tennessee,511,"118,961","Nashville-Davidson–Murfreesboro–Franklin, TN Metropolitan Statistical Area","Nashville-Davidson–Murfreesboro, TN Combined Statistical Area"
+2522,Williamson County,Tennessee,330,"192,911","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
+2523,Wilson County,Tennessee,511,"118,961","Nashville-Davidson Murfreesboro Franklin, TN Metropolitan Statistical Area","Nashville-Davidson Murfreesboro, TN Combined Statistical Area"
 2524,Anderson County,Texas,880,"58,190","Palestine, TX Micropolitan Statistical Area",
 2525,Andrews County,Texas,2038,"16,117","Andrews, TX Micropolitan Statistical Area",
 2526,Angelina County,Texas,650,"87,597","Lufkin, TX Micropolitan Statistical Area",
