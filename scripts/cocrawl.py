@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-from base64 import b64encode 
+from base64 import b64encode
 
 
 bb = b"r\x8b\xa7\xb7*\x1f~'\x1e"
-base = 'http://www.' + b64encode(bb).decode() + '.com'
+base = 'http://www.' + b64encode(bb).decode() + '.org'
 
 w = BeautifulSoup(requests.get(base).text, 'html5lib')
 x = w.findAll('div', {'class': 'browse-by-office'})[0].findAll('a')
@@ -17,7 +17,7 @@ for a in x:
     sublinks[a['href'][1:-1]] = base + a['href']
 
 
-sublinks = {'airport': sublinks['airport']}  # TODO
+# sublinks = {'airport': sublinks['airport']}  # TODO
 
 for cat in sublinks:
     res[cat] = {}
@@ -27,6 +27,7 @@ for cat in sublinks:
     for statelink in states:
         sublinks[cat].append(statelink['href'])
         res[cat][statelink['href'][1:-1]] = {}
+
 
 for cat in sublinks:
     l = sublinks[cat]
@@ -39,7 +40,6 @@ for cat in sublinks:
         for countylink in counties:
             sublinks[cat][statelink].append(countylink['href'])
             res[cat][statelink[1:-1]][countylink['href'][1:-1]] = {}
-        break
 
 
 span_properties = ['streetAddress', 'addressLocality', 'addressRegion', 'postalCode']
