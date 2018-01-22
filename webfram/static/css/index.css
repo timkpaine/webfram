@@ -5,6 +5,7 @@ body {
     font-family:"Open Sans", Arial;
     overflow: scroll;
     min-width:900px;
+    background-color: #333;
 }
 
 div.header {
