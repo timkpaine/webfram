@@ -60,5 +60,4 @@ def read_state(f):
         for row in c:
             row['state'] = STATES[row['state']]
             ret[row['state']].append(row)
-    print(ret)
     return ret
