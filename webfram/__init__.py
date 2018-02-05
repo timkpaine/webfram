@@ -1,4 +1,5 @@
 import configparser
+import sys
 import os
 import ujson
 from flask import Flask, render_template, redirect
@@ -8,13 +9,18 @@ app = Flask(__name__, static_url_path='/static')
 
 
 def main():
+    sites_allowed = sys.argv[1:]
+
     sites = {}
     states = {}
     for site in os.listdir('sites'):
-        c = configparser.ConfigParser()
-        c.read('./sites/%s/%s.cfg' % (site, site))
-        sites[site] = c
-        states[site] = read_state('./sites/%s/states.csv' % site)
+        if sites_allowed and site not in sites_allowed:
+            continue
+        else:
+            c = configparser.ConfigParser()
+            c.read('./sites/%s/%s.cfg' % (site, site))
+            sites[site] = c
+            states[site] = read_state('./sites/%s/states.csv' % site)
 
     @app.route('/<site>')
     @app.route('/<site>/')
