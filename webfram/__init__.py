@@ -1,7 +1,8 @@
 import configparser
 import sys
 import os
-import ujson
+import json
+# import ujson
 from flask import Flask, render_template, redirect
 from .loader import read_state
 
@@ -27,13 +28,15 @@ def main():
     def site(site='test'):
         c = sites[site]
         render = {}
-        imports = ujson.loads(c.get('main', 'imports'))
-        blocks = ujson.loads(c.get('main', 'blocks'))
+        imports = json.loads(c.get('main', 'imports'))
+        blocks = json.loads(c.get('main', 'blocks'))
 
         render['site'] = site
         render['imports'] = imports
         render['blocks'] = blocks
         render['title'] = c.get('main', 'title')
+        render['name'] = c.get('main', 'name')
+        render['keywords'] = c.get('main', 'keywords')
         render['favicon'] = c.get('main', 'favicon')
 
         return render_template("index.html", **render)

@@ -52,9 +52,10 @@
     <base href="{{ site }}"/>
     <div class="header">
         <img class="logo" src='/static/img/logo.svg'>
-        <a href="#" ><h2 class="title">{{ title }}</h2></a>
+        <a href="#" ><h2 class="title">{{ name }}</h2></a>
         <img class="navicon" src='/static/img/navicon.svg' />
     </div>
+
     <div class="body">
         {% for block in blocks %}
         {% if block['background'] %}
@@ -67,19 +68,37 @@
         {% endif %}
             <div class="base {{ block['class'] }}">
             <h2>{{ block['title'] }}</h2>
+
             <span>{{ block['span1'] }}</span>
+
+
             {% if block['subtitle'] %}
             <div class='subsection'>
                 <h4>{{ block['subtitle'] }}</h4>
-                <span>{{ block['span2'] }}
+                <span>{{ block['span2'] }}</span>
+                <span>{{ block['span3'] }}</span>
             </div>
+            {% else %}
+            <span>{{ block['span2'] }}</span>
+            <span>{{ block['span3'] }}</span>
             {% endif %}
+
             {% if block['searchtext'] %}
             <div class='searchsection'>
                 <input class="searchbox" type='text' placeholder="{{ block['searchtext'] }}" />
                 <button class="searchbutton" >SEARCH</button>
             </div>
             {% endif %}
+            {% if block['browseby'] %}
+                <div class='list'>
+                <ul>
+                    {% for item in block['browseby'] %}
+                    <li> <a href="./{{ item }}/" title="{{item}}"> {{item}} </a> </li>
+                    {% endfor %}
+                </ul>
+                </div>
+            {% endif %}
+
             {% if block['statelist'] %}
             <div class='statelist'>
                 <ul>
@@ -138,12 +157,13 @@
                 </ul>
             </div>
             {% endif %}
+
             </div>
         </div>
         {% endfor %}
     </div>
     <div class="footer">
-        <a href="#" class="title"><h2 class="link">{{ title }}</h2></a>
+        <a href="#" class="title"><h2 class="link">{{ name }}</h2></a>
         <div class='links'>
             <a href="#" ><h2 class="link">About</h2></a>
             <a href="#" ><h2 class="link">Privacy Policy</h2></a>

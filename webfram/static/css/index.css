@@ -152,10 +152,22 @@ div.section button.searchbutton:hover {
     color:white;
 }
 
+div.section div.list,
 div.section div.statelist {
     display:flex;
     width:100%;
 }
+
+div.section div.list ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-position: inside;
+    height: 400px;
+    width: 50%;
+    margin:auto;
+}
+
 div.section div.statelist ul{
     display: flex;
     flex-direction: column;
@@ -163,6 +175,14 @@ div.section div.statelist ul{
     list-style-position: inside;
     height: 400px;
     width:100%;
+    margin:auto;
+}
+
+div.section div.list ul li{
+   display: inline-block;
+   width:100%;
+   margin-top:5px;
+   text-align: center;
 }
 
 div.section div.statelist ul li{
@@ -171,12 +191,30 @@ div.section div.statelist ul li{
    width:33%;
 }
 
+div.section div.list ul li a{
+   /*padding-left:20px;*/
+   width:100%;
+   font-size:17px;
+   color: rgb(255, 255, 255);
+   text-decoration:none;
+}
+
+div.section div.list ul li a:hover{
+   color: rgb(200, 200, 200);
+   text-decoration:underline;
+}
+
 div.section div.statelist ul li a{
    background: transparent url('/static/img/map-marker.png') no-repeat left center;
    padding-left:20px;
    font-size:17px;
    color: rgb(22, 102, 175);
    text-decoration:none;
+}
+
+div.section div.statelist ul li a:hover{
+   color: rgb(33, 150, 220);
+   text-decoration:underline;
 }
 
 div.footer {
