@@ -54,7 +54,7 @@ for cat in sublinks:
                 for item in span_properties:
                     found = listing.findAll('span', {'itemprop': item})
                     if found:
-                        res[cat][statelink[1:-1]][countylink[1:-1]][-1][item] = found[0].text
+                        res[cat][statelink[1:-1]][countylink[1:-1]][-1][item] = found[0].text or found[0].get('content', '')
                 for item in a_properties:
                     found = listing.findAll('a', {'itemprop': item})
                     if found:
