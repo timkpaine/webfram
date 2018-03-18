@@ -73,15 +73,36 @@
 
 
             {% if block['subtitle'] %}
-            <div class='subsection'>
-                <h4>{{ block['subtitle'] }}</h4>
-                <span>{{ block['span2'] }}</span>
-                <span>{{ block['span3'] }}</span>
-            </div>
+                <div class='subsection'>
+                    <h4>{{ block['subtitle'] }}</h4>
+
+                    {% if block['span2'] %}
+                        <span>{{ block['span2'] }}</span>
+                    {% endif %}
+
+                    {% if block['span3'] %}
+                        <span>{{ block['span3'] }}</span>
+                    {% endif %}
+
+                </div>
+
             {% else %}
-            <span>{{ block['span2'] }}</span>
-            <span>{{ block['span3'] }}</span>
+
+                {% if block['span2'] %}
+                    <span>{{ block['span2'] }}</span>
+                {% endif %}
+
+                {% if block['span3'] %}
+                    <span>{{ block['span3'] }}</span>
+                {% endif %}
+
             {% endif %}
+
+
+            {% if block['span4'] %}
+                <span>{{ block['span4'] }}</span>
+            {% endif %}
+
 
             {% if block['searchtext'] %}
             <div class='searchsection'>
@@ -89,15 +110,18 @@
                 <button class="searchbutton" >SEARCH</button>
             </div>
             {% endif %}
+
+
             {% if block['browseby'] %}
                 <div class='list'>
                 <ul>
                     {% for item in block['browseby'] %}
-                    <li> <a href="./{{ item }}/" title="{{item}}"> {{item}} </a> </li>
+                    <li> <a href="{{ item }}" title="{{item}}"> {{item}} </a> </li>
                     {% endfor %}
                 </ul>
                 </div>
             {% endif %}
+
 
             {% if block['statelist'] %}
             <div class='statelist'>
