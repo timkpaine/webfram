@@ -118,6 +118,14 @@ div.section h2{
     width: 100%;
 }
 
+div.section h3{
+    padding-left:10px;
+    padding-top:10px;
+    font-size:35px;
+    text-align: center;
+    width: 100%;
+}
+
 div.section span{
     margin:10px;
     font-size:25px;
