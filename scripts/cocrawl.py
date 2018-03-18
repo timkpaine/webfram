@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from base64 import b64encode
+import pandas as pd
 
 
 bb = b"r\x8b\xa7\xb7*\x1f~'\x1e"
@@ -59,5 +60,21 @@ for cat in sublinks:
                     found = listing.findAll('a', {'itemprop': item})
                     if found:
                         res[cat][statelink[1:-1]][countylink[1:-1]][-1][item] = found[0].text
+
+
+for item in res:
+    dat = res[item]
+    data = []
+
+    for k1 in dat:
+        for k2 in dat[k1]:
+            for k3 in dat[k1][k2]:
+                k3['state'] = k1.split('-')[0]
+                k3['county'] = k2.split('-')[1]
+                data.append(k3)
+
+    df = pd.DataFrame(data)
+    df.to_csv(os.path.join('data_out', item))
+
 
 print(res)
