@@ -10,11 +10,10 @@ app = Flask(__name__, static_url_path='/static')
 
 
 def main():
-    sites_allowed = sys.argv[1:]
-
+    sites_allowed = sys.argv[1:] if sys.argv[1:] != ['webfram:app'] else sys.argv[2:]
     sites = {}
     states = {}
-    for site in os.listdir('sites'):
+    for site in os.listdir('./sites'):
         if sites_allowed and site not in sites_allowed:
             continue
         else:
