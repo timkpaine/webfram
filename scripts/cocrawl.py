@@ -1,3 +1,4 @@
+import os.path
 import requests
 from bs4 import BeautifulSoup
 from base64 import b64encode
@@ -17,7 +18,7 @@ sublinks = {}
 for a in x:
     sublinks[a['href'][1:-1]] = base + a['href']
 
-
+print('stage1')
 # sublinks = {'airport': sublinks['airport']}  # TODO
 
 for cat in sublinks:
@@ -29,6 +30,7 @@ for cat in sublinks:
         sublinks[cat].append(statelink['href'])
         res[cat][statelink['href'][1:-1]] = {}
 
+print('stage2')
 
 for cat in sublinks:
     l = sublinks[cat]
@@ -42,6 +44,7 @@ for cat in sublinks:
             sublinks[cat][statelink].append(countylink['href'])
             res[cat][statelink[1:-1]][countylink['href'][1:-1]] = {}
 
+print('stage3')
 
 span_properties = ['streetAddress', 'addressLocality', 'addressRegion', 'postalCode']
 a_properties = ['telephone']
@@ -52,6 +55,7 @@ for cat in sublinks:
             listings = BeautifulSoup(requests.get(base + countylink).text, 'html5lib').findAll('p', {'class': 'condensed-listing'})
             for listing in listings:
                 res[cat][statelink[1:-1]][countylink[1:-1]].append({})
+                res[cat][statelink[1:-1]][countylink[1:-1]][-1]['name'] = listing.findAll('a', {'class': 'name'})[0].text
                 for item in span_properties:
                     found = listing.findAll('span', {'itemprop': item})
                     if found:
@@ -74,7 +78,6 @@ for item in res:
                 data.append(k3)
 
     df = pd.DataFrame(data)
-    df.to_csv(os.path.join('data_out', item))
+    df.to_csv(os.path.join('data_out', item), index=False)
 
-
-print(res)
+print('stage4')
