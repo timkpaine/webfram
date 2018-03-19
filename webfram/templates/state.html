@@ -48,10 +48,10 @@
 <body>
     <div class="header">
         <img class="logo" src='/static/img/logo.svg'>
-        <a href="#" ><h2 class="title">{{ title }}</h2></a>
+        <a href="#" ><h2 class="title">{{ name }}</h2></a>
         <img class="navicon" src='/static/img/navicon.svg' />
     </div>
-    <div class="body">
+    <div class="listings">
         <ul>
             {% for item in vals %}
             <li><div>
@@ -66,7 +66,7 @@
         </ul>
     </div>
     <div class="footer">
-        <a href="#" class="title"><h2 class="link">{{ title }}</h2></a>
+        <a href="#" class="title"><h2 class="link">{{ name }}</h2></a>
         <div class='links'>
             <a href="#" ><h2 class="link">About</h2></a>
             <a href="#" ><h2 class="link">Privacy Policy</h2></a>

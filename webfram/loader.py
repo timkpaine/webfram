@@ -64,6 +64,7 @@ def read_state(f):
         with open(f, 'r') as fp:
             c = csv.DictReader(fp)
             for row in c:
-                row['state'] = STATES[row['state']]
-                ret[row['state']].append(row)
+                if row['state'] in STATES:
+                    row['state'] = STATES[row['state'].upper()]
+                    ret[row['state']].append(row)
     return ret

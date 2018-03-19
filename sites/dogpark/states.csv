@@ -1,9 +1,1498 @@
-name,address,state,county,zip,phone,email
-test,11 test ave,NJ,union,07974,123467890,test@test.com
-test2,22 test ave,NJ,union,07974,123467890,test@test.com
-test3,33 test ave,NY,test,10001,123467890,test@test.com
-test4,44 test ave,NY,test,10025,123467890,test@test.com
-test5,55 test ave,NY,test,10023,123467890,test@test.com
-test6,66 test ave,CT,test,12345,123467890,test@test.com
-test7,77 test ave,CT,test,12345,123467890,test@test.com
-
+name,address,state,county,zip,state2,streetAddress,phone
+0,Daphne,AL,baldwin,36526,al,,251-621-3703
+1,Fairhope,AL,baldwin,36532,al,,251-990-0174
+2,Gulf Shores,AL,baldwin,36542,al,,251-968-2431
+3,Orange Beach,AL,baldwin,36561,al,,251-981-6979
+4,Fultondale,AL,jefferson,35068,al,,205-841-4481
+5,Hoover,AL,jefferson,35216,al,,205-444-7510
+6,Birmingham,AL,jefferson,35211,al,,205-202-6043
+7,Madison,AL,madison,35758,al,,256-564-8026
+8,Madison,AL,madison,35758,al,,
+9,Madison,AL,madison,35758,al,,256-772-2553
+10,Mobile,AL,mobile,36695,al,,
+11,Birmingham,AL,shelby,35242,al,,205-397-3647
+12,Tuscaloosa,AL,tuscaloosa,35406,al,,205-361-2258
+13,Anchorage,AK,anchorage,99567,ak,,907-390-7015
+14,Anchorage,AK,anchorage,99502,ak,,
+15,Anchorage,AK,anchorage,99508,ak,,907-343-8119
+16,Fairbanks,AK,fairbanks,99701,ak,,
+17,Peoria,AZ,maricopa,85383,az,,
+18,Gilbert,AZ,maricopa,85296,az,,480-503-6200
+19,Mesa,AZ,maricopa,85204,az,,480-644-4271
+20,Fountain Hills,AZ,maricopa,85268,az,,480-816-5151
+21,El Mirage,AZ,maricopa,85335,az,,623-876-2977
+22,Fountain Hills,AZ,maricopa,85268,az,,480-816-5151
+23,Phoenix,AZ,maricopa,85003,az,,623-850-4716
+24,Goodyear,AZ,maricopa,85338,az,,623-882-7525
+25,Phoenix,AZ,maricopa,85022,az,,602-262-6696
+26,Phoenix,AZ,maricopa,85022,az,,
+27,Scottsdale,AZ,maricopa,85257,az,,
+28,Tempe,AZ,maricopa,85281,az,,480-350-5200
+29,Tempe,AZ,maricopa,85281,az,,480-350-5200
+30,Chandler,AZ,maricopa,85249,az,,480-782-2754
+31,Phoenix,AZ,maricopa,85048,az,,602-262-6971
+32,Queen Creek,AZ,maricopa,85142,az,,480-358-3770
+33,Mesa,AZ,maricopa,85215,az,,
+34,Phoenix,AZ,maricopa,85048,az,,602-495-5500
+35,Goodyear,AZ,maricopa,85338,az,,623-826-0241
+36,Peoria,AZ,maricopa,85345,az,,623-764-0407
+37,Lake Havasu,AZ,mohave,86403,az,,928-453-8686
+38,Tucson,AZ,pima,85718,az,,
+39,Tucson,AZ,pima,85743,az,,520-572-5601
+40,Tucson,AZ,pima,85705,az,,520-791-5909
+41,Tucson,AZ,pima,85716,az,,520-791-3206
+42,Marana,AZ,pima,85658,az,,
+43,Tucson,AZ,pima,85705,az,,520-791-5909
+44,Tucson,AZ,pima,85718,az,,
+45,Casa Grande,AZ,pinal,85122,az,,
+46,Cordes Lakes,AZ,yavapai,86333,az,,
+47,Sedona,AZ,yavapai,86336,az,,928-203-5057
+48,Yuma,AZ,yuma,85365,az,,928-373-5200
+49,Yuma,AZ,yuma,85365,az,,928-373-5000
+50,Mountain Home,AR,baxter,72653,ar,,
+51,Rogers,AR,benton,72758,ar,,
+52,Conway,AR,faulkner,72032,ar,,
+53,Little Rock,AR,pulaski,72207,ar,,
+54,Benton,AR,saline,72015,ar,,
+55,Fort Smith,AR,sebastian,72903,ar,,479-784-2368
+56,Fayetteville,AR,washington,72704,ar,,
+57,Alameda,CA,alameda,94501,ca,,
+58,Alameda,CA,alameda,94501,ca,,510-748-4568
+59,Alameda,CA,alameda,94501,ca,,510-397-1133
+60,Alameda,CA,alameda,94501,ca,,
+61,Dublin,CA,alameda,94568,ca,,
+62,Albany,CA,alameda,94706,ca,,510-981-6700
+63,Castro Valley,CA,alameda,94552,ca,,510-881-6700
+64,Livermore,CA,alameda,94551,ca,,
+65,Fremont,CA,alameda,94538,ca,,510-790-5541
+66,Dublin,CA,alameda,94568,ca,,
+67,Union,CA,alameda,94587,ca,,510-471-3232
+68,Hayward,CA,alameda,94545,ca,,
+69,Oakland,CA,alameda,94618,ca,,
+70,Oakland,CA,alameda,94602,ca,,510-238-3187
+71,Alameda,CA,alameda,94501,ca,,
+72,Oakland,CA,alameda,94609,ca,,
+73,Hayward,CA,alameda,94541,ca,,
+74,Oakland,CA,alameda,94611,ca,,
+75,San Leandro,CA,alameda,94577,ca,,510-577-3971
+76,Oakland,CA,alameda,94607,ca,,510-238-7275
+77,Chico,CA,butte,95926,ca,,530-895-4721
+78,Paradise,CA,butte,95969,ca,,
+79,Oroville,CA,butte,95965,ca,,530-533-2011
+80,Concord,CA,contra,94519,ca,,925-671-3479
+81,El Cerrito,CA,contra,94530,ca,,510-215-4369
+82,Clayton,CA,contra,94517,ca,,
+83,San Ramon,CA,contra,94583,ca,,
+84,Discovery Bay,CA,contra,94505,ca,,925-392-4575
+85,Concord,CA,contra,94520,ca,,925-692-2144
+86,Danville,CA,contra,94526,ca,,925-314-3400
+87,Hercules,CA,contra,94547,ca,,
+88,Pittsburg,CA,contra,94565,ca,,
+89,Richmond,CA,contra,94801,ca,,
+90,Antioch,CA,contra,94509,ca,,
+91,Richmond,CA,contra,94804,ca,,888-505-2998
+92,Pinole,CA,contra,94564,ca,,
+93,Concord,CA,contra,94521,ca,,925-671-3404
+94,South Lake Tahoe,CA,el,96150,ca,,530-542-6056
+95,Fresno,CA,fresno,93722,ca,,559-621-2900
+96,Fresno,CA,fresno,93726,ca,,559-233-8708
+97,Eureka,CA,humboldt,95501,ca,,707-599-0371
+98,Fortuna,CA,humboldt,95540,ca,,707-725-3959
+99,Bishop,CA,inyo,93514,ca,,
+100,Ridgecrest,CA,kern,93555,ca,,
+101,Bakersfield,CA,kern,93308,ca,,
+102,Bakersfield,CA,kern,93306,ca,,661-326-3000
+103,Lemoore,CA,kings,93245,ca,,
+104,Pasadena,CA,los,91107,ca,,626-744-7195
+105,Arcadia,CA,los,91006,ca,,626-574-5113
+106,Culver,CA,los,90230,ca,,310-390-9114
+107,Santa Clarita,CA,los,91350,ca,,
+108,West Covina,CA,los,91791,ca,,
+109,Glendora,CA,los,91740,ca,,
+110,Diamond Bar,CA,los,91765,ca,,909-839-7060
+111,Diamond Bar,CA,los,91765,ca,,909-839-7060
+112,El Segundo,CA,los,90245,ca,,310-524-2300
+113,Bellflower,CA,los,90706,ca,,562-804-1424
+114,Los Angeles,CA,los,90027,ca,,323-913-4688
+115,Los Angeles,CA,los,90042,ca,,323-255-0370
+116,Lakewood,CA,los,90713,ca,,562-803-3301
+117,Santa Monica,CA,los,90405,ca,,310-396-1763
+118,Long Beach,CA,los,90813,ca,,562-570-7387
+119,Los Angeles,CA,los,90731,ca,,310-514-0338
+120,Los Angeles,CA,los,90012,ca,,323-644-3946
+121,Lawndale,CA,los,90260,ca,,
+122,Long Beach,CA,los,90803,ca,,562-570-3100
+123,Los Angeles,CA,los,90015,ca,,213-765-6844
+124,Novato,CA,marin,94945,ca,,415-899-8200
+125,San Rafael,CA,marin,94903,ca,,415-479-2838
+126,Mill Valley,CA,marin,94941,ca,,
+127,San Anselmo,CA,marin,94960,ca,,415-258-4640
+128,Sausalito,CA,marin,94965,ca,,415-846-8323
+129,Fort Bragg,CA,mendocino,95437,ca,,
+130,Willits,CA,mendocino,95490,ca,,
+131,Ukiah,CA,mendocino,95482,ca,,707-463-6231
+132,Mendocino,CA,mendocino,95460,ca,,707-937-4133
+133,Merced,CA,merced,95348,ca,,
+134,Monterey,CA,monterey,93940,ca,,831-646-3860
+135,Marina,CA,monterey,93933,ca,,831-883-3150
+136,Seaside,CA,monterey,93955,ca,,
+137,American Canyon,CA,napa,94503,ca,,
+138,Napa,CA,napa,94558,ca,,707-257-9529
+139,Calistoga,CA,napa,94515,ca,,707-303-0010
+140,Grass Valley,CA,nevada,95945,ca,,530-273-9268
+141,Truckee,CA,nevada,96161,ca,,530-587-8113
+142,Los Alamitos,CA,orange,90720,ca,,714-431-2527
+143,Huntington Beach,CA,orange,92647,ca,,716-642-7962
+144,Newport Beach,CA,orange,92660,ca,,949-644-3309
+145,Costa Mesa,CA,orange,92626,ca,,949-733-4101
+146,Coto de Caza,CA,orange,92679,ca,,
+147,San Juan Capistrano,CA,orange,92675,ca,,
+148,Fullerton,CA,orange,92833,ca,,714-738-3330
+149,Garden Grove,CA,orange,92844,ca,,714-590-2790
+150,Huntington Beach,CA,orange,92647,ca,,714-536-5672
+151,Irvine,CA,orange,92618,ca,,949-724-7740
+152,Anaheim,CA,orange,92801,ca,,714-765-5191
+153,Mission Viejo,CA,orange,92692,ca,,949-470-3000
+154,Laguna Beach,CA,orange,92651,ca,,949-499-9243
+155,Laguna Niguel,CA,orange,92677,ca,,949-362-4300
+156,Laguna Woods,CA,orange,92637,ca,,949-639-0500
+157,Irvine,CA,orange,92618,ca,,
+158,Newport Beach,CA,orange,92660,ca,,949-644-3309
+159,Orange,CA,orange,92869,ca,,714-744-7274
+160,Rancho Santa Margarita,CA,orange,92688,ca,,949-216-9700
+161,San Clemente,CA,orange,92673,ca,,
+162,Auburn,CA,placer,95603,ca,,530-885-8461
+163,Lincoln,CA,placer,95648,ca,,
+164,Roseville,CA,placer,95747,ca,,916-772-7529
+165,Roseville,CA,placer,95661,ca,,916-774-2854
+166,Rocklin,CA,placer,95677,ca,,916-435-0196
+167,Lake Elsinore,CA,riverside,92532,ca,,800-400-2284
+168,Riverside,CA,riverside,92501,ca,,951-826-2000
+169,Cathedral,CA,riverside,92234,ca,,
+170,Corona,CA,riverside,92880,ca,,
+171,Jurupa Valley,CA,riverside,91752,ca,,
+172,Moreno Valley,CA,riverside,92555,ca,,
+173,Palm Desert,CA,riverside,92211,ca,,
+174,La Quinta,CA,riverside,92253,ca,,
+175,Indio,CA,riverside,92201,ca,,
+176,Banning,CA,riverside,92220,ca,,951-769-8524
+177,Hemet,CA,riverside,92545,ca,,
+178,Palm Desert,CA,riverside,92260,ca,,
+179,Palm Springs,CA,riverside,92262,ca,,760-323-8283
+180,Riverside,CA,riverside,92509,ca,,951-358-7387
+181,Riverside,CA,riverside,92505,ca,,
+182,La Quinta,CA,riverside,92253,ca,,
+183,Temecula,CA,riverside,92592,ca,,951-694-6444
+184,Palm Desert,CA,riverside,92211,ca,,760-346-0611
+185,Sacramento,CA,sacramento,95833,ca,,877-411-3436
+186,Citrus Heights,CA,sacramento,95610,ca,,916-725-1585
+187,Elk Grove,CA,sacramento,95624,ca,,916-405-5300
+188,Folsom,CA,sacramento,95630,ca,,916-355-7285
+189,Rancho Cordova,CA,sacramento,95670,ca,,916-369-9844
+190,Sacramento,CA,sacramento,95825,ca,,
+191,Elk Grove,CA,sacramento,95758,ca,,916-808-5200
+192,Sacramento,CA,sacramento,95832,ca,,
+193,Fair Oaks,CA,sacramento,95628,ca,,916-374-9009
+194,Sacramento,CA,sacramento,95826,ca,,
+195,Sacramento,CA,sacramento,95835,ca,,
+196,Sacramento,CA,sacramento,95838,ca,,
+197,Sacramento,CA,sacramento,95816,ca,,916-808-5200
+198,Sacramento,CA,sacramento,95827,ca,,916-368-7387
+199,Apple Valley,CA,san,92307,ca,,
+200,Highland,CA,san,92346,ca,,
+201,Upland,CA,san,91786,ca,,909-931-4280
+202,Big Bear Lake,CA,san,92315,ca,,909-866-9700
+203,Rancho Cucamonga,CA,san,91739,ca,,909-477-2765
+204,Crestline,CA,san,92325,ca,,909-338-2233
+205,Loma Linda,CA,san,92354,ca,,
+206,Ontario,CA,san,91762,ca,,
+207,Chino,CA,san,91708,ca,,909-597-6366
+208,Redlands,CA,san,92374,ca,,909-633-1008
+209,Ontario,CA,san,91764,ca,,909-946-6921
+210,Needles,CA,san,92363,ca,,
+211,Carlsbad,CA,san,92010,ca,,760-434-2824
+212,Poway,CA,san,92064,ca,,760-591-4116
+213,San Diego,CA,san,92117,ca,,
+214,San Diego,CA,san,92109,ca,,619-221-8901
+215,Coronado,CA,san,92118,ca,,619-522-7342
+216,San Diego,CA,san,92122,ca,,
+217,Encinitas,CA,san,92024,ca,,
+218,San Diego,CA,san,92102,ca,,619-268-4804
+219,Encinitas,CA,san,92024,ca,,
+220,San Diego,CA,san,92107,ca,,619-224-2278
+221,Escondido,CA,san,92027,ca,,760-839-4691
+222,San Marcos,CA,san,92069,ca,,760-744-9000
+223,San Diego,CA,san,92103,ca,,619-325-5620
+224,San Diego,CA,san,92122,ca,,
+225,Oceanside,CA,san,92058,ca,,760-757-4357
+226,San Diego,CA,san,92109,ca,,858-581-9927
+227,Poway,CA,san,92064,ca,,858-668-4671
+228,San Diego,CA,san,92129,ca,,
+229,Santee,CA,san,92071,ca,,
+230,San Diego,CA,san,92131,ca,,858-860-5760
+231,San Francisco,CA,san,94107,ca,,
+232,San Francisco,CA,san,94132,ca,,
+233,San Francisco,CA,san,94114,ca,,415-525-4743
+234,San Francisco,CA,san,94117,ca,,
+235,San Francisco,CA,san,94114,ca,,
+236,San Francisco,CA,san,94129,ca,,415-437-0100
+237,San Francisco,CA,san,94131,ca,,415-831-5520
+238,San Francisco,CA,san,94121,ca,,415-386-2014
+239,San Francisco,CA,san,94117,ca,,415-831-2090
+240,San Francisco,CA,san,94105,ca,,
+241,San Francisco,CA,san,94103,ca,,415-242-6390
+242,San Francisco,CA,san,94112,ca,,
+243,San Francisco,CA,san,94132,ca,,650-829-3800
+244,San Francisco,CA,san,94131,ca,,415-970-8063
+245,Stockton,CA,san,95219,ca,,
+246,Lathrop,CA,san,95330,ca,,209-941-7370
+247,Tracy,CA,san,95376,ca,,209-831-6200
+248,Arroyo Grande,CA,san,93420,ca,,805-473-5474
+249,Cambria,CA,san,93428,ca,,805-927-3624
+250,San Luis Obispo,CA,san,93405,ca,,805-781-5930
+251,Arroyo Grande,CA,san,93420,ca,,805-474-0105
+252,Atascadero,CA,san,93422,ca,,805-781-5930
+253,Paso Robles,CA,san,93446,ca,,
+254,Templeton,CA,san,93465,ca,,805-239-4437
+255,Redwood,CA,san,94063,ca,,
+256,Brisbane,CA,san,94005,ca,,
+257,South San Francisco,CA,san,94080,ca,,650-829-3837
+258,Belmont,CA,san,94002,ca,,
+259,Half Moon Bay,CA,san,94019,ca,,
+260,Redwood,CA,san,94061,ca,,
+261,Pacifica,CA,san,94044,ca,,
+262,San Mateo,CA,san,94401,ca,,
+263,Redwood,CA,san,94065,ca,,650-654-6538
+264,Lompoc,CA,santa,93436,ca,,
+265,Lompoc,CA,santa,93436,ca,,
+266,Santa Maria,CA,santa,93455,ca,,805-896-2344
+267,San Jose,CA,santa,95118,ca,,
+268,San Jose,CA,santa,95110,ca,,
+269,Gilroy,CA,santa,95020,ca,,408-846-0444
+270,San Jose,CA,santa,95111,ca,,
+271,San Jose,CA,santa,95111,ca,,
+272,Sunnyvale,CA,santa,94087,ca,,
+273,Cupertino,CA,santa,95014,ca,,
+274,San Jose,CA,santa,95119,ca,,408-277-4573
+275,Morgan Hill,CA,santa,95037,ca,,408-782-2128
+276,Santa Clara,CA,santa,95050,ca,,408-615-3144
+277,San Jose,CA,santa,95124,ca,,408-794-7275
+278,San Jose,CA,santa,95116,ca,,
+279,Mountain View,CA,santa,94040,ca,,
+280,San Jose,CA,santa,95112,ca,,
+281,Aptos,CA,santa,95003,ca,,
+282,Santa Cruz,CA,santa,95062,ca,,
+283,Watsonville,CA,santa,95076,ca,,
+284,Santa Cruz,CA,santa,95060,ca,,831-420-5270
+285,Santa Cruz,CA,santa,95065,ca,,
+286,Watsonville,CA,santa,95076,ca,,831-454-7901
+287,Scotts Valley,CA,santa,95066,ca,,831-438-3251
+288,Benicia,CA,solano,94510,ca,,
+289,Vallejo,CA,solano,94591,ca,,707-704-6167
+290,Glen Ellen,CA,sonoma,95442,ca,,707-565-2041
+291,Petaluma,CA,sonoma,94954,ca,,707-778-4380
+292,Rohnert Park,CA,sonoma,94928,ca,,707-588-3456
+293,Healdsburg,CA,sonoma,95448,ca,,
+294,Modesto,CA,stanislaus,95356,ca,,209-545-1255
+295,Modesto,CA,stanislaus,95354,ca,,
+296,Oakdale,CA,stanislaus,95361,ca,,
+297,Modesto,CA,stanislaus,95350,ca,,
+298,Turlock,CA,stanislaus,95380,ca,,
+299,Yuba,CA,sutter,95991,ca,,530-329-1997
+300,Red Bluff,CA,tehama,96080,ca,,530-527-8177
+301,Reedley,CA,tulare,93654,ca,,
+302,Camarillo,CA,ventura,93010,ca,,
+303,Oxnard,CA,ventura,93036,ca,,805-385-7545
+304,Thousand Oaks,CA,ventura,91360,ca,,805-495-6471
+305,Moorpark,CA,ventura,93021,ca,,
+306,Oak Park,CA,ventura,91377,ca,,805-584-4400
+307,Oak Park,CA,ventura,91377,ca,,818-292-1303
+308,Simi Valley,CA,ventura,93065,ca,,805-584-4400
+309,Davis,CA,yolo,95616,ca,,530-757-5626
+310,Woodland,CA,yolo,95776,ca,,530-661-2000
+311,Commerce,CO,adams,80022,co,,303-289-3753
+312,Brighton,CO,adams,80601,co,,303-655-2049
+313,Northglenn,CO,adams,80233,co,,
+314,Westminster,CO,adams,80030,co,,
+315,Thornton,CO,adams,80241,co,,
+316,Aurora,CO,arapahoe,80012,co,,303-739-7160
+317,Aurora,CO,arapahoe,80015,co,,303-326-8948
+318,Denver,CO,arapahoe,80231,co,,
+319,Boulder,CO,boulder,80304,co,,303-413-7258
+320,Lafayette,CO,boulder,80026,co,,303-665-5588
+321,Longmont,CO,boulder,80503,co,,
+322,Longmont,CO,boulder,80503,co,,
+323,Louisville,CO,boulder,80027,co,,303-335-4735
+324,Boulder,CO,boulder,80304,co,,
+325,Boulder,CO,boulder,80301,co,,303-413-7258
+326,Denver,CO,denver,80212,co,,
+327,Denver,CO,denver,80238,co,,
+328,Denver,CO,denver,80223,co,,
+329,Denver,CO,denver,80206,co,,
+330,Denver,CO,denver,80205,co,,720-913-1311
+331,Denver,CO,denver,80230,co,,303-326-7103
+332,Denver,CO,denver,80202,co,,
+333,Denver,CO,denver,80238,co,,
+334,Denver,CO,denver,80238,co,,
+335,Littleton,CO,douglas,80125,co,,303-791-7275
+336,Castle Rock,CO,douglas,80104,co,,
+337,Castle Rock,CO,douglas,80108,co,,303-660-7495
+338,Vail,CO,eagle,81657,co,,970-476-0717
+339,Colorado Springs,CO,el,80920,co,,719-282-3300
+340,Colorado Springs,CO,el,80906,co,,
+341,Colorado Springs,CO,el,80906,co,,
+342,Granby,CO,grand,80446,co,,719-520-7529
+343,Lakewood,CO,jefferson,80228,co,,
+344,Golden,CO,jefferson,80401,co,,
+345,Golden,CO,jefferson,80403,co,,303-279-6034
+346,Arvada,CO,jefferson,80007,co,,303-421-3487
+347,Westminster,CO,jefferson,80005,co,,
+348,Estes Park,CO,larimer,80517,co,,
+349,Fort Collins,CO,larimer,80525,co,,970-223-1283
+350,Fort Collins,CO,larimer,80526,co,,970-221-6660
+351,Greeley,CO,weld,80634,co,,
+352,Evans,CO,weld,80620,co,,
+353,Greenwich,CT,fairfield,06830,ct,,203-622-7814
+354,New Fairfield,CT,fairfield,06812,ct,,203-312-5800
+355,Norwalk,CT,fairfield,06853,ct,,
+356,Shelton,CT,fairfield,06484,ct,,
+357,Stamford,CT,fairfield,06902,ct,,203-325-4688
+358,Trumbull,CT,fairfield,06611,ct,,
+359,Westport,CT,fairfield,06880,ct,,
+360,Bristol,CT,hartford,06010,ct,,
+361,Granby,CT,hartford,06035,ct,,
+362,Simsbury,CT,hartford,06070,ct,,860-578-4729
+363,Rocky Hill,CT,hartford,06067,ct,,860-258-2772
+364,South Windsor,CT,hartford,06074,ct,,
+365,Southington,CT,hartford,06489,ct,,
+366,Windsor,CT,hartford,06095,ct,,
+367,New Milford,CT,litchfield,06776,ct,,
+368,Cromwell,CT,middlesex,06416,ct,,
+369,Middlefield,CT,middlesex,06455,ct,,
+370,Derby,CT,new,06418,ct,,
+371,Cheshire,CT,new,06410,ct,,203-272-2743
+372,New Haven,CT,new,06511,ct,,
+373,Waterbury,CT,new,06704,ct,,
+374,Hamden,CT,new,06517,ct,,203-582-8739
+375,Southbury,CT,new,06488,ct,,
+376,New Haven,CT,new,06511,ct,,
+377,Wolcott,CT,new,06716,ct,,
+378,Colchester,CT,new,06415,ct,,860-537-7295
+379,Norwich,CT,new,06360,ct,,
+380,Wilmington,DE,new,19808,de,,
+381,Wilmington,DE,new,19805,de,,
+382,Newark,DE,new,19702,de,,610-627-9000
+383,Middletown,DE,new,19709,de,,
+384,Bear,DE,new,19701,de,,302-368-6989
+385,Washington,DC,district,20009,dc,,202-633-3038
+386,Washington,DC,district,20001,dc,,202-630-3627
+387,Washington,DC,district,20037,dc,,
+388,Washington,DC,district,20016,dc,,
+389,Washington,DC,district,20032,dc,,
+390,Washington,DC,district,20002,dc,,202-715-3879
+391,Washington,DC,district,20018,dc,,
+392,Washington,DC,district,20016,dc,,202-671-0421
+393,Washington,DC,district,20009,dc,,202-673-7647
+394,Washington,DC,district,20001,dc,,202-265-8899
+395,Washington,DC,district,20002,dc,,330-737-1364
+396,Washington,DC,district,20011,dc,,
+397,Washington,DC,district,20003,dc,,
+398,Gainesville,FL,alachua,32608,fl,,352-335-1919
+399,Gainesville,FL,alachua,32601,fl,,
+400,Macclenny,FL,baker,32063,fl,,904-259-3181
+401,Panama,FL,bay,32401,fl,,
+402,Panama City Beach,FL,bay,32413,fl,,850-236-5959
+403,Panama,FL,bay,32401,fl,,
+404,Panama City Beach,FL,bay,32413,fl,,
+405,Panama,FL,bay,32404,fl,,850-784-4065
+406,Melbourne Beach,FL,brevard,32951,fl,,321-255-4400
+407,Indialantic,FL,brevard,32903,fl,,
+408,Titusville,FL,brevard,32796,fl,,321-267-1667
+409,Satellite Beach,FL,brevard,32937,fl,,321-777-3538
+410,Parkland,FL,broward,33067,fl,,954-757-4104
+411,Pompano Beach,FL,broward,33062,fl,,954-786-4574
+412,Coral Springs,FL,broward,33065,fl,,
+413,Oakland Park,FL,broward,33309,fl,,
+414,Hollywood,FL,broward,33021,fl,,954-921-3404
+415,Davie,FL,broward,33330,fl,,954-275-8504
+416,Pembroke Pines,FL,broward,33024,fl,,954-435-6525
+417,Fort Lauderdale,FL,broward,33312,fl,,954-924-6800
+418,North Lauderdale,FL,broward,33068,fl,,
+419,North Lauderdale,FL,broward,33068,fl,,
+420,Punta Gorda,FL,charlotte,33980,fl,,
+421,Inverness,FL,citrus,34453,fl,,352-341-2275
+422,Orange Park,FL,clay,32073,fl,,
+423,Orange Park,FL,clay,32065,fl,,904-272-4545
+424,Naples,FL,collier,34102,fl,,
+425,Naples,FL,collier,34109,fl,,
+426,Atlantic Beach,FL,duval,32233,fl,,904-247-5800
+427,Jacksonville,FL,duval,32206,fl,,904-630-2489
+428,Jacksonville,FL,duval,32256,fl,,904-296-3636
+429,Jacksonville,FL,duval,32225,fl,,904-725-9800
+430,Pensacola,FL,escambia,32507,fl,,850-475-5220
+431,Spring Hill,FL,hernando,34608,fl,,
+432,Apollo Beach,FL,hillsborough,33572,fl,,
+433,Tampa,FL,hillsborough,33615,fl,,
+434,Lutz,FL,hillsborough,33548,fl,,813-635-3500
+435,Tampa,FL,hillsborough,33606,fl,,813-274-8615
+436,Thonotosassa,FL,hillsborough,33592,fl,,813-506-6600
+437,Tampa,FL,hillsborough,33606,fl,,813-864-2635
+438,Tampa,FL,hillsborough,33625,fl,,813-635-3500
+439,Seffner,FL,hillsborough,33584,fl,,
+440,Tampa,FL,hillsborough,33615,fl,,
+441,Ruskin,FL,hillsborough,33570,fl,,813-645-6411
+442,Tampa,FL,hillsborough,33614,fl,,813-635-3500
+443,Vero Beach,FL,indian,32963,fl,,772-234-2824
+444,Minneola,FL,lake,34715,fl,,
+445,Mount Dora,FL,lake,32757,fl,,352-735-7183
+446,Lady Lake,FL,lake,32159,fl,,
+447,Mount Dora,FL,lake,32757,fl,,
+448,Fort Myers,FL,lee,33905,fl,,239-533-7275
+449,Fort Myers Beach,FL,lee,33931,fl,,239-707-1874
+450,Bonita Springs,FL,lee,34134,fl,,239-533-7275
+451,Bonita Springs,FL,lee,34135,fl,,804-695-6201
+452,Estero,FL,lee,33928,fl,,239-498-0415
+453,Fort Myers,FL,lee,33913,fl,,
+454,North Fort Myers,FL,lee,33903,fl,,239-229-1627
+455,Cape Coral,FL,lee,33914,fl,,239-549-4606
+456,Tallahassee,FL,leon,32304,fl,,
+457,Tallahassee,FL,leon,32311,fl,,850-329-7698
+458,Bradenton,FL,manatee,34203,fl,,
+459,Bradenton,FL,manatee,34209,fl,,941-219-4988
+460,Ocala,FL,marion,34471,fl,,352-368-5550
+461,Ocala,FL,marion,34471,fl,,352-732-8655
+462,Miami,FL,miami,33133,fl,,
+463,Miami,FL,miami,33133,fl,,305-461-5506
+464,Miami,FL,miami,33196,fl,,305-386-0227
+465,Miami Beach,FL,miami,33139,fl,,305-535-4810
+466,Miami Springs,FL,miami,33166,fl,,
+467,Miami,FL,miami,33157,fl,,305-259-1234
+468,Miami,FL,miami,33138,fl,,305-758-9027
+469,Doral,FL,miami,33178,fl,,305-593-6600
+470,Coral Gables,FL,miami,33156,fl,,
+471,Hallandale Beach,FL,miami,33009,fl,,305-466-8008
+472,Big Pine Key,FL,monroe,33043,fl,,305-872-1367
+473,Key West,FL,monroe,33040,fl,,
+474,Marathon,FL,monroe,33050,fl,,305-743-0033
+475,Fernandina Beach,FL,nassau,32034,fl,,904-491-1511
+476,Destin,FL,okaloosa,32541,fl,,850-837-4242
+477,Fort Walton Beach,FL,okaloosa,32548,fl,,850-244-8191
+478,Niceville,FL,okaloosa,32578,fl,,
+479,Orlando,FL,orange,32828,fl,,407-277-1043
+480,Orlando,FL,orange,32818,fl,,407-532-5289
+481,Apopka,FL,orange,32703,fl,,407-703-1741
+482,Orlando,FL,orange,32803,fl,,407-246-2287
+483,Orlando,FL,orange,32828,fl,,407-658-9693
+484,Windermere,FL,orange,34786,fl,,
+485,Winter Garden,FL,orange,34787,fl,,407-656-3299
+486,St. Cloud,FL,osceola,34771,fl,,407-891-8358
+487,Kissimmee,FL,osceola,34744,fl,,407-518-2340
+488,Kissimmee,FL,osceola,34744,fl,,407-518-2501
+489,Boca Raton,FL,palm,33431,fl,,
+490,Wellington,FL,palm,33414,fl,,561-791-4005
+491,Delray Beach,FL,palm,33444,fl,,561-966-6600
+492,Lantana,FL,palm,33462,fl,,
+493,Palm Beach Gardens,FL,palm,33410,fl,,561-630-1100
+494,Boca Raton,FL,palm,33431,fl,,561-393-7821
+495,West Palm Beach,FL,palm,33413,fl,,
+496,Wellington,FL,palm,33414,fl,,
+497,West Palm Beach,FL,palm,33405,fl,,
+498,Wesley Chapel,FL,pasco,33545,fl,,
+499,Zephyrhills,FL,pasco,33542,fl,,813-780-0022
+500,New Port Richey,FL,pasco,34653,fl,,727-841-4560
+501,Wesley Chapel,FL,pasco,33545,fl,,
+502,St. Petersburg,FL,pinellas,33705,fl,,
+503,Clearwater,FL,pinellas,33764,fl,,
+504,Clearwater,FL,pinellas,33759,fl,,727-562-4800
+505,St. Petersburg,FL,pinellas,33704,fl,,
+506,St. Petersburg,FL,pinellas,33705,fl,,727-893-7441
+507,Oldsmar,FL,pinellas,34677,fl,,
+508,St. Petersburg,FL,pinellas,33701,fl,,727-893-7441
+509,Tarpon Springs,FL,pinellas,34689,fl,,
+510,Mulberry,FL,polk,33860,fl,,863-534-6911
+511,Lakeland,FL,polk,33805,fl,,
+512,Navarre,FL,santa,32566,fl,,
+513,Milton,FL,santa,32570,fl,,
+514,Sarasota,FL,sarasota,34235,fl,,941-951-5848
+515,Sarasota,FL,sarasota,34293,fl,,941-316-1346
+516,Venice,FL,sarasota,34285,fl,,941-861-9830
+517,Sanford,FL,seminole,32771,fl,,407-330-5688
+518,Casselberry,FL,seminole,32707,fl,,407-262-7725
+519,Winter Springs,FL,seminole,32708,fl,,
+520,Fort Pierce,FL,st,34982,fl,,
+521,Jensen Beach,FL,st,34957,fl,,772-462-1692
+522,Oxford,FL,sumter,34484,fl,,352-330-4446
+523,DeLand,FL,volusia,32720,fl,,386-956-4908
+524,Osteen,FL,volusia,32764,fl,,
+525,Deltona,FL,volusia,32725,fl,,
+526,Holly Hill,FL,volusia,32117,fl,,386-671-3402
+527,Port Orange,FL,volusia,32127,fl,,386-236-2150
+528,Macon,GA,bibb,31201,ga,,
+529,St. Marys,GA,camden,31558,ga,,912-882-2189
+530,Pooler,GA,chatham,31322,ga,,912-450-2271
+531,Savannah,GA,chatham,31405,ga,,912-351-3841
+532,Savannah,GA,chatham,31401,ga,,
+533,Woodstock,GA,cherokee,30188,ga,,770-517-6788
+534,Athens,GA,clarke,30605,ga,,706-613-3991
+535,Jonesboro,GA,clayton,30236,ga,,770-210-0741
+536,Marietta,GA,cobb,30008,ga,,
+537,Smyrna,GA,cobb,30080,ga,,770-431-2842
+538,Kennesaw,GA,cobb,30144,ga,,
+539,Smyrna,GA,cobb,30082,ga,,770-434-6600
+540,Acworth,GA,cobb,30101,ga,,770-528-8890
+541,Decatur,GA,dekalb,30030,ga,,
+542,Dunwoody,GA,dekalb,30338,ga,,678-234-4428
+543,Decatur,GA,dekalb,30030,ga,,404-377-7231
+544,Atlanta,GA,dekalb,30345,ga,,
+545,Decatur,GA,dekalb,30033,ga,,404-633-2817
+546,Albany,GA,dougherty,31705,ga,,
+547,Peachtree,GA,fayette,30269,ga,,770-631-2542
+548,Atlanta,GA,fulton,30363,ga,,404-888-4900
+549,Atlanta,GA,fulton,30312,ga,,
+550,College Park,GA,fulton,30349,ga,,770-306-3010
+551,Atlanta,GA,fulton,30309,ga,,404-883-2440
+552,Atlanta,GA,fulton,30309,ga,,
+553,Atlanta,GA,fulton,30313,ga,,
+554,Atlanta,GA,fulton,30308,ga,,
+555,Alpharetta,GA,fulton,30009,ga,,770-619-3235
+556,Sandy Springs,GA,fulton,30350,ga,,770-730-5600
+557,Alpharetta,GA,fulton,30004,ga,,770-772-0440
+558,Duluth,GA,gwinnett,30096,ga,,770-814-6981
+559,McDonough,GA,henry,30253,ga,,
+560,Robins AFB,GA,houston,31098,ga,,
+561,Vidalia,GA,montgomery,30474,ga,,
+562,Augusta,GA,richmond,30905,ga,,706-798-0047
+563,Thomasville,GA,thomas,31792,ga,,
+564,Ewa Beach,HI,honolulu,96706,hi,,
+565,Ewa Beach,HI,honolulu,96706,hi,,
+566,Honolulu,HI,honolulu,96825,hi,,808-396-5225
+567,Kapolei,HI,honolulu,96707,hi,,866-965-0528
+568,Kailua,HI,honolulu,96734,hi,,
+569,Honolulu,HI,honolulu,96818,hi,,
+570,Honolulu,HI,honolulu,96826,hi,,808-946-2187
+571,Honolulu,HI,honolulu,96819,hi,,808-831-7105
+572,Pearl City,HI,honolulu,96782,hi,,808-839-8670
+573,Boise,ID,ada,83706,id,,
+574,Nampa,ID,canyon,83686,id,,208-468-5858
+575,Coeur d'Alene,ID,kootenai,83815,id,,
+576,Coeur d'Alene,ID,kootenai,83814,id,,208-964-5995
+577,Moscow,ID,latah,83843,id,,
+578,Twin Falls,ID,twin,83301,id,,
+579,Urbana,IL,champaign,61802,il,,217-384-4062
+580,Oak Lawn,IL,cook,60453,il,,
+581,Chicago,IL,cook,60657,il,,312-747-2474
+582,Chicago,IL,cook,60647,il,,
+583,Chicago,IL,cook,60625,il,,
+584,Glenview,IL,cook,60025,il,,847-657-3215
+585,Forest Park,IL,cook,60130,il,,708-366-2323
+586,Evergreen Park,IL,cook,60805,il,,708-422-1551
+587,Chicago,IL,cook,60611,il,,
+588,Chicago,IL,cook,60605,il,,
+589,Hinsdale,IL,cook,60521,il,,630-789-7095
+590,Chicago,IL,cook,60601,il,,312-742-7648
+591,Chicago,IL,cook,60614,il,,773-549-2090
+592,Chicago,IL,cook,60647,il,,
+593,Forest Park,IL,cook,60130,il,,800-870-3666
+594,Chicago,IL,cook,60630,il,,773-599-1666
+595,Chicago,IL,cook,60642,il,,
+596,Melrose Park,IL,cook,60164,il,,
+597,Chicago,IL,cook,60654,il,,
+598,Chicago,IL,cook,60654,il,,312-742-7529
+599,Park Forest,IL,cook,60466,il,,708-748-2005
+600,Warrenville,IL,dupage,60555,il,,630-933-7200
+601,Glendale Heights,IL,dupage,60139,il,,
+602,Naperville,IL,dupage,60540,il,,
+603,Oak Brook,IL,dupage,60523,il,,630-933-7248
+604,Glen Ellyn,IL,dupage,60137,il,,630-858-2462
+605,Naperville,IL,dupage,60540,il,,630-848-5000
+606,Wood Dale,IL,dupage,60191,il,,630-595-9333
+607,St. Charles,IL,kane,60175,il,,630-584-0995
+608,Aurora,IL,kane,60506,il,,630-897-0516
+609,Sugar Grove,IL,kane,60554,il,,
+610,Kankakee,IL,kankakee,60901,il,,815-939-1311
+611,Waukegan,IL,lake,60085,il,,847-360-4700
+612,Lindenhurst,IL,lake,60046,il,,847-367-6640
+613,Libertyville,IL,lake,60048,il,,847-367-6640
+614,Wauconda,IL,lake,60084,il,,847-367-6640
+615,Lake Forest,IL,lake,60045,il,,
+616,Collinsville,IL,madison,62234,il,,618-346-5200
+617,Macomb,IL,mcdonough,61455,il,,
+618,Normal,IL,mclean,61761,il,,309-454-9540
+619,Chillicothe,IL,peoria,61523,il,,309-274-3409
+620,Springfield,IL,sangamon,62702,il,,
+621,Springfield,IL,sangamon,62702,il,,
+622,Belleville,IL,st,62220,il,,618-233-1416
+623,O'Fallon,IL,st,62269,il,,
+624,Scott AFB,IL,st,62225,il,,
+625,Belleville,IL,st,62221,il,,
+626,Morton,IL,tazewell,61550,il,,
+627,Danville,IL,vermilion,61832,il,,217-446-9078
+628,Plainfield,IL,will,60585,il,,
+629,Wilmington,IL,will,60481,il,,815-722-5369
+630,Frankfort,IL,will,60423,il,,815-469-9400
+631,Tinley Park,IL,will,60487,il,,815-469-3524
+632,Rockford,IL,winnebago,61101,il,,815-987-8800
+633,Lawrenceburg,IN,dearborn,47025,in,,
+634,Goshen,IN,elkhart,46526,in,,574-875-5102
+635,Carmel,IN,hamilton,46032,in,,
+636,Plainfield,IN,hendricks,46168,in,,
+637,Kokomo,IN,howard,46901,in,,765-398-9332
+638,Greenwood,IN,johnson,46143,in,,317-881-4545
+639,Franklin,IN,johnson,46131,in,,317-736-3689
+640,Munster,IN,lake,46321,in,,
+641,Crown Point,IN,lake,46307,in,,
+642,Dyer,IN,lake,46311,in,,219-865-2505
+643,Crown Point,IN,lake,46307,in,,
+644,Bloomington,IN,monroe,47408,in,,
+645,Lafayette,IN,tippecanoe,47905,in,,765-490-7509
+646,Richmond,IN,wayne,47374,in,,765-983-7275
+647,Cedar Falls,IA,black,50613,ia,,319-273-8636
+648,Cedar Falls,IA,black,50613,ia,,319-273-8636
+649,Clinton,IA,clinton,52732,ia,,
+650,Burlington,IA,des,52601,ia,,
+651,Newton,IA,jasper,50208,ia,,
+652,Iowa,IA,johnson,52245,ia,,
+653,Ely,IA,linn,52227,ia,,
+654,Marion,IA,linn,52302,ia,,319-286-5760
+655,Mount Vernon,IA,linn,52314,ia,,
+656,Red Oak,IA,montgomery,51566,ia,,712-623-9310
+657,Sutherland,IA,obrien,51058,ia,,712-448-2254
+658,Altoona,IA,polk,50009,ia,,515-967-5136
+659,Ankeny,IA,polk,50023,ia,,515-963-3571
+660,Des Moines,IA,polk,50320,ia,,515-237-1386
+661,Runnells,IA,polk,50237,ia,,515-967-6768
+662,Ames,IA,story,50010,ia,,
+663,Indianola,IA,warren,50125,ia,,515-961-9420
+664,Washington,IA,washington,52353,ia,,336-703-6400
+665,Shawnee,KS,johnson,66217,ks,,913-831-3355
+666,Shawnee,KS,johnson,66218,ks,,913-422-8242
+667,Manhattan,KS,riley,66502,ks,,
+668,Wichita,KS,sedgwick,67216,ks,,
+669,Wichita,KS,sedgwick,67216,ks,,316-286-4361
+670,Wichita,KS,sedgwick,67203,ks,,316-268-4361
+671,Topeka,KS,shawnee,66606,ks,,
+672,Florence,KY,boone,41042,ky,,
+673,Paris,KY,bourbon,40361,ky,,
+674,Fort Thomas,KY,campbell,41075,ky,,859-781-1700
+675,Newport,KY,campbell,41071,ky,,
+676,Lexington,KY,fayette,40502,ky,,859-554-3324
+677,Lexington,KY,fayette,40503,ky,,859-288-2900
+678,Louisville,KY,jefferson,40206,ky,,
+679,Louisville,KY,jefferson,40206,ky,,502-424-7181
+680,Louisville,KY,jefferson,40204,ky,,
+681,Louisville,KY,jefferson,40241,ky,,502-429-7270
+682,Richmond,KY,madison,40475,ky,,
+683,La Grange,KY,oldham,40031,ky,,
+684,Lake Charles,LA,calcasieu,70605,la,,337-502-5214
+685,Lake Charles,LA,calcasieu,70601,la,,337-990-0112
+686,Baton Rouge,LA,east,70808,la,,225-387-9523
+687,Gretna,LA,jefferson,70053,la,,
+688,Thibodaux,LA,lafourche,70301,la,,985-493-8757
+689,New Orleans,LA,orleans,70116,la,,504-589-0098
+690,New Orleans,LA,orleans,70124,la,,504-483-9377
+691,Lewiston,ME,androscoggin,04240,me,,207-783-2311
+692,Brunswick,ME,cumberland,04011,me,,207-725-6656
+693,Portland,ME,cumberland,04103,me,,
+694,Portland,ME,cumberland,04102,me,,207-756-8275
+695,Bath,ME,sagadahoc,04530,me,,
+696,Belfast,ME,waldo,04915,me,,
+697,Saco,ME,york,04072,me,,207-282-6500
+698,Kennebunk,ME,york,04043,me,,
+699,Ogunquit,ME,york,03907,me,,
+700,Gambrills,MD,anne,21054,md,,410-222-7317
+701,Fort Meade,MD,anne,20755,md,,410-519-8500
+702,Severn,MD,anne,21144,md,,
+703,Glen Burnie,MD,anne,21060,md,,410-360-4018
+704,Reisterstown,MD,baltimore,21136,md,,410-887-3630
+705,Baltimore,MD,baltimore,21224,md,,
+706,Reisterstown,MD,baltimore,21136,md,,
+707,Nottingham,MD,baltimore,21236,md,,410-256-8845
+708,Perry Hall,MD,baltimore,21128,md,,
+709,Baltimore,MD,baltimore,21230,md,,
+710,Dunkirk,MD,calvert,20754,md,,410-257-9654
+711,Prince Frederick,MD,calvert,20678,md,,
+712,Westminster,MD,carroll,21157,md,,
+713,Mount Airy,MD,carroll,21771,md,,
+714,White Plains,MD,charles,20695,md,,
+715,Frederick,MD,frederick,21701,md,,301-694-1506
+716,Bel Air,MD,harford,21014,md,,410-638-3305
+717,Fallston,MD,harford,21047,md,,
+718,Columbia,MD,howard,21044,md,,
+719,Ellicott City,MD,howard,21043,md,,410-313-4455
+720,Ellicott City,MD,howard,21043,md,,410-313-4455
+721,Bethesda,MD,montgomery,20817,md,,301-299-0024
+722,Silver Spring,MD,montgomery,20910,md,,301-650-2600
+723,Gaithersburg,MD,montgomery,20878,md,,
+724,Rockville,MD,montgomery,20850,md,,
+725,Olney,MD,montgomery,20832,md,,301-774-6255
+726,Silver Spring,MD,montgomery,20902,md,,301-905-3045
+727,Bowie,MD,prince,20716,md,,301-809-3056
+728,Greenbelt,MD,prince,20770,md,,301-345-5417
+729,Hyattsville,MD,prince,20782,md,,
+730,Stevensville,MD,queen,21666,md,,
+731,Hagerstown,MD,washington,21740,md,,
+732,Salisbury,MD,wicomico,21801,md,,410-334-3031
+733,Falmouth,MA,barnstable,02536,ma,,
+734,Mashpee,MA,barnstable,02649,ma,,508-488-9663
+735,Egremont,MA,berkshire,01230,ma,,
+736,Attleboro,MA,bristol,02703,ma,,
+737,New Bedford,MA,bristol,02740,ma,,508-997-6924
+738,Andover,MA,essex,01810,ma,,
+739,Lynn,MA,essex,01905,ma,,781-599-8875
+740,Gloucester,MA,essex,01930,ma,,
+741,Salem,MA,essex,01970,ma,,
+742,East Longmeadow,MA,hampden,01028,ma,,
+743,Holyoke,MA,hampden,01040,ma,,
+744,Granby,MA,hampshire,01033,ma,,
+745,Somerville,MA,middlesex,02145,ma,,
+746,Lowell,MA,middlesex,01850,ma,,
+747,Melrose,MA,middlesex,02176,ma,,
+748,Woburn,MA,middlesex,01801,ma,,781-933-7297
+749,Stoneham,MA,middlesex,02180,ma,,781-727-1199
+750,Somerville,MA,middlesex,02143,ma,,
+751,Arlington,MA,middlesex,02474,ma,,
+752,Cambridge,MA,middlesex,02139,ma,,617-497-4163
+753,Waltham,MA,middlesex,02452,ma,,
+754,Somerville,MA,middlesex,02145,ma,,
+755,Dedham,MA,norfolk,02026,ma,,781-751-9250
+756,Medway,MA,norfolk,02053,ma,,508-520-3035
+757,Needham,MA,norfolk,02492,ma,,
+758,Randolph,MA,norfolk,02368,ma,,
+759,Sharon,MA,norfolk,02067,ma,,781-784-8937
+760,Wrentham,MA,norfolk,02093,ma,,
+761,Plymouth,MA,plymouth,02360,ma,,508-813-0514
+762,Hingham,MA,plymouth,02043,ma,,617-727-5293
+763,Boston,MA,suffolk,02130,ma,,
+764,Boston,MA,suffolk,02116,ma,,
+765,Boston,MA,suffolk,02127,ma,,
+766,Boston,MA,suffolk,02134,ma,,
+767,Boston,MA,suffolk,02135,ma,,
+768,Boston,MA,suffolk,02122,ma,,
+769,Boston,MA,suffolk,02127,ma,,
+770,Millbury,MA,worcester,01527,ma,,
+771,Saugatuck,MI,allegan,49453,mi,,269-857-7721
+772,Hastings,MI,barry,49058,mi,,269-945-2468
+773,New Buffalo,MI,berrien,49117,mi,,
+774,Boyne,MI,charlevoix,49712,mi,,231-582-6597
+775,Davison,MI,genesee,48423,mi,,
+776,Flushing,MI,genesee,48433,mi,,810-659-5951
+777,Traverse,MI,grand,49684,mi,,231-922-4910
+778,East Lansing,MI,ingham,48823,mi,,517-319-6809
+779,Lansing,MI,ingham,48910,mi,,
+780,Kalamazoo,MI,kalamazoo,49009,mi,,269-353-4736
+781,Grand Rapids,MI,kent,49504,mi,,
+782,Comstock Park,MI,kent,49321,mi,,616-647-9449
+783,Grand Rapids,MI,kent,49503,mi,,616-456-3696
+784,Rockford,MI,kent,49341,mi,,
+785,Ada,MI,kent,49301,mi,,616-676-9464
+786,Pinckney,MI,livingston,48169,mi,,734-878-1928
+787,Howell,MI,livingston,48843,mi,,810-494-3647
+788,Warren,MI,macomb,48092,mi,,586-574-4557
+789,Mount Clemens,MI,macomb,48043,mi,,
+790,Eastpointe,MI,macomb,48021,mi,,
+791,Mount Clemens,MI,macomb,48043,mi,,586-469-6100
+792,St. Clair Shores,MI,macomb,48080,mi,,
+793,Birmingham,MI,oakland,48009,mi,,248-530-1700
+794,Ferndale,MI,oakland,48220,mi,,
+795,Novi,MI,oakland,48375,mi,,
+796,Orion,MI,oakland,48360,mi,,248-858-0906
+797,Madison Heights,MI,oakland,48071,mi,,248-858-0906
+798,Farmington Hills,MI,oakland,48336,mi,,
+799,Holland,MI,ottawa,49424,mi,,616-796-8048
+800,Holland,MI,ottawa,49424,mi,,616-396-2345
+801,Owosso,MI,shiawassee,48867,mi,,
+802,South Haven,MI,van,49090,mi,,269-639-7696
+803,Dexter,MI,washtenaw,48130,mi,,734-332-9541
+804,Ann Arbor,MI,washtenaw,48108,mi,,734-994-2780
+805,Detroit,MI,wayne,48216,mi,,313-224-1129
+806,Grosse Pointe Farms,MI,wayne,48236,mi,,
+807,Woodhaven,MI,wayne,48183,mi,,734-362-2913
+808,Coon Rapids,MN,anoka,55448,mn,,763-757-3920
+809,Fridley,MN,anoka,55432,mn,,
+810,Victoria,MN,carver,55386,mn,,
+811,Moorhead,MN,clay,56560,mn,,218-299-5340
+812,Burnsville,MN,dakota,55337,mn,,
+813,Rosemount,MN,dakota,55068,mn,,
+814,Bloomington,MN,hennepin,55438,mn,,952-563-8877
+815,Brooklyn Park,MN,hennepin,55443,mn,,763-424-8000
+816,Eden Prairie,MN,hennepin,55344,mn,,
+817,Minneapolis,MN,hennepin,55418,mn,,
+818,Minneapolis,MN,hennepin,55427,mn,,612-250-8149
+819,Champlin,MN,hennepin,55316,mn,,763-559-9000
+820,Eden Prairie,MN,hennepin,55344,mn,,952-941-2076
+821,Minneapolis,MN,hennepin,55406,mn,,612-230-6400
+822,Minneapolis,MN,hennepin,55405,mn,,
+823,Plymouth,MN,hennepin,55446,mn,,763-509-5000
+824,Austin,MN,mower,55912,mn,,
+825,St. Paul,MN,ramsey,55130,mn,,651-266-6400
+826,White Bear Lake,MN,ramsey,55110,mn,,
+827,St. Paul,MN,ramsey,55102,mn,,
+828,St. Paul,MN,ramsey,55101,mn,,651-460-0723
+829,Shoreview,MN,ramsey,55126,mn,,651-748-2500
+830,Northfield,MN,rice,55057,mn,,507-645-8935
+831,Prior Lake,MN,scott,55372,mn,,
+832,Duluth,MN,st,55807,mn,,802-228-2025
+833,Woodbury,MN,washington,55129,mn,,
+834,Cottage Grove,MN,washington,55016,mn,,651-368-8596
+835,Woodbury,MN,washington,55129,mn,,
+836,Biloxi,MS,harrison,39532,ms,,228-388-7170
+837,Starkville,MS,oktibbeha,39759,ms,,
+838,Columbia,MO,boone,65202,mo,,
+839,Columbia,MO,boone,65203,mo,,573-443-5825
+840,Fulton,MO,callaway,65251,mo,,
+841,Jefferson,MO,callaway,65101,mo,,573-634-6482
+842,Village of Four Seasons,MO,camden,65049,mo,,
+843,North Kansas,MO,clay,64116,mo,,816-513-7500
+844,Springfield,MO,greene,65807,mo,,417-864-1049
+845,Blue Springs,MO,jackson,64029,mo,,816-228-0137
+846,Independence,MO,jackson,64052,mo,,
+847,Lee's Summit,MO,jackson,64086,mo,,816-969-1500
+848,Lee's Summit,MO,jackson,64081,mo,,816-969-1500
+849,Lee's Summit,MO,jackson,64081,mo,,816-969-1500
+850,Kansas,MO,jackson,64132,mo,,816-513-7500
+851,Joplin,MO,jasper,64804,mo,,
+852,Herculaneum,MO,jefferson,63048,mo,,636-475-4447
+853,Arnold,MO,jefferson,63010,mo,,636-282-2380
+854,Fort Leonard Wood,MO,pulaski,65473,mo,,573-596-4223
+855,Cottleville,MO,st,63304,mo,,
+856,St. Charles,MO,st,63301,mo,,636-944-6001
+857,St. Louis,MO,st,63108,mo,,314-669-4293
+858,Creve Coeur,MO,st,63141,mo,,
+859,St. Louis,MO,st,63111,mo,,314-732-3361
+860,Chesterfield,MO,st,63017,mo,,636-812-9500
+861,Ballwin,MO,st,63021,mo,,
+862,St. Louis,MO,st,63104,mo,,
+863,Kirkwood,MO,st,63122,mo,,314-965-2349
+864,St. Louis,MO,st,63127,mo,,
+865,Maplewood,MO,st,63143,mo,,314-645-3600
+866,St. Louis,MO,st,63109,mo,,
+867,St. Louis,MO,st,63122,mo,,314-960-4741
+868,University,MO,st,63130,mo,,314-505-8560
+869,Ferguson,MO,st,63135,mo,,
+870,Branson,MO,taney,65616,mo,,
+871,Hollister,MO,taney,65672,mo,,417-337-8315
+872,Red Lodge,MT,carbon,59068,mt,,
+873,Bozeman,MT,gallatin,59715,mt,,
+874,Bozeman,MT,gallatin,59715,mt,,
+875,Kearney,NE,buffalo,68845,ne,,308-237-4644
+876,Fremont,NE,dodge,68025,ne,,
+877,Omaha,NE,douglas,68164,ne,,
+878,Lincoln,NE,lancaster,68506,ne,,402-441-7847
+879,Lincoln,NE,lancaster,68508,ne,,
+880,Lincoln,NE,lancaster,68521,ne,,
+881,Lincoln,NE,lancaster,68506,ne,,
+882,North Platte,NE,lincoln,69101,ne,,
+883,Columbus,NE,platte,68601,ne,,
+884,Bellevue,NE,sarpy,68123,ne,,
+885,Fallon,NV,churchill,89406,nv,,
+886,Las Vegas,NV,clark,89129,nv,,702-455-8200
+887,Boulder,NV,clark,89005,nv,,
+888,Las Vegas,NV,clark,89141,nv,,
+889,Las Vegas,NV,clark,89122,nv,,702-455-8200
+890,Las Vegas,NV,clark,89141,nv,,
+891,Las Vegas,NV,clark,89147,nv,,
+892,Henderson,NV,clark,89015,nv,,702-267-2350
+893,Las Vegas,NV,clark,89128,nv,,
+894,Las Vegas,NV,clark,89120,nv,,702-267-4230
+895,Las Vegas,NV,clark,89120,nv,,
+896,Las Vegas,NV,clark,89128,nv,,
+897,Las Vegas,NV,clark,89128,nv,,
+898,Reno,NV,washoe,89502,nv,,775-720-2001
+899,Reno,NV,washoe,89511,nv,,775-453-2667
+900,Conway,NH,carroll,03818,nh,,603-447-5955
+901,Hudson,NH,hillsborough,03051,nh,,
+902,Hooksett,NH,merrimack,03106,nh,,603-485-5322
+903,Kingston,NH,rockingham,03848,nh,,http://www.kingstondogpark.com/
+904,Hampstead,NH,rockingham,03841,nh,,
+905,Raymond,NH,rockingham,03077,nh,,603-895-3163
+906,Portsmouth,NH,rockingham,03801,nh,,
+907,Derry,NH,rockingham,03038,nh,,603-432-6100
+908,Dover,NH,strafford,03820,nh,,
+909,Fort Lee,NJ,bergen,07024,nj,,201-592-4699
+910,Lyndhurst,NJ,bergen,07071,nj,,201-939-9339
+911,Maywood,NJ,bergen,07607,nj,,
+912,Ridgewood,NJ,bergen,07450,nj,,201-336-7275
+913,Ridgewood,NJ,bergen,07450,nj,,201-489-2900
+914,Wallington,NJ,bergen,07057,nj,,
+915,Westwood,NJ,bergen,07675,nj,,
+916,Eastampton,NJ,burlington,08060,nj,,
+917,Trenton,NJ,burlington,08641,nj,,
+918,Medford,NJ,burlington,08055,nj,,609-654-2512
+919,Voorhees,NJ,camden,08043,nj,,856-429-7174
+920,Runnemede,NJ,camden,08078,nj,,
+921,Cape May,NJ,cape,08204,nj,,609-884-9525
+922,Ocean,NJ,cape,08226,nj,,609-398-6900
+923,Woodbine,NJ,cape,08270,nj,,
+924,Bridgeton,NJ,cumberland,08302,nj,,609-805-4636
+925,Bloomfield,NJ,essex,07003,nj,,
+926,Maplewood,NJ,essex,07079,nj,,973-268-3500
+927,Bayonne,NJ,hudson,07002,nj,,
+928,North Bergen,NJ,hudson,07047,nj,,
+929,Hoboken,NJ,hudson,07030,nj,,
+930,Jersey,NJ,hudson,07310,nj,,
+931,Hoboken,NJ,hudson,07030,nj,,
+932,Union,NJ,hudson,07087,nj,,
+933,Weehawken,NJ,hudson,07086,nj,,201-729-1555
+934,Highland Park,NJ,middlesex,08904,nj,,732-745-3900
+935,Edison,NJ,middlesex,08817,nj,,
+936,Woodbridge,NJ,middlesex,07077,nj,,
+937,Asbury Park,NJ,monmouth,07712,nj,,
+938,Marlboro,NJ,monmouth,07746,nj,,732-536-0200
+939,Oceanport,NJ,monmouth,07757,nj,,732-229-7025
+940,Parsippany-Troy Hills,NJ,morris,07054,nj,,
+941,Montville,NJ,morris,07045,nj,,
+942,Morris Plains,NJ,morris,07950,nj,,973-326-7600
+943,Wayne,NJ,passaic,07470,nj,,973-694-1800
+944,Wayne,NJ,passaic,07470,nj,,
+945,West Milford,NJ,passaic,07480,nj,,973-728-5151
+946,Bernards,NJ,somerset,07920,nj,,908-630-5539
+947,Montgomery,NJ,somerset,08502,nj,,908-359-8211
+948,Princeton,NJ,somerset,08540,nj,,732-297-6527
+949,Wantage,NJ,sussex,07461,nj,,973-875-4141
+950,Wantage,NJ,sussex,07461,nj,,973-875-4141
+951,Mountainside,NJ,union,07092,nj,,908-527-4900
+952,Albuquerque,NM,bernalillo,87114,nm,,505-382-8721
+953,Albuquerque,NM,bernalillo,87111,nm,,
+954,Albuquerque,NM,bernalillo,87102,nm,,
+955,Albuquerque,NM,bernalillo,87105,nm,,505-768-1975
+956,Albuquerque,NM,bernalillo,87113,nm,,877-411-3436
+957,Albuquerque,NM,bernalillo,87120,nm,,505-768-5353
+958,Albuquerque,NM,bernalillo,87104,nm,,
+959,Albuquerque,NM,bernalillo,87120,nm,,
+960,Albuquerque,NM,bernalillo,87114,nm,,
+961,Las Cruces,NM,dona,88001,nm,,
+962,Gallup,NM,mckinley,87301,nm,,
+963,Farmington,NM,san,87401,nm,,
+964,Rio Rancho,NM,sandoval,87124,nm,,
+965,Santa Fe,NM,santa,87501,nm,,505-955-2100
+966,Delmar,NY,albany,12054,ny,,
+967,Albany,NY,albany,12204,ny,,518-434-2483
+968,Albany,NY,albany,12208,ny,,518-434-2489
+969,Albany,NY,albany,12209,ny,,518-434-2489
+970,Beacon,NY,dutchess,12508,ny,,845-445-7595
+971,Hopewell Junction,NY,dutchess,12533,ny,,845-227-5783
+972,Poughkeepsie,NY,dutchess,12603,ny,,
+973,East Amherst,NY,erie,14051,ny,,
+974,Buffalo,NY,erie,14207,ny,,
+975,Buffalo,NY,erie,14213,ny,,716-218-0303
+976,Athens,NY,greene,12015,ny,,
+977,Windham,NY,greene,12496,ny,,
+978,Bay Ridge,NY,kings,11228,ny,,
+979,Manhattan Beach,NY,kings,11235,ny,,212-639-9675
+980,Williamsburg,NY,kings,11211,ny,,718-388-7091
+981,Coney Island,NY,kings,11224,ny,,
+982,Williamsburg,NY,kings,11211,ny,,212-639-9675
+983,Henrietta,NY,monroe,14467,ny,,585-334-1300
+984,Wantagh,NY,nassau,11793,ny,,516-571-7470
+985,Oceanside,NY,nassau,11572,ny,,
+986,Westbury,NY,nassau,11590,ny,,
+987,Port Washington,NY,nassau,11050,ny,,516-883-7000
+988,Massapequa,NY,nassau,11758,ny,,
+989,Massapequa,NY,nassau,11758,ny,,516-677-5784
+990,Roslyn,NY,nassau,11576,ny,,516-621-5600
+991,Valley Stream,NY,nassau,11580,ny,,516-825-8571
+992,New York,NY,new,10023,ny,,
+993,New York,NY,new,10023,ny,,646-468-8614
+994,New York,NY,new,10032,ny,,
+995,New York,NY,new,10024,ny,,
+996,New York,NY,new,10028,ny,,
+997,New York,NY,new,10011,ny,,212-989-6363
+998,New York,NY,new,10011,ny,,
+999,New York,NY,new,10035,ny,,
+1000,New York,NY,new,10012,ny,,917-534-1400
+1001,New York,NY,new,10018,ny,,212-736-4536
+1002,New York,NY,new,10040,ny,,212-639-9675
+1003,New York,NY,new,10036,ny,,212-639-9675
+1004,New York,NY,new,10033,ny,,212-639-9675
+1005,New York,NY,new,10032,ny,,
+1006,New York,NY,new,10010,ny,,212-538-1884
+1007,New York,NY,new,10014,ny,,212-627-2020
+1008,New York,NY,new,10010,ny,,212-538-5058
+1009,New York,NY,new,10035,ny,,212-987-0776
+1010,New York,NY,new,10025,ny,,212-639-9675
+1011,New York,NY,new,10012,ny,,212-388-9359
+1012,Liverpool,NY,onondaga,13090,ny,,315-453-6712
+1013,Cornwall,NY,orange,12518,ny,,845-213-8650
+1014,Montgomery,NY,orange,12549,ny,,845-457-5502
+1015,Warwick,NY,orange,10990,ny,,
+1016,Putnam Valley,NY,putnam,10579,ny,,845-526-3292
+1017,Jamaica,NY,queens,11434,ny,,
+1018,Long Island City,NY,queens,11102,ny,,
+1019,Fresh Meadows,NY,queens,11366,ny,,212-219-0258
+1020,Far Rockaway,NY,queens,11693,ny,,
+1021,Glen Oaks,NY,queens,11004,ny,,718-347-2337
+1022,Whitestone,NY,queens,11357,ny,,212-639-9675
+1023,Far Rockaway,NY,queens,11693,ny,,212-639-9675
+1024,Troy,NY,rensselaer,12180,ny,,
+1025,Great Kills,NY,richmond,10308,ny,,212-639-9675
+1026,Suffern,NY,rockland,10901,ny,,
+1027,Ballston Spa,NY,saratoga,12020,ny,,518-309-3732
+1028,Ballston Spa,NY,saratoga,12020,ny,,
+1029,Potsdam,NY,st,13676,ny,,
+1030,Nesconset,NY,suffolk,11767,ny,,631-724-2543
+1031,West Sayville,NY,suffolk,11796,ny,,
+1032,East Northport,NY,suffolk,11731,ny,,
+1033,Wading River,NY,suffolk,11792,ny,,
+1034,Middle Island,NY,suffolk,11953,ny,,631-475-6810
+1035,East Patchogue,NY,suffolk,11772,ny,,
+1036,Brookhaven,NY,suffolk,11719,ny,,
+1037,Selden,NY,suffolk,11784,ny,,631-451-8696
+1038,Peconic,NY,suffolk,11958,ny,,
+1039,East Hampton,NY,suffolk,11937,ny,,
+1040,Copiague,NY,suffolk,11726,ny,,631-893-2100
+1041,Setauket-East Setauket,NY,suffolk,11733,ny,,631-675-0024
+1042,West Hills,NY,suffolk,11747,ny,,631-854-4423
+1043,Ithaca,NY,tompkins,14850,ny,,607-272-1460
+1044,New Paltz,NY,ulster,12561,ny,,845-255-1707
+1045,Woodstock,NY,ulster,12498,ny,,
+1046,Hudson Falls,NY,washington,12839,ny,,518-747-3060
+1047,White Plains,NY,westchester,10607,ny,,914-693-8985
+1048,Scarsdale,NY,westchester,10583,ny,,
+1049,Harrison,NY,westchester,10528,ny,,914-867-5309
+1050,Ossining,NY,westchester,10562,ny,,914-497-2373
+1051,Peekskill,NY,westchester,10566,ny,,914-734-7275
+1052,New Rochelle,NY,westchester,10804,ny,,
+1053,New Rochelle,NY,westchester,10804,ny,,914-663-8203
+1054,Mohegan Lake,NY,westchester,10547,ny,,
+1055,Asheville,NC,buncombe,28805,nc,,828-259-5800
+1056,Hickory,NC,catawba,28601,nc,,828-256-9157
+1057,Fayetteville,NC,cumberland,28301,nc,,910-433-1547
+1058,Fayetteville,NC,cumberland,28301,nc,,910-423-0073
+1059,Durham,NC,durham,27701,nc,,919-560-4355
+1060,Durham,NC,durham,27713,nc,,
+1061,Durham,NC,durham,27707,nc,,919-490-1840
+1062,Clemmons,NC,forsyth,27012,nc,,
+1063,Roanoke Rapids,NC,halifax,27870,nc,,252-535-1687
+1064,Roanoke Rapids,NC,halifax,27870,nc,,
+1065,Waynesville,NC,haywood,28786,nc,,
+1066,Mooresville,NC,iredell,28115,nc,,
+1067,Clayton,NC,johnston,27527,nc,,919-553-1550
+1068,Kinston,NC,lenoir,28504,nc,,252-939-3332
+1069,Charlotte,NC,mecklenburg,28213,nc,,704-336-3854
+1070,Charlotte,NC,mecklenburg,28226,nc,,
+1071,Charlotte,NC,mecklenburg,28214,nc,,
+1072,Davidson,NC,mecklenburg,28036,nc,,
+1073,Wilmington,NC,new,28411,nc,,
+1074,Jacksonville,NC,onslow,28543,nc,,
+1075,Greenville,NC,pitt,27834,nc,,
+1076,Apex,NC,wake,27502,nc,,919-249-3402
+1077,Raleigh,NC,wake,27603,nc,,
+1078,Cary,NC,wake,27513,nc,,919-852-4908
+1079,Cary,NC,wake,27513,nc,,866-978-1728
+1080,Wake Forest,NC,wake,27587,nc,,919-435-9560
+1081,Fuquay-Varina,NC,wake,27526,nc,,919-552-1430
+1082,Raleigh,NC,wake,27612,nc,,855-880-4359
+1083,Raleigh,NC,wake,27615,nc,,919-872-4156
+1084,Garner,NC,wake,27529,nc,,
+1085,Raleigh,NC,wake,27604,nc,,919-831-6995
+1086,Raleigh,NC,wake,27605,nc,,919-755-3665
+1087,Bismarck,ND,burleigh,58503,nd,,701-222-6455
+1088,Fargo,ND,cass,58104,nd,,
+1089,Fargo,ND,cass,58102,nd,,
+1090,Fargo,ND,cass,58103,nd,,701-499-6060
+1091,Mandan,ND,morton,58554,nd,,701-663-3393
+1092,Ashtabula,OH,ashtabula,44004,oh,,
+1093,Hamilton,OH,butler,45011,oh,,
+1094,Oxford,OH,butler,45056,oh,,512-523-6940
+1095,Euclid,OH,cuyahoga,44117,oh,,
+1096,Lakewood,OH,cuyahoga,44107,oh,,216-364-7275
+1097,Cleveland Heights,OH,cuyahoga,44121,oh,,
+1098,Cleveland,OH,cuyahoga,44113,oh,,
+1099,Defiance,OH,defiance,43512,oh,,
+1100,Lewis Center,OH,delaware,43035,oh,,740-548-4631
+1101,Delaware,OH,delaware,43015,oh,,740-369-9170
+1102,Delaware,OH,delaware,43015,oh,,740-881-2000
+1103,Pickerington,OH,fairfield,43147,oh,,614-575-6911
+1104,Columbus,OH,franklin,43235,oh,,614-349-6630
+1105,Grove,OH,franklin,43123,oh,,614-277-3050
+1106,Hilliard,OH,franklin,43026,oh,,614-891-0700
+1107,Columbus,OH,franklin,43206,oh,,614-228-3647
+1108,Hilliard,OH,franklin,43026,oh,,
+1109,Columbus,OH,franklin,43207,oh,,
+1110,Xenia,OH,greene,45385,oh,,
+1111,Lore City,OH,guernsey,43755,oh,,740-439-2751
+1112,Cincinnati,OH,hamilton,45202,oh,,
+1113,Cincinnati,OH,hamilton,45211,oh,,513-352-4080
+1114,Cincinnati,OH,hamilton,45226,oh,,513-521-7275
+1115,Cleves,OH,hamilton,45002,oh,,513-367-4774
+1116,Kirtland,OH,lake,44094,oh,,440-358-7275
+1117,Mentor,OH,lake,44060,oh,,
+1118,Avon Lake,OH,lorain,44012,oh,,440-933-6141
+1119,Toledo,OH,lucas,43614,oh,,567-307-0703
+1120,Youngstown,OH,mahoning,44510,oh,,
+1121,Dayton,OH,montgomery,45419,oh,,
+1122,Huber Heights,OH,montgomery,45424,oh,,937-233-3151
+1123,Aurora,OH,portage,44202,oh,,216-771-4485
+1124,Lewisburg,OH,preble,45338,oh,,937-962-4377
+1125,Fostoria,OH,seneca,44830,oh,,419-435-6608
+1126,Canal Fulton,OH,stark,44614,oh,,330-854-2225
+1127,Massillon,OH,stark,44646,oh,,
+1128,Canton,OH,stark,44721,oh,,330-493-8215
+1129,Akron,OH,summit,44310,oh,,330-510-1364
+1130,Stow,OH,summit,44224,oh,,330-689-5100
+1131,Cuyahoga Falls,OH,summit,44223,oh,,
+1132,Cortland,OH,trumbull,44410,oh,,330-637-3011
+1133,Lebanon,OH,warren,45036,oh,,
+1134,Mason,OH,warren,45040,oh,,
+1135,Bowling Green,OH,wood,43402,oh,,419-354-9242
+1136,Yukon,OK,canadian,73099,ok,,
+1137,Norman,OK,cleveland,73071,ok,,405-366-5472
+1138,Enid,OK,garfield,73703,ok,,
+1139,Altus,OK,jackson,73521,ok,,
+1140,Edmond,OK,oklahoma,73013,ok,,405-715-6315
+1141,Midwest,OK,oklahoma,73110,ok,,405-739-1293
+1142,Oklahoma,OK,oklahoma,73103,ok,,405-488-6262
+1143,Oklahoma,OK,oklahoma,73102,ok,,
+1144,Stillwater,OK,payne,74074,ok,,
+1145,Tulsa,OK,tulsa,74120,ok,,918-937-9663
+1146,Tulsa,OK,tulsa,74137,ok,,
+1147,Tulsa,OK,tulsa,74127,ok,,
+1148,Tulsa,OK,tulsa,74127,ok,,
+1149,Happy Valley,OR,clackamas,97086,or,,503-761-1988
+1150,Lake Oswego,OR,clackamas,97034,or,,
+1151,Sandy,OR,clackamas,97055,or,,
+1152,Scappoose,OR,columbia,97056,or,,503-410-3101
+1153,Bend,OR,deschutes,97701,or,,541-389-7275
+1154,Sutherlin,OR,douglas,97479,or,,
+1155,Ashland,OR,jackson,97520,or,,541-774-2400
+1156,Eugene,OR,lane,97405,or,,541-682-4800
+1157,Eugene,OR,lane,97408,or,,
+1158,Eugene,OR,lane,97402,or,,
+1159,Albany,OR,linn,97322,or,,
+1160,Salem,OR,marion,97302,or,,503-588-6336
+1161,Troutdale,OR,multnomah,97060,or,,
+1162,Portland,OR,multnomah,97202,or,,503-477-9379
+1163,Portland,OR,multnomah,97214,or,,503-916-5640
+1164,Portland,OR,multnomah,97218,or,,
+1165,Portland,OR,multnomah,97218,or,,503-916-5724
+1166,Troutdale,OR,multnomah,97060,or,,503-665-2200
+1167,Troutdale,OR,multnomah,97060,or,,503-695-2372
+1168,Tigard,OR,washington,97223,or,,503-639-4171
+1169,Hillsboro,OR,washington,97124,or,,
+1170,Beaverton,OR,washington,97007,or,,
+1171,Tigard,OR,washington,97223,or,,503-639-4171
+1172,Tualatin,OR,washington,97062,or,,503-691-3061
+1173,Beaverton,OR,washington,97007,or,,
+1174,McMinnville,OR,yamhill,97128,or,,
+1175,Pittsburgh,PA,allegheny,15229,pa,,
+1176,Pittsburgh,PA,allegheny,15217,pa,,
+1177,Monroeville,PA,allegheny,15146,pa,,
+1178,Sewickley,PA,allegheny,15143,pa,,412-364-4122
+1179,Wexford,PA,allegheny,15090,pa,,724-935-5570
+1180,Penn Hills,PA,allegheny,15235,pa,,412-798-2147
+1181,Pittsburgh,PA,allegheny,15203,pa,,
+1182,Pittsburgh,PA,allegheny,15205,pa,,412-364-4122
+1183,White Oak,PA,allegheny,15131,pa,,
+1184,Birdsboro,PA,berks,19508,pa,,610-921-2348
+1185,Warrington,PA,bucks,18976,pa,,
+1186,Warrington,PA,bucks,18976,pa,,215-348-9915
+1187,Morrisville,PA,bucks,19067,pa,,
+1188,Perkasie,PA,bucks,18944,pa,,267-587-7364
+1189,Newtown Square,PA,chester,19073,pa,,610-647-5300
+1190,Phoenixville,PA,chester,19460,pa,,
+1191,West Chester,PA,chester,19380,pa,,
+1192,Conneaut Lake,PA,crawford,16316,pa,,814-382-2267
+1193,Glen Mills,PA,delaware,19342,pa,,
+1194,Haverford,PA,delaware,19041,pa,,610-446-9397
+1195,Edinboro,PA,erie,16412,pa,,814-734-1161
+1196,Wilkes-Barre,PA,luzerne,18705,pa,,
+1197,West Pittston,PA,luzerne,18643,pa,,
+1198,Conshohocken,PA,montgomery,19428,pa,,
+1199,Perkiomenville,PA,montgomery,18074,pa,,
+1200,Wyncote,PA,montgomery,19095,pa,,215-884-7675
+1201,Hatfield,PA,montgomery,19440,pa,,215-855-0900
+1202,Ambler,PA,montgomery,19002,pa,,215-680-8794
+1203,Fort Washington,PA,montgomery,19034,pa,,215-643-1600
+1204,North Wales,PA,montgomery,19454,pa,,215-616-4500
+1205,Phoenixville,PA,montgomery,19460,pa,,610-933-7728
+1206,Willow Grove,PA,montgomery,19090,pa,,
+1207,Philadelphia,PA,philadelphia,19143,pa,,
+1208,Philadelphia,PA,philadelphia,19147,pa,,215-685-1890
+1209,Philadelphia,PA,philadelphia,19119,pa,,
+1210,Philadelphia,PA,philadelphia,19123,pa,,215-574-1209
+1211,Philadelphia,PA,philadelphia,19137,pa,,
+1212,Philadelphia,PA,philadelphia,19123,pa,,
+1213,Philadelphia,PA,philadelphia,19128,pa,,267-437-3452
+1214,Philadelphia,PA,philadelphia,19103,pa,,
+1215,Philadelphia,PA,philadelphia,19129,pa,,215-991-7601
+1216,Philadelphia,PA,philadelphia,19125,pa,,
+1217,Somerset,PA,somerset,15501,pa,,814-443-4900
+1218,Murrysville,PA,westmoreland,15632,pa,,
+1219,Greensburg,PA,westmoreland,15601,pa,,724-836-7768
+1220,York,PA,york,17406,pa,,717-840-7440
+1221,Dallastown,PA,york,17313,pa,,
+1222,Barrington,RI,bristol,02806,ri,,
+1223,Providence,RI,providence,02909,ri,,401-861-9046
+1224,Providence,RI,providence,02906,ri,,
+1225,Johnston,RI,providence,02919,ri,,
+1226,Pawtucket,RI,providence,02861,ri,,
+1227,North Kingstown,RI,washington,02852,ri,,
+1228,South Kingstown,RI,washington,02879,ri,,401-792-2233
+1229,Hilton Head Island,SC,beaufort,29928,sc,,843-342-4580
+1230,Charleston,SC,charleston,29407,sc,,843-724-7324
+1231,Mount Pleasant,SC,charleston,29466,sc,,843-388-6127
+1232,Mount Pleasant,SC,charleston,29464,sc,,
+1233,Mount Pleasant,SC,charleston,29464,sc,,
+1234,Summerville,SC,dorchester,29483,sc,,
+1235,Greenville,SC,greenville,29601,sc,,864-232-2273
+1236,Myrtle Beach,SC,horry,29577,sc,,843-918-1000
+1237,Columbia,SC,richland,29205,sc,,803-733-8531
+1238,Fort Mill,SC,york,29715,sc,,803-547-4574
+1239,Rapid,SD,pennington,57702,sd,,605-394-4175
+1240,Rapid,SD,pennington,57702,sd,,
+1241,Morristown,TN,hamblen,37814,tn,,
+1242,Chattanooga,TN,hamilton,37408,tn,,
+1243,Knoxville,TN,knox,37902,tn,,865-215-4311
+1244,Cookeville,TN,putnam,38501,tn,,931-528-2298
+1245,Murfreesboro,TN,rutherford,37129,tn,,615-893-2141
+1246,Murfreesboro,TN,rutherford,37129,tn,,615-890-5333
+1247,Murfreesboro,TN,rutherford,37129,tn,,615-890-5333
+1248,Memphis,TN,shelby,38112,tn,,901-636-4241
+1249,Millington,TN,shelby,38053,tn,,901-874-5420
+1250,Kingsport,TN,sullivan,37660,tn,,423-229-9457
+1251,Goodlettsville,TN,sumner,37072,tn,,
+1252,Hendersonville,TN,sumner,37075,tn,,615-766-0705
+1253,Franklin,TN,williamson,37064,tn,,615-790-5590
+1254,Brentwood,TN,williamson,37027,tn,,
+1255,Mount Juliet,TN,wilson,37122,tn,,615-754-2552
+1256,Rockport,TX,aransas,78382,tx,,
+1257,Temple,TX,bell,76502,tx,,254-298-5690
+1258,Harker Heights,TX,bell,76548,tx,,
+1259,Killeen,TX,bell,76543,tx,,254-501-8889
+1260,San Antonio,TX,bexar,78215,tx,,
+1261,San Antonio,TX,bexar,78215,tx,,210-212-7260
+1262,Universal,TX,bexar,78148,tx,,
+1263,Alvin,TX,brazoria,77511,tx,,
+1264,Harlingen,TX,cameron,78550,tx,,
+1265,Olmito,TX,cameron,78575,tx,,
+1266,Plano,TX,collin,75023,tx,,972-941-2275
+1267,McKinney,TX,collin,75071,tx,,
+1268,Dallas,TX,collin,75287,tx,,214-670-1589
+1269,Allen,TX,collin,75013,tx,,972-359-1469
+1270,New Braunfels,TX,comal,78132,tx,,
+1271,Dallas,TX,dallas,75212,tx,,214-670-3278
+1272,Richardson,TX,dallas,75080,tx,,
+1273,Dallas,TX,dallas,75209,tx,,214-443-0570
+1274,Irving,TX,dallas,75038,tx,,972-721-3773
+1275,Coppell,TX,dallas,75019,tx,,972-304-3610
+1276,Dallas,TX,dallas,75240,tx,,877-584-7138
+1277,Dallas,TX,dallas,75212,tx,,214-671-8001
+1278,Dallas,TX,dallas,75204,tx,,214-826-9431
+1279,Addison,TX,dallas,75001,tx,,972-450-2851
+1280,Dallas,TX,dallas,75204,tx,,
+1281,Dallas,TX,dallas,75228,tx,,214-388-0701
+1282,Dallas,TX,dallas,75248,tx,,214-670-1589
+1283,Dallas,TX,dallas,75218,tx,,214-670-4100
+1284,Southlake,TX,denton,76092,tx,,
+1285,Frisco,TX,denton,75034,tx,,972-292-6500
+1286,Flower Mound,TX,denton,75028,tx,,
+1287,Lewisville,TX,denton,75057,tx,,972-219-5077
+1288,Carrollton,TX,denton,75007,tx,,
+1289,Denton,TX,denton,76210,tx,,940-349-8731
+1290,El Paso,TX,el,79912,tx,,915-587-1623
+1291,Waxahachie,TX,ellis,75165,tx,,469-309-4000
+1292,Katy,TX,fort,77450,tx,,
+1293,Sugar Land,TX,fort,77479,tx,,
+1294,Longview,TX,gregg,75605,tx,,903-237-1270
+1295,Seguin,TX,guadalupe,78155,tx,,
+1296,Katy,TX,harris,77493,tx,,281-391-4840
+1297,Houston,TX,harris,77084,tx,,281-496-2177
+1298,Houston,TX,harris,77027,tx,,281-496-2177
+1299,Baytown,TX,harris,77521,tx,,
+1300,Deer Park,TX,harris,77536,tx,,
+1301,Houston,TX,harris,77049,tx,,
+1302,Houston,TX,harris,77019,tx,,713-752-0314
+1303,Houston,TX,harris,77019,tx,,713-752-0314
+1304,Kingwood,TX,harris,77339,tx,,281-358-4597
+1305,Spring,TX,harris,77379,tx,,281-376-3421
+1306,Houston,TX,harris,77082,tx,,
+1307,Pasadena,TX,harris,77504,tx,,
+1308,Houston,TX,harris,77019,tx,,
+1309,Houston,TX,harris,77064,tx,,
+1310,Kyle,TX,hays,78640,tx,,
+1311,San Marcos,TX,hays,78666,tx,,
+1312,McAllen,TX,hidalgo,78501,tx,,
+1313,Granbury,TX,hood,76048,tx,,
+1314,Beaumont,TX,jefferson,77702,tx,,
+1315,Waco,TX,mclennan,76708,tx,,
+1316,Midland,TX,midland,79705,tx,,
+1317,Spring,TX,montgomery,77380,tx,,
+1318,Conroe,TX,montgomery,77303,tx,,936-522-3842
+1319,Port Aransas,TX,nueces,78373,tx,,
+1320,Amarillo,TX,randall,79109,tx,,806-378-3036
+1321,Rockwall,TX,rockwall,75087,tx,,
+1322,White Settlement,TX,tarrant,76108,tx,,
+1323,Arlington,TX,tarrant,76011,tx,,855-707-8821
+1324,Euless,TX,tarrant,76039,tx,,
+1325,Fort Worth,TX,tarrant,76111,tx,,972-941-2275
+1326,Fort Worth,TX,tarrant,76117,tx,,817-871-7638
+1327,Lake Worth,TX,tarrant,76135,tx,,817-237-7210
+1328,Fort Worth,TX,tarrant,76119,tx,,
+1329,Arlington,TX,tarrant,76018,tx,,817-459-5474
+1330,North Richland Hills,TX,tarrant,76182,tx,,817-427-6620
+1331,Fort Worth,TX,tarrant,76244,tx,,817-750-6000
+1332,Fort Worth,TX,tarrant,76116,tx,,
+1333,Abilene,TX,taylor,79602,tx,,
+1334,Abilene,TX,taylor,79602,tx,,
+1335,Bee Cave,TX,travis,78738,tx,,
+1336,Austin,TX,travis,78759,tx,,
+1337,Pflugerville,TX,travis,78660,tx,,
+1338,Austin,TX,travis,78724,tx,,
+1339,Austin,TX,travis,78704,tx,,512-974-6700
+1340,Austin,TX,travis,78748,tx,,
+1341,Austin,TX,travis,78753,tx,,512-974-6700
+1342,Austin,TX,travis,78703,tx,,
+1343,Austin,TX,travis,78730,tx,,
+1344,Austin,TX,travis,78728,tx,,512-251-9814
+1345,Huntsville,TX,walker,77340,tx,,
+1346,Wichita Falls,TX,wichita,76310,tx,,
+1347,Leander,TX,williamson,78641,tx,,512-630-5699
+1348,Round Rock,TX,williamson,78664,tx,,512-218-5540
+1349,Woods Cross,UT,davis,84087,ut,,801-872-9030
+1350,Salt Lake,UT,salt,84115,ut,,
+1351,Draper,UT,salt,84020,ut,,801-576-6549
+1352,Salt Lake,UT,salt,84103,ut,,801-972-7800
+1353,Taylorsville,UT,salt,84123,ut,,
+1354,Sandy,UT,salt,84070,ut,,801-568-2900
+1355,Draper,UT,salt,84020,ut,,801-910-5243
+1356,Salt Lake,UT,salt,84116,ut,,801-214-1455
+1357,West Jordan,UT,salt,84081,ut,,
+1358,Hurricane,UT,washington,84737,ut,,
+1359,St. George,UT,washington,84790,ut,,435-627-4530
+1360,St. Johnsbury,VT,caledonia,05819,vt,,802-748-2700
+1361,Essex,VT,chittenden,05452,vt,,
+1362,South Burlington,VT,chittenden,05403,vt,,
+1363,Burlington,VT,chittenden,05408,vt,,802-865-7247
+1364,Alexandria,VA,alexandria,22314,va,,
+1365,Alexandria,VA,alexandria,22304,va,,703-746-4774
+1366,Alexandria,VA,alexandria,22301,va,,703-555-1212
+1367,Alexandria,VA,alexandria,22314,va,,703-888-2818
+1368,Arlington,VA,arlington,22201,va,,
+1369,Arlington,VA,arlington,22206,va,,
+1370,Arlington,VA,arlington,22204,va,,
+1371,Waynesboro,VA,augusta,22980,va,,540-942-6735
+1372,Chesapeake,VA,chesapeake,23320,va,,757-312-0243
+1373,Alexandria,VA,fairfax,22315,va,,
+1374,Oakton,VA,fairfax,22124,va,,
+1375,Centreville,VA,fairfax,20121,va,,703-830-9104
+1376,Annandale,VA,fairfax,22003,va,,
+1377,Reston,VA,fairfax,20194,va,,
+1378,Springfield,VA,fairfax,22153,va,,
+1379,Vienna,VA,fairfax,22180,va,,
+1380,Alexandria,VA,fairfax,22307,va,,
+1381,Warrenton,VA,fauquier,20187,va,,540-347-6965
+1382,Hampton,VA,hampton,23669,va,,
+1383,Ashland,VA,hanover,23005,va,,
+1384,Richmond,VA,henrico,23233,va,,804-360-8011
+1385,Chantilly,VA,loudoun,20152,va,,
+1386,Leesburg,VA,loudoun,20175,va,,
+1387,Ashburn,VA,loudoun,20147,va,,703-724-1111
+1388,Lynchburg,VA,lynchburg,24501,va,,
+1389,Blacksburg,VA,montgomery,24060,va,,540-961-1135
+1390,Newport News,VA,newport,23602,va,,
+1391,Norfolk,VA,norfolk,23510,va,,757-622-7382
+1392,Norfolk,VA,norfolk,23517,va,,757-609-0437
+1393,Norfolk,VA,norfolk,23509,va,,
+1394,Norfolk,VA,norfolk,23503,va,,
+1395,Prince George,VA,prince,23875,va,,804-352-5472
+1396,Woodbridge,VA,prince,22192,va,,
+1397,Woodbridge,VA,prince,22192,va,,
+1398,Richmond,VA,richmond,23221,va,,804-239-0783
+1399,Salem,VA,roanoke,24153,va,,540-375-3000
+1400,Roanoke,VA,roanoke,24016,va,,
+1401,Fredericksburg,VA,spotsylvania,22401,va,,540-372-1086
+1402,Stafford,VA,stafford,22554,va,,540-659-5024
+1403,Winchester,VA,winchester,22601,va,,
+1404,Wenatchee,WA,chelan,98801,wa,,509-630-0784
+1405,Brush Prairie,WA,clark,98606,wa,,888-899-0025
+1406,Vancouver,WA,clark,98683,wa,,360-619-1111
+1407,Vancouver,WA,clark,98682,wa,,888-899-0025
+1408,Vancouver,WA,clark,98663,wa,,888-899-0025
+1409,Longview,WA,cowlitz,98632,wa,,
+1410,Oak Harbor,WA,island,98277,wa,,
+1411,Clinton,WA,island,98236,wa,,
+1412,Seattle,WA,king,98116,wa,,206-937-1301
+1413,Carnation,WA,king,98014,wa,,425-333-4192
+1414,Renton,WA,king,98057,wa,,
+1415,Shoreline,WA,king,98155,wa,,
+1416,Federal Way,WA,king,98003,wa,,253-835-6901
+1417,Kirkland,WA,king,98034,wa,,
+1418,Seattle,WA,king,98115,wa,,206-684-4075
+1419,Seattle,WA,king,98115,wa,,
+1420,Redmond,WA,king,98052,wa,,206-477-7275
+1421,Seattle,WA,king,98125,wa,,206-684-4075
+1422,Bellevue,WA,king,98007,wa,,
+1423,Bellevue,WA,king,98007,wa,,425-452-6881
+1424,Shoreline,WA,king,98133,wa,,
+1425,Seattle,WA,king,98108,wa,,206-684-1154
+1426,Snoqualmie,WA,king,98065,wa,,425-831-5784
+1427,Snoqualmie,WA,king,98065,wa,,
+1428,Seattle,WA,king,98106,wa,,888-559-3584
+1429,Mercer Island,WA,king,98040,wa,,
+1430,Olalla,WA,kitsap,98359,wa,,
+1431,Port Orchard,WA,kitsap,98366,wa,,
+1432,Silverdale,WA,kitsap,98383,wa,,360-307-9200
+1433,Centralia,WA,lewis,98531,wa,,360-330-7688
+1434,Bonney Lake,WA,pierce,98391,wa,,253-862-8602
+1435,Gig Harbor,WA,pierce,98332,wa,,253-858-3400
+1436,Tacoma,WA,pierce,98404,wa,,253-305-1060
+1437,Tacoma,WA,pierce,98408,wa,,
+1438,Mukilteo,WA,snohomish,98275,wa,,
+1439,Lake Stevens,WA,snohomish,98258,wa,,425-388-6600
+1440,Everett,WA,snohomish,98201,wa,,
+1441,Edmonds,WA,snohomish,98020,wa,,
+1442,Lake Stevens,WA,snohomish,98258,wa,,425-388-6600
+1443,Lynnwood,WA,snohomish,98087,wa,,
+1444,Mountlake Terrace,WA,snohomish,98043,wa,,
+1445,Mountlake Terrace,WA,snohomish,98043,wa,,
+1446,Mukilteo,WA,snohomish,98275,wa,,
+1447,Mukilteo,WA,snohomish,98275,wa,,
+1448,Liberty Lake,WA,spokane,99019,wa,,
+1449,Spokane,WA,spokane,99223,wa,,
+1450,Spokane,WA,spokane,99224,wa,,509-534-8133
+1451,Lacey,WA,thurston,98516,wa,,360-754-4580
+1452,Olympia,WA,thurston,98502,wa,,360-753-8365
+1453,Lacey,WA,thurston,98516,wa,,360-867-2491
+1454,Walla Walla,WA,walla,99362,wa,,
+1455,Bellingham,WA,whatcom,98225,wa,,
+1456,Morgantown,WV,monongalia,26505,wv,,
+1457,Nekoosa,WI,adams,54457,wi,,715-459-3235
+1458,Green Bay,WI,brown,54303,wi,,920-434-4640
+1459,Chippewa Falls,WI,chippewa,54729,wi,,715-828-1791
+1460,Madison,WI,dane,53704,wi,,
+1461,Verona,WI,dane,53593,wi,,
+1462,Madison,WI,dane,53714,wi,,
+1463,McFarland,WI,dane,53558,wi,,
+1464,Stoughton,WI,dane,53589,wi,,608-224-3730
+1465,Madison,WI,dane,53704,wi,,608-245-3690
+1466,Sister Bay,WI,door,54234,wi,,
+1467,Eau Claire,WI,eau,54701,wi,,
+1468,Fond du Lac,WI,fond,54935,wi,,
+1469,Johnson Creek,WI,jefferson,53038,wi,,920-674-7260
+1470,Kenosha,WI,kenosha,53140,wi,,262-857-1869
+1471,Salem,WI,kenosha,53168,wi,,262-857-1869
+1472,Kenosha,WI,kenosha,53140,wi,,262-857-1869
+1473,Kenosha,WI,kenosha,53144,wi,,262-656-1111
+1474,Twin Lakes,WI,kenosha,53181,wi,,262-857-1869
+1475,Onalaska,WI,la,54650,wi,,608-781-9530
+1476,Schofield,WI,marathon,54476,wi,,715-359-6114
+1477,Milwaukee,WI,milwaukee,53207,wi,,
+1478,Wauwatosa,WI,milwaukee,53222,wi,,414-453-7030
+1479,Milwaukee,WI,milwaukee,53224,wi,,262-251-2542
+1480,Milwaukee,WI,milwaukee,53212,wi,,
+1481,Oak Creek,WI,milwaukee,53154,wi,,414-257-7275
+1482,Kaukauna,WI,outagamie,54130,wi,,
+1483,Appleton,WI,outagamie,54911,wi,,
+1484,Stevens Point,WI,portage,54481,wi,,715-341-1136
+1485,Burlington,WI,racine,53105,wi,,
+1486,Mount Pleasant,WI,racine,53404,wi,,
+1487,Beloit,WI,rock,53511,wi,,
+1488,Baraboo,WI,sauk,53913,wi,,
+1489,Reedsburg,WI,sauk,53959,wi,,
+1490,Spring Green,WI,sauk,53588,wi,,
+1491,Sheboygan,WI,sheboygan,53081,wi,,
+1492,Hartford,WI,washington,53027,wi,,
+1493,Nashotah,WI,waukesha,53058,wi,,262-367-1022
+1494,Waupaca,WI,waupaca,54981,wi,,
+1495,Marshfield,WI,wood,54449,wi,,
+1496,Cheyenne,WY,laramie,82007,wy,,

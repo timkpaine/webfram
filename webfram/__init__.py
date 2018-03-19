@@ -48,7 +48,9 @@ def main():
         render = {}
         render['site'] = site
         render['title'] = c.get('main', 'title')
+        render['name'] = c.get('main', 'name')
         render['favicon'] = c.get('main', 'favicon')
+        render['keywords'] = c.get('main', 'keywords')
         render['vals'] = vals
         return render_template("state.html", **render)
 

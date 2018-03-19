@@ -3,7 +3,6 @@ body {
     width:100%;
     margin:0;
     font-family:"Open Sans", Arial;
-    overflow: scroll;
     min-width:900px;
     background-color: #333;
 }
@@ -16,7 +15,6 @@ div.header {
     padding-top:10px;
     padding-bottom:10px;
     height: 40px;
-    overflow: scroll;
     min-width:900px;
 }
 
@@ -51,8 +49,6 @@ h2.title {
 }
 
 div.body {
-    height: 80%;
-    overflow: scroll;
     min-width:900px;
 }
 
@@ -70,7 +66,7 @@ div.section {
     align-items: center;
 }
 
-div.section div.base{
+div.section div.base {
     height:80%;
     padding:25px;
     display:flex;
@@ -80,13 +76,13 @@ div.section div.base{
     width:100%;
 }
 
-div.section div.darkbox{
+div.section div.darkbox {
     background:rgba(0,0,0,.75);
     color:white;
 }
 
 
-div.section div.clearbox{
+div.section div.clearbox {
     background:rgba(0,0,0,.10);
     /*color:white;*/
 }
@@ -223,6 +219,24 @@ div.section div.statelist ul li a{
 div.section div.statelist ul li a:hover{
    color: rgb(33, 150, 220);
    text-decoration:underline;
+}
+
+div.listings {
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: #eee;
+}
+
+div.listings ul {
+    margin-top:0px;
+}
+
+div.listings ul li {
+    margin-bottom:20px;
+}
+
+div.listings ul li p {
+    margin:0px;
 }
 
 div.footer {
