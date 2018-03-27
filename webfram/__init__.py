@@ -13,10 +13,12 @@ def main():
     sites_allowed = sys.argv[1:] if sys.argv[1:] != ['webfram:app'] else sys.argv[2:]
     sites = {}
     states = {}
+    default = None
     for site in os.listdir('./sites'):
         if sites_allowed and site not in sites_allowed:
             continue
         else:
+            default = default if default else site
             c = configparser.ConfigParser()
             c.read('./sites/%s/%s.cfg' % (site, site))
             sites[site] = c
@@ -58,6 +60,6 @@ def main():
     @app.route('/')
     @app.route('/home')
     def index():
-        return redirect("./test", code=302)
+        return redirect("./" + default, code=302)
 
 main()
