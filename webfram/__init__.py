@@ -10,7 +10,14 @@ app = Flask(__name__, static_url_path='/static')
 
 
 def main():
-    sites_allowed = sys.argv[1:] if sys.argv[1:] != ['webfram:app'] else sys.argv[2:]
+    collect = False
+    sites_allowed = []
+    if 'webfram:app' in sys.argv:
+        for site in sys.argv:
+            if collect:
+                sites_allowed.append(site)
+            elif site == 'webfram.app':
+                collect = True
     sites = {}
     states = {}
     default = None
@@ -23,10 +30,13 @@ def main():
             c.read('./sites/%s/%s.cfg' % (site, site))
             sites[site] = c
             states[site] = read_state('./sites/%s/states.csv' % site)
+    default = default or 'test'
 
     @app.route('/<site>')
     @app.route('/<site>/')
     def site(site='test'):
+        if 'favicon.ico' in site:
+            return
         c = sites[site]
         render = {}
         imports = json.loads(c.get('main', 'imports'))
