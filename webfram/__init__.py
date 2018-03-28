@@ -34,6 +34,8 @@ def main():
         render['name'] = c.get('main', 'name')
         render['keywords'] = c.get('main', 'keywords')
         render['favicon'] = c.get('main', 'favicon')
+        render['adsense'] = c.get('main', 'adsense')
+        render['analytics'] = c.get('main', 'analytics')
 
         return render_template("index.html", **render)
 
@@ -49,6 +51,8 @@ def main():
         render['favicon'] = c.get('main', 'favicon')
         render['keywords'] = c.get('main', 'keywords')
         render['vals'] = vals
+        render['adsense'] = c.get('main', 'adsense')
+        render['analytics'] = c.get('main', 'analytics')
         return render_template("state.html", **render)
 
 
