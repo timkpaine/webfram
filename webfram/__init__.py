@@ -16,8 +16,16 @@ def main():
         for site in sys.argv:
             if collect:
                 sites_allowed.append(site)
-            elif site == 'webfram.app':
+            elif site == 'webfram:app':
                 collect = True
+    else:
+        for site in sys.argv:
+            print(site)
+            if collect:
+                sites_allowed.append(site)
+            elif site == 'run.py':
+                collect = True
+
     sites = {}
     states = {}
     default = None
@@ -30,7 +38,7 @@ def main():
             c.read('./sites/%s/%s.cfg' % (site, site))
             sites[site] = c
             states[site] = read_state('./sites/%s/states.csv' % site)
-    default = default or 'test'
+
 
     @app.route('/<site>')
     @app.route('/<site>/')
@@ -70,6 +78,8 @@ def main():
     @app.route('/')
     @app.route('/home')
     def index():
-        return redirect("./" + default, code=302)
+        if default:
+            return redirect(default, code=302)
+        return redirect("./test", code=302)
 
 main()
