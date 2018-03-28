@@ -1,1 +1,1 @@
-web: gunicorn webfram:app 
+web: gunicorn webfram:app test 
